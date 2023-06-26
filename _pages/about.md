@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ![Banner](../images/banner.png){:width="100%"}
-*AI Generated impression of explainable predictive maintenance*
+*AI generated impression of explainable predictive maintenance.*
 
 Niki van Stein is a researcher in the Natural Computing Group of LIACS and manager of the applied data science lab. She received her PhD in Computer Science from Leiden University in 2018. Niki's research interest are in eXplainable AI for automated machine learning, global (Bayesian) optimization and neural architecture search. She mostly works on research with direct applications in industry, such as predictive maintenance, car and ship design optimization and schedule optimization.
 
