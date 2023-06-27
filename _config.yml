@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Niki van Stein"
   avatar           : "profile.png"
-  bio              : "Assistant Professor in eXplainable AI for ML and Opt @LIACS Leiden University"
+  bio              : "Assistant Professor in Explainable AI for ML and Optimization"
   location         : "Leiden, The Netherlands"
-  employer         :
+  employer         : "LIACS, Leiden University"
   pubmed           : #"https://pubmed.ncbi.nlm.nih.gov/?term=van+Stein+B"
   googlescholar    : "https://scholar.google.com/citations?user=DST6voAAAAAJ&hl=nl"
-  email            :
+  email            :  "n.van.stein(at)liacs.leidenuniv.nl"
   researchgate     :  "https://www.researchgate.net/profile/Niki-Van-Stein"
-  uri              :
+  uri              :  "https://www.universiteitleiden.nl/en/staffmembers/niki-van-stein#tab-1"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "@NikivanStein"
   wikipedia        :
 
 
