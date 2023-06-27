@@ -18,8 +18,7 @@ Ph.D. degree in 2018, doing a PostDoc in the CIMPLO project and currently I
 am an assistant professor in the Natural Computing group at LIACS. My research
 interests are focused on eXplainable Artificial Intelligence (XAI) in the context of
 optimization and time-series data with industrial applications such as predictive
-maintenance and schedule optimization. Next to research, I am active at the Uni-
-versity as; Manager of the Applied Data Science Lab, member of the Institute
+maintenance and schedule optimization. Next to research, I am active at the University as manager of the Applied Data Science Lab, member of the Institute
 Council, teacher of the bi-weekly Master Class and the Data Science course, su-
 pervisor of 5 Ph.D. students, several Bsc and Msc students per semester and as
 technical support for a number of computing clusters.
