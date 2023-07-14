@@ -4,7 +4,6 @@ date: 2023-07-14
 permalink: /posts/2023/07/gecco-doe2vec/
 header:
   teaser: "teasers/doe2vec.png"
-site:
   og_image: "teasers/doe2vec.png"
 tags:
   - conference

@@ -4,7 +4,6 @@ date: 2023-07-14
 permalink: /posts/2023/07/gecco-deep-bias/
 header:
   teaser: teasers/biastoolbox.png
-site:
   og_image: "teasers/biastoolbox.png"
 tags:
   - conference

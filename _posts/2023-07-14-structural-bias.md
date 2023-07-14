@@ -4,8 +4,7 @@ date: 2023-07-14
 permalink: /posts/2023/07/structural-bias/
 header:
   teaser: "teasers/biastoolbox.png"
-  overlay_image: "banner.png"
-site:
+  overlay_image: "banner-dark.png"
   og_image: "teasers/biastoolbox.png"
 tags:
   - bias

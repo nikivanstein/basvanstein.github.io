@@ -8,7 +8,6 @@ date: 2023-07-16
 location: "Lisbon, Portugal"
 header:
   teaser: "teasers/biastoolbox.png"
-site:
   og_image: "teasers/biastoolbox.png"
 ---
 

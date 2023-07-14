@@ -8,7 +8,6 @@ date: 2023-07-16
 location: "Lisbon, Portugal"
 header:
   teaser: "teasers/doe2vec.png"
-site:
   og_image: "teasers/doe2vec.png"
 ---
 
