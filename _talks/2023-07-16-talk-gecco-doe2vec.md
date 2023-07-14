@@ -9,7 +9,7 @@ location: "Lisbon, Portugal"
 ---
 
 
-[Read the full paper..](https://arxiv.org/abs/2304.01219){:class="btn"}{:target="_blank"}
+[Read the full paper..](https://arxiv.org/abs/2304.01219){:class="btn btn--inverse"}{:target="_blank"}
 
 
 ![](../files/GECCO_Doe2Vec_Poster_submitted.jpg)
