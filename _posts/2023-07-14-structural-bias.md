@@ -18,13 +18,15 @@ Structural Bias, what is it and why do we care?
 
 ## What is Structural Bias?
 
-SB is,..
+*Structural Bias* (SB) refers to a phenomenon observed in search heuristics, where certain algorithms used to solve optimization problems exhibit a preference or inclination towards specific regions or areas within the search space. In simpler terms, it means that these algorithms tend to focus on particular areas while neglecting others (independent of the problem). Detecting and understanding structural bias in the search space is essential because it can significantly impact the effectiveness and fairness of algorithmic comparison.
+
 
 {: .notice} Watch the [video](https://youtu.be/tVBM56y-lU0){:target="_blank"} of our Hot-off-the-press talk on Gecco 2023.
 
 
 ### Why is it important to detect structural bias?
 
+Detecting structural bias in optimization heuristics is important because it allows us to identify if an algorithm is biased towards specific regions during the search process. This bias could be based on various factors, such as specific algorithm components or hyper-parameter settings or a biased algorithm in general. For example, if an algorithm consistently favors solutions located in the center of the search space, it may overlook potentially better solutions elsewhere. This can result in suboptimal or incomplete outcomes in optimization problems or decision-making systems.
 
 ### What can we do when an algorithm exhibits structural bias?
 
@@ -102,12 +104,10 @@ See for more details the [Github repository](https://github.com/Dvermetten/BIAS)
 
 Using the BIAS toolbox we have tested over 3000 popular (and less popular) optimization heuristics and their variants.
 
-A few interesting cases are:
+To read more about the specific outcomes see our paper on Differential Evolution variants; [Emergence of structural bias in differential evolution](https://scholar.google.com/scholar?q=Emergence+of+structural+bias+in+differential+evolution){:target="_blank"} for an in-depth analysis of different DE variants.
 
-- list examples TODO
-
-See also our paper [Emergence of structural bias in differential evolution](https://scholar.google.com/scholar?q=Emergence+of+structural+bias+in+differential+evolution){:target="_blank"} for an in-depth analysis of different DE variants.
+And see our BIAS Toolbox paper; [BIAS: A Toolbox for BenchmarkingStructural Bias in the Continuous Domain](https://www.techrxiv.org/articles/preprint/BIAS_A_Toolbox_for_Benchmarking_Structural_Bias_in_the_Continuous_Domain/16594880){:target="_blank"}, for additional results including CMA-ES and others.
 
 ---
 
-See also our the blog post about [Deep-Bias](https://nikivanstein.nl/..), the deep-learning extension of our Structural BIAS toolbox.
+See also our the blog post about [Deep-Bias](https://nikivanstein.nl/posts/2023/07/gecco-doe2vec/), the deep-learning extension of our Structural BIAS toolbox.
