@@ -5,7 +5,6 @@ type: "poster"
 permalink: /talks/2023-07-16-talk-gecco-deep-bias
 venue: "GECCO 2023"
 date: 2023-07-16
-teaser: "teasers/biastoolbox.png"
 location: "Lisbon, Portugal"
 ---
 

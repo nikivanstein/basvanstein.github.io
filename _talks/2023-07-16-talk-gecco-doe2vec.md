@@ -5,7 +5,6 @@ type: "poster"
 permalink: /talks/2023-07-16-talk-gecco-doe2vec
 venue: "GECCO 2023"
 date: 2023-07-16
-teaser: "teasers/doe2vec.png"
 location: "Lisbon, Portugal"
 ---
 

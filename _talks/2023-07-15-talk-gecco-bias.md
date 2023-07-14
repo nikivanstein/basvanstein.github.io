@@ -5,7 +5,6 @@ type: "talk"
 permalink: /talks/2023-07-15-talk-gecco-bias
 venue: "GECCO 2023"
 date: 2023-07-15
-teaser: "teasers/biastoolbox.png"
 location: "Lisbon, Portugal"
 ---
 
