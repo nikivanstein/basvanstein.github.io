@@ -2,6 +2,7 @@
 title: 'Structural Bias, What is it and why do we care?'
 date: 2023-07-14
 permalink: /posts/2023/07/structural-bias/
+excerpt: 'An introduction to Structural Bias in search heuristics.'
 header:
   teaser: "teasers/biastoolbox.png"
   overlay_image: "banner-dark.png"
@@ -15,9 +16,6 @@ tags:
   - explainable-AI
 ---
 
-
-Structural Bias, what is it and why do we care?
-====
 
 
 ## What is Structural Bias?
