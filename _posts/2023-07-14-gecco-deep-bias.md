@@ -12,7 +12,7 @@ tags:
 
 ## GECCO 2023, Deep-BIAS
 
-![](../images/teasers/biastoolbox.png)
+![](/images/teasers/biastoolbox.png)
 
 This year at Gecco I have the honor to present two posters.
 

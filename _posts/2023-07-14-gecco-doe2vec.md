@@ -12,7 +12,7 @@ tags:
 
 ## GECCO 2023, DoE2Vec - Deep-learning Based Features for Exploratory Landscape Analysis
 
-![](../images/teasers/doe2vec.png)
+![](/images/teasers/doe2vec.png)
 
 This year at Gecco I have the honor to present two posters.
 
