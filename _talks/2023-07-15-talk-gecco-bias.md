@@ -8,7 +8,7 @@ date: 2023-07-15
 location: "Lisbon, Portugal"
 header:
   teaser: "teasers/biastoolbox.png"
-  image: "/images/teasers/biastoolbox.png"
+  image: "teasers/biastoolbox.png"
 ---
 
 ## Hot off the Press presentation @Gecco.
