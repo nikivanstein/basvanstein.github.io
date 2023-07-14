@@ -4,7 +4,7 @@ date: 2023-07-14
 permalink: /posts/2023/07/gecco-doe2vec/
 header:
   teaser: "teasers/doe2vec.png"
-  image: "/images/teasers/doe2vec.png"
+  image: "teasers/doe2vec.png"
 tags:
   - conference
   - presentation
@@ -14,7 +14,6 @@ tags:
 
 ## GECCO 2023, DoE2Vec - Deep-learning Based Features for Exploratory Landscape Analysis
 
-![](/images/teasers/doe2vec.png)
 
 This year at Gecco I have the honor to present two posters.
 

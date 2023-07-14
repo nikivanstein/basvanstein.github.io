@@ -18,7 +18,6 @@ tags:
 Structural Bias, what is it and why do we care?
 ====
 
-![](/images/teasers/biastoolbox.png)
 
 ## What is Structural Bias?
 
