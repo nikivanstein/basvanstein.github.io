@@ -12,6 +12,8 @@ tags:
 
 ## GECCO 2023, Deep-BIAS
 
+![](../images/teasers/biastoolbox.png)
+
 This year at Gecco I have the honor to present two posters.
 
 One of them is about an extension to our [BIAS toolbox](https://github.com/Dvermetten/BIAS){:target="_blank"}, called Deep-BIAS [See full paper](https://arxiv.org/abs/2304.01869){:target="_blank"}. For the other poster see [here](https://nikivanstein.nl/posts/2023/07/gecco-doe2vec/).

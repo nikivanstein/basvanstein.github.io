@@ -12,6 +12,8 @@ tags:
 
 ## GECCO 2023, DoE2Vec - Deep-learning Based Features for Exploratory Landscape Analysis
 
+![](../images/teasers/doe2vec.png)
+
 This year at Gecco I have the honor to present two posters.
 
 One of them is about the method [DoE2Vec](https://github.com/Basvanstein/doe2vec){:target="_blank"}, [Read the full paper](https://arxiv.org/abs/2304.01219){:target="_blank"}. For the other poster see [this post](https://nikivanstein.nl/posts/2023/07/gecco-deep-bias/)

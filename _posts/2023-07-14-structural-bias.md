@@ -1,5 +1,5 @@
 ---
-title: 'Gecco 2023 - DoE2Vec'
+title: 'Structural Bias, What is it and why do we care?'
 date: 2023-07-14
 permalink: /posts/2023/07/structural-bias/
 teaser: "teasers/biastoolbox.png"
@@ -15,6 +15,8 @@ tags:
 
 Structural Bias, what is it and why do we care?
 ====
+
+![](../images/teasers/biastoolbox.png)
 
 ## What is Structural Bias?
 
