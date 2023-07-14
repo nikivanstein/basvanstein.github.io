@@ -14,4 +14,4 @@ of objectives and constraints. This study proposes an AI-assisted optimization p
 
 
 
-[Link to Poster](../files/2023CAI-poster2_final.pdf){:target="_blank"}
+[Link to Poster](../files/2023CAI-poster1_final.pdf){:target="_blank"}

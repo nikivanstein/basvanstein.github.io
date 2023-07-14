@@ -1,5 +1,5 @@
 ---
-title: "TODO
+title: "Functional Kernel Hypothesis Testing for Channel Selection in Time Series Classification"
 collection: talks
 type: "poster"
 permalink: /talks/2023-06-05-talk-cai-feature-relevance
@@ -17,4 +17,4 @@ Given a Time Series Classification (TSC) task on time series <var>T</var> with <
 relevant channels for predicting the segment-wise labels <var>L</var>.
 
 
-[See the poster](../files/2023CAI-poster1_final.pdf){:target="_blank"}
+[See the poster](../files/2023CAI-poster2_final.pdf){:target="_blank"}
