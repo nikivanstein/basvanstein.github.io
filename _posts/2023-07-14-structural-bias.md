@@ -23,7 +23,9 @@ Structural Bias, what is it and why do we care?
 
 *Structural Bias* (SB) refers to a phenomenon observed in search heuristics, where certain algorithms used to solve optimization problems exhibit a preference or inclination towards specific regions or areas within the search space. In simpler terms, it means that these algorithms tend to focus on particular areas while neglecting others (independent of the problem). Detecting and understanding structural bias in the search space is essential because it can significantly impact the effectiveness and fairness of algorithmic comparison.
 
-**Watch the [video](https://youtu.be/tVBM56y-lU0){:target="_blank"}** of our Hot-off-the-press talk on Gecco 2023.
+**Watch!** Watch the [video](https://youtu.be/tVBM56y-lU0){:target="_blank"} of our Hot-off-the-press talk on Gecco 2023.
+{: .notice}
+
 
 ### Why is it important to detect structural bias?
 
