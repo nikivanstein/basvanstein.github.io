@@ -2,7 +2,9 @@
 title: 'Structural Bias, What is it and why do we care?'
 date: 2023-07-14
 permalink: /posts/2023/07/structural-bias/
-teaser: "teasers/biastoolbox.png"
+header:
+  teaser: "teasers/biastoolbox.png"
+  image: "/images/teasers/biastoolbox.png"
 tags:
   - bias
   - structural-bias

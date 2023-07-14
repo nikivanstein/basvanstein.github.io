@@ -6,6 +6,9 @@ permalink: /talks/2023-07-16-talk-gecco-deep-bias
 venue: "GECCO 2023"
 date: 2023-07-16
 location: "Lisbon, Portugal"
+header:
+  teaser: "teasers/biastoolbox.png"
+  image: "/images/teasers/biastoolbox.png"
 ---
 
 

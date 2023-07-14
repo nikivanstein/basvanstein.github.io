@@ -2,7 +2,9 @@
 title: 'Gecco 2023 - Deep Bias'
 date: 2023-07-14
 permalink: /posts/2023/07/gecco-deep-bias/
-teaser: teasers/biastoolbox.png
+header:
+  teaser: teasers/biastoolbox.png
+  image: /images/teasers/biastoolbox.png
 tags:
   - conference
   - presentation

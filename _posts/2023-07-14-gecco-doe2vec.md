@@ -2,7 +2,9 @@
 title: 'Gecco 2023 - DoE2Vec'
 date: 2023-07-14
 permalink: /posts/2023/07/gecco-doe2vec/
-teaser: "teasers/doe2vec.png"
+header:
+  teaser: "teasers/doe2vec.png"
+  image: "/images/teasers/doe2vec.png"
 tags:
   - conference
   - presentation
