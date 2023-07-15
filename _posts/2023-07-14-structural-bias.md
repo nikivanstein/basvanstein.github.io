@@ -20,7 +20,7 @@ tags:
 
 ## What is Structural Bias?
 
-*Structural Bias* (SB) refers to a phenomenon observed in search heuristics, where certain algorithms used to solve optimization problems exhibit a preference or inclination towards specific regions or areas within the search space. In simpler terms, it means that these algorithms tend to focus on particular areas while neglecting others (independent of the problem). Detecting and understanding structural bias in the search space is essential because it can significantly impact the effectiveness and fairness of algorithmic comparison.
+*Structural Bias* (SB) refers to a phenomenon observed in search heuristics, where certain algorithms used to solve optimization problems exhibit a preference or inclination toward specific regions or areas within the search space. In simpler terms, it means that these algorithms tend to focus on particular areas while neglecting others (independent of the problem). Detecting and understanding structural bias in the search space is essential because it can significantly impact the effectiveness and fairness of algorithmic comparison.
 
 **Watch!** Watch the [video](https://youtu.be/tVBM56y-lU0){:target="_blank"} of our Hot-off-the-press talk on Gecco 2023.
 {: .notice}
@@ -28,33 +28,25 @@ tags:
 
 ### Why is it important to detect structural bias?
 
-Detecting structural bias in optimization heuristics is important because it allows us to identify if an algorithm is biased towards specific regions during the search process. This bias could be based on various factors, such as specific algorithm components or hyper-parameter settings or a biased algorithm in general. For example, if an algorithm consistently favors solutions located in the center of the search space, it may overlook potentially better solutions elsewhere. This can result in suboptimal or incomplete outcomes in optimization problems or decision-making systems.
+Detecting structural bias in optimization heuristics is important because it allows us to identify if an algorithm is biased toward specific regions during the search process. This bias could be based on various factors, such as specific algorithm components or hyper-parameter settings, or a biased algorithm in general. For example, if an algorithm consistently favours solutions located in the centre of the search space, it may overlook potentially better solutions elsewhere. This can result in suboptimal or incomplete outcomes in optimization problems or decision-making systems.
 
 ### What can we do when an algorithm exhibits structural bias?
 
-In the case that we detect or suspect that a heuristical search algorithm shows structural biased behaviour, the first thing we can do is verify and inspect the type of structural bias.
+In the case that we detect or suspect that a heuristical search algorithm shows structurally biased behaviour, the first thing we can do is verify and inspect the type of structural bias.
+One way to do this is by visual inspection of the behaviour of the algorithm in the search space. By running the optimizer on a special function called <var>f0</var>, which is a function that returns a uniform random number between 0 and 1, we can de-couple the algorithm behaviour from the objective function. A better and more robust way to verify if the algorithm exhibits structural biased behaviour is by using the statistical functions and deep-learning framework of our [BIAS Toolbox](https://github.com/Dvermetten/BIAS){:target="_blank"}. Using the BIAS Toolbox we can verify the existence, strength and type of structural bias. This can give insights into the cause of the bias. For example, an algorithm with boundary bias (exploring the boundaries more than the rest of the search space) can be caused by biased boundary correction mechanisms. Once the type of structural bias is known, we can perform ablation studies to vary the hyper-parameters and modules of an algorithm. Each variant of the algorithm can then be verified using the BIAS toolbox. Correlations can then be observed between the hyper-parameters and the presence of structural bias. Using this information we can pick hyper-parameters that do not suffer from structural bias, or improve certain algorithmic components.
 
-One way to do this is by visual inspection of the behaviour of the algorithm in the search space. By running the optimizer on a special function called `f0`, which is  a function that returns a uniform random number between 0 and 1, we can de-couple the algorithm behaviour from the objective function. A better and more robust way to verify if the algorithm exhibits structural biased behaviour is by using the statistical functions and deep-learning framework of our [BIAS Toolbox](https://github.com/Dvermetten/BIAS){:target="_blank"}.
-Using the BIAS Toolbox we can verify the existance, strength and type of structural bias. This can give insights into the cause of the bias. For example, an algorithm with boundary bias (exploring the boundaries more than the rest of the search space) can be caused by biased boundary correction mechanisms. 
-Once the type of structural bias is known, we can perform abblation studies to vary the hyper-parameters and modules of an algorithm. Each variant of the algorithm can then be verified using the BIAS toolbox.
-Correlations can then be observed between the hyper-parameters and the presense of structural bias. Using this information we can pick hyper-parameters that do not suffer from structural bias, or improve certain algorithmic components.
 
 ### How does structural bias affect algorithm performance?
 
-Structural bias can affect the performance of an algorithm on a specific problem, or even on a benchmark set, both positively and negatively. It depends on the location of local and global optima in the problems whether the biased algorithm performs well or not. In general, for a set of functions where the global optimum can be anywhere in the search space, structural bias is always a disadvantage.
-The strength of the bias (how much the algorithm is attracted to certain parts of the search space) determines how much the performance is affected.
-If the strength of the bias is relatively low compared to the (wanted) bias caused by the objective function, the performance might not be affected at all.
+Structural bias can affect the performance of an algorithm on a specific problem, or even on a benchmark set, both positively and negatively. It depends on the location of local and global optima in the problems and whether the biased algorithm performs well or not. In general, for a set of functions where the global optimum can be anywhere in the search space, structural bias is always a disadvantage. The strength of the bias (how much the algorithm is attracted to certain parts of the search space) determines how much the performance is affected. If the strength of the bias is relatively low compared to the (wanted) bias caused by the objective function, the performance might not be affected at all.
 
 ### How to design bias-free optimization algorithms?
 
-When developing algorithms it is important to understand what Structural Bias is and how it can affect the performance and evaluation of your algorithms.
-Be wary of algorithm components that steer into a direction in the search space indepdent of the objective function. For example, a mutation operator for an evolutionary algorithm, that is more likely to increase a dimension than decrease it, or a mutation operator that puts an individual on the boundary when it overpasses the boundary, are both clearly cases of structurally biased algorithm components.
-It is not always easy however to detect what parts of an algorithm can induce bias, it is therefore always advised to inspect the performance of your algorithms using the [BIAS Toolbox](https://github.com/Dvermetten/BIAS){:target="_blank"}.
+When developing algorithms it is important to understand what Structural Bias is and how it can affect the performance and evaluation of your algorithms. Be wary of algorithm components that steer into a direction in the search space independent of the objective function. For example, a mutation operator for an evolutionary algorithm, that is more likely to increase a dimension than decrease it or a mutation operator that puts an individual on the boundary when it overpasses the boundary, are both clear cases of structurally biased algorithm components. It is not always easy however to detect what parts of an algorithm can induce bias, it is therefore always advised to inspect the performance of your algorithms using the [BIAS Toolbox](https://github.com/Dvermetten/BIAS){:target="_blank"}.
 
 ## Using the BIAS Toolbox
 
-Installing and using the BIAS toolbox is super easy. All you need is python 3 and R installed on your system.
-Once R and Python are properly installed, you can install the BIAS toolbox using pip and test your algorithm using the example below.
+Installing and using the BIAS toolbox is super easy. All you need is Python 3 and R installed on your system. Once R and Python are properly installed, you can install the BIAS toolbox using pip and test your algorithm using the example below.
 
 #### Install the structural BIAS toolbox
 
@@ -96,10 +88,11 @@ print(test.predict(samples, show_figure=True))
 y, preds = test.predict_deep(samples)
 test.explain(samples, preds, filename="explanation-de.png")
 ```
-We advise to us a large enough evaluation budget for your algorithm, the tests from our paper uses 10.000 evaluations, however, 1.000 evaluations is generally enough to discover any structural bias.
-The number of runs should be either 30, 50, 100 or 600. We advise to use 100 individual runs.
 
-See for more details the [Github repository](https://github.com/Dvermetten/BIAS){:target="_blank"}.
+We advise you to use a large enough evaluation budget for your algorithm, the tests from our paper use 10.000 evaluations, however, 1.000 evaluations are generally enough to discover any structural bias. The number of runs should be either 30, 50, 100 or 600. We advise using 100 individual runs.
+
+
+See for more details our [Github repository](https://github.com/Dvermetten/BIAS){:target="_blank"}.
 
 
 ### How biased are popular optimization algorithms?
@@ -112,4 +105,4 @@ And see our BIAS Toolbox paper; [BIAS: A Toolbox for BenchmarkingStructural Bias
 
 ---
 
-See also our the blog post about [Deep-Bias](https://nikivanstein.nl/posts/2023/07/gecco-doe2vec/), the deep-learning extension of our Structural BIAS toolbox.
+See also our blog post about [Deep-Bias](https://nikivanstein.nl/posts/2023/07/gecco-doe2vec/), the deep-learning extension of our Structural BIAS toolbox.
