@@ -2,9 +2,9 @@
 title: "BIAS: A Toolbox for Benchmarking Structural Bias in the Continuous Domain"
 collection: talks
 type: "talk"
-permalink: /talks/2023-07-15-talk-gecco-bias
+permalink: /talks/2023-07-16-talk-gecco-bias
 venue: "GECCO 2023"
-date: 2023-07-15
+date: 2023-07-16
 location: "Lisbon, Portugal"
 header:
   teaser: "teasers/biastoolbox.png"
