@@ -5,7 +5,7 @@ permalink: /posts/2023/07/structural-bias/
 excerpt: 'An introduction to Structural Bias in search heuristics.'
 header:
   teaser: "teasers/biastoolbox.png"
-  overlay_image: "banner-dark.png"
+  overlay_image: "banner1.png"
   og_image: "teasers/biastoolbox.png"
 tags:
   - bias

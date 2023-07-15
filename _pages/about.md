@@ -3,6 +3,10 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
+excerpt: ' '
+header:
+  overlay_image: "banner1.png"
+  og_image: "banner.png"
 redirect_from: 
   - /about/
   - /about.html
