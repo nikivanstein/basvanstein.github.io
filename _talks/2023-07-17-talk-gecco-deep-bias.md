@@ -2,9 +2,9 @@
 title: "Deep-Bias: Detecting Structural Bias using Explainable AI"
 collection: talks
 type: "poster"
-permalink: /talks/2023-07-16-talk-gecco-deep-bias
+permalink: /talks/2023-07-17-talk-gecco-deep-bias
 venue: "GECCO 2023"
-date: 2023-07-16
+date: 2023-07-17
 location: "Lisbon, Portugal"
 header:
   teaser: "teasers/biastoolbox.png"

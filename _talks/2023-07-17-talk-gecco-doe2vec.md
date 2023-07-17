@@ -2,9 +2,9 @@
 title: "DoE2Vec: Deep-learning Based Features for Exploratory Landscape Analysis"
 collection: talks
 type: "poster"
-permalink: /talks/2023-07-16-talk-gecco-doe2vec
+permalink: /talks/2023-07-17-talk-gecco-doe2vec
 venue: "GECCO 2023"
-date: 2023-07-16
+date: 2023-07-17
 location: "Lisbon, Portugal"
 header:
   teaser: "teasers/doe2vec.png"
