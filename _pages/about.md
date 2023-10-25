@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "XAI group"
 excerpt: "About me"
 author_profile: true
 excerpt: ' '
@@ -12,8 +12,11 @@ redirect_from:
   - /about.html
 ---
 
-![Banner](../images/banner.png){:width="100%"}
+![Banner](../images/xpred8.png){:width="100%"}
 *AI generated impression of explainable predictive maintenance.*
+
+The XAI group at LIACS focuses on explainable artificial intelligence research in the field of evolutionary computation and time-series machine learning.
+Niki van Stein is leading the XAI group.
 
 Niki van Stein is a researcher in the Natural Computing Group of LIACS and manager of the applied data science lab. She received her PhD in Computer Science from Leiden University in 2018. Niki's research interest are in eXplainable AI for automated machine learning, global (Bayesian) optimization and neural architecture search. She mostly works on research with direct applications in industry, such as predictive maintenance, car and ship design optimization and schedule optimization.
 
@@ -24,7 +27,7 @@ Niki van Stein is also a fantasy writer for Role playing games such as Dungeons 
 eXplainable Artificial Intelligence and eXplainable Optimization
 ===
 
-Explainable AI is not just a buzzword or a trendy topic; it is a crucial aspect that holds the key to unlocking the true potential of optimization and machine learning. In the fast-paced world of advanced technology, where complex algorithms and models make decisions that affect our lives on a daily basis, it is imperative to understand and trust the reasoning behind these automated systems.
+In the fast-paced world of advanced technology, where complex algorithms and models make decisions that affect our lives on a daily basis, it is imperative to understand and trust the reasoning behind these automated systems.
 
 Optimization algorithms drive efficiency, finding optimal solutions for complex problems in various domains. However, black-box optimization algorithms are complex to analyse and sometimes behave unexpectedly. Understanding how these heuristics traverse the search space, if they show any structural bias, and what kind of problems they can solve best and worst is imperative to better understand these algorithms and their components. This is also crucial when we aim to increase their performance or automatically select and configure an optimization algorithm on a given problem.
 
