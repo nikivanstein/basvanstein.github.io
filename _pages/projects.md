@@ -8,7 +8,6 @@ header:
   overlay_image: "banner1.png"
   og_image: "banner.png"
 redirect_from: 
-  - /projects/
   - /projects.html
 ---
 
