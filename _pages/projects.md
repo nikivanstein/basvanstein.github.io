@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /projects/
 title: "Projects"
 excerpt: "All projects of the XAI group"
 author_profile: true
