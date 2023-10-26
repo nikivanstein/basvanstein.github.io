@@ -5,10 +5,11 @@ collection: projects
 permalink: /projects/lens-design
 ---
 
-## Lens Design
 
 **Partners:** ASML
 **Status:** <span style="color:#8FF">Ongoing</span>  
+
+![Banner](../images/lens.png){:width="100%"}
 
 ---
 

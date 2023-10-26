@@ -5,10 +5,11 @@ collection: projects
 permalink: /projects/xaipre
 ---
 
-## XAIPre
 
 **Partners:** Hanze Hogeschool, Heerema marine contractors  
 **Status:** <span style="color:#8FF">Ongoing</span>  
+
+![Banner](../images/xaipre.png){:width="100%"}
 
 ---
 

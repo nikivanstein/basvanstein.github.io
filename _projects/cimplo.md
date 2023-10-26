@@ -5,11 +5,11 @@ collection: projects
 permalink: /projects/cimplo
 ---
 
-## CIMPLO
-
 **Partners:** CWI, Air France KLM, Honda Research Institute Europe  
 **Status:** <span style="color:#0F0">Finished</span>  
 **Follow-up project:** [XAIPre](/projects/xaipre)
+
+![Banner](../images/cimplo.png){:width="100%"}
 
 ---
 
