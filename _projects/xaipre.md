@@ -1,7 +1,8 @@
 ---
 title: "XAIPre"
 excerpt: "eXplainable AI for Predictive Maintenance<br/><img src='/images/xaipre.png'>"
-collection: portfolio
+collection: projects
+permalink: /projects/xaipre
 ---
 
 ## XAIPre

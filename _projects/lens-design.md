@@ -1,7 +1,8 @@
 ---
 title: "Complex Lens Design"
 excerpt: "Optimization of Complex Lens Designs<br/><img src='/images/lens.png'>"
-collection: portfolio
+collection: projects
+permalink: /projects/lens-design
 ---
 
 ## Lens Design

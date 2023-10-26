@@ -1,7 +1,8 @@
 ---
 title: "AI for Oversight"
 excerpt: "AI for Oversight ICAI lab<br/><img src='/images/oversight.png'>"
-collection: portfolio
+collection: projects
+permalink: /projects/ai4oversight
 ---
 
 ## AI for Oversight

@@ -1,7 +1,8 @@
 ---
 title: "CIMPLO"
 excerpt: "Cross-Industry Predictive Maintenance Optimization Platform<br/><img src='/images/cimplo.png'>"
-collection: portfolio
+collection: projects
+permalink: /projects/cimplo
 ---
 
 ## CIMPLO
