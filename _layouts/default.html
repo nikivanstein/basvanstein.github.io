@@ -18,15 +18,6 @@ layout: compress
 
     {{ content }}
 
-    {% if page.people %}
-    <section class="people row justify-content-between">
-      {% for uname in page.people %}
-        {% assign person = site.data.people[uname] %}
-        {% include person.html person=person image=true%}
-      {% endfor %}
-    </section>
-    {% endif %}
-
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}

@@ -66,6 +66,15 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
+      {% if page.people %}
+      <section class="people row justify-content-between">
+        {% for uname in page.people %}
+          {% assign person = site.data.people[uname] %}
+          {% include person.html person=person image=true%}
+        {% endfor %}
+      </section>
+      {% endif %}
+
       {% include post_pagination.html %}
     </div>
 
