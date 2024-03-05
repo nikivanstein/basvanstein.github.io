@@ -64,9 +64,8 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
       {% if page.people %}
+      <h3>People involved:</h3>
       <section class="people row justify-content-between">
         {% for uname in page.people %}
           {% assign person = site.data.people[uname] %}
@@ -74,6 +73,8 @@ layout: default
         {% endfor %}
       </section>
       {% endif %}
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
     </div>
