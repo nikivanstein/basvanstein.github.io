@@ -13,7 +13,7 @@ projects:
   - 2022-xaipre
   - 2018-cimplo
 
-layout: project
+
 ---
 
 **Partners:** Human Environment and Transport Inspectorate (ILT), Netherlands Labour Authority, Inspectorate of Education, Netherlands Food and Consumer Product Safety Authority, TNO and Utrecht University   

@@ -13,7 +13,7 @@ people:
 projects:
   - 2022-xaipre
 
-layout: project
+
 ---
 
 **Partners:** CWI, Air France KLM, Honda Research Institute Europe  

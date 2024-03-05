@@ -10,7 +10,7 @@ people:
   - stein
   - back
 
-layout: project
+
 ---
 
 

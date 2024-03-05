@@ -13,7 +13,7 @@ projects:
   - 2022-xaipre
   - 2023-ai4oversight
 
-layout: project
+
 ---
 
 
