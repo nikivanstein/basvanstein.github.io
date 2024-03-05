@@ -39,3 +39,63 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+.title img {
+    max-width: 50%;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.profile {
+    object-fit: cover; // makes sure it's cropped
+}
+
+.noprofile {
+    circle {
+        fill: $light-gray;
+    }
+    text {
+        font-weight: 700;
+        fill: white;
+    }
+}
+
+.card {
+
+    .profile {
+        height: 40px;
+        width: 40px;
+        margin: 3px;
+    }
+
+    .card-footer { padding: 0.5em }
+}
+
+.person {
+
+    margin-bottom: 10px;
+
+    .profile {
+        height: 70px;
+        width: 70px;
+    }
+
+    .bio {
+        color: $gray;
+    }
+
+    .person-name {
+        margin: 0;
+    }
+}
+
+.person-without-image {
+    margin: 0;
+
+    .bio {
+        margin-left: 1em;
+    }
+}
