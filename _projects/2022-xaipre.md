@@ -3,6 +3,17 @@ title: "XAIPre"
 excerpt: "eXplainable AI for Predictive Maintenance<br/><img src='/images/xaipre.png'>"
 collection: projects
 permalink: /projects/xaipre
+
+people:
+  - huang
+  - back
+  - stein
+
+projects:
+  - 2022-xaipre
+  - 2023-ai4oversight
+
+layout: project
 ---
 
 

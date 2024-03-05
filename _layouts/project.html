@@ -1,0 +1,57 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+
+    {% if page.people %}
+    <h2> People involved: </h2>
+    <hr/>
+    <section class="people project-people">
+        {% for uname in page.people %}
+            {% assign person = site.data.people[uname] %}
+            {% include person.html person=person image=true%}
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if page.projects %}
+    <h2> Related Projects: </h2>
+    <hr/>
+    <div class="card-columns">
+      {% for post in site.projects reversed %}
+        {% for pname in page.projects %}
+          {% if post.id contains pname %}
+            {% include archive-single.html %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

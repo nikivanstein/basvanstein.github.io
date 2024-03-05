@@ -3,6 +3,17 @@ title: "CIMPLO"
 excerpt: "Cross-Industry Predictive Maintenance Optimization Platform<br/><img src='/images/cimplo.png'>"
 collection: projects
 permalink: /projects/cimplo
+
+people:
+  - alum-kefalas
+  - alum-ywang
+  - stein
+  - back
+
+projects:
+  - 2022-xaipre
+
+layout: project
 ---
 
 **Partners:** CWI, Air France KLM, Honda Research Institute Europe  

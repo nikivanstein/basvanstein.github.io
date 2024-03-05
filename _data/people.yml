@@ -1,0 +1,82 @@
+
+back:
+    display_name: "Prof. Thomas Bäck"
+    webpage: "https://www.universiteitleiden.nl/en/staffmembers/thomas-back#tab-1"
+    role: prof
+    image: /img/people/back.jpg
+    bio: Professor of Natural Computing
+
+stein:
+    display_name: "Niki van Stein"
+    webpage: "https://nikivanstein.nl/"
+    github: BasvanStein
+    image: /img/people/stein.jpg
+    bio: Assistant Professor of Explainable AI
+    role: aprof
+
+wang:
+    display_name: "Hao Wang"
+    webpage: "https://www.universiteitleiden.nl/en/staffmembers/hao-wang#tab-1"
+    role: aprof
+    image: /img/people/wang.jpg
+    bio: Assistant Professor of Optimization and Learning
+
+kononova:
+    display_name: "Anna V. Kononova"
+    webpage: "https://www.universiteitleiden.nl/en/staffmembers/anna-kononova#tab-1"
+    role: aprof
+    image: /img/people/kononova.png
+    bio: Assistant Professor of Efficient Heuristic Optimization
+
+raponi:
+    display_name: "Elena Raponi"
+    webpage: "https://www.universiteitleiden.nl/en/staffmembers/elena-raponi#tab-1"
+    role: aprof
+    image: /img/people/raponi.jpg
+    bio: Assistant Professor of Bayesian Optimization
+
+huang:
+    display_name: "Qi Huang"
+    image: /img/people/huang.jpg
+    role: grad
+
+lamers:
+    display_name: "Christiaan Lamers"
+    image: /img/people/lamers.jpg
+    role: grad
+
+antonov:
+    display_name: "Kirill Antonov"
+    image: /img/people/antonov.jpg
+    role: grad
+
+long:
+    display_name: "Fu-Xing Long"
+    image: /img/people/long.jpg
+    role: grad
+
+winter:
+    display_name: "Roy de Winter"
+    image: /img/people/winter.jpg
+    role: grad
+
+zeiser:
+    display_name: "Alexander Zeiser"
+    image: /img/people/zeiser.jpg
+    role: grad
+
+wagner:
+    display_name: "Bernd Wagner"
+    role: grad
+
+kitharidis:
+    display_name: "Sofoklis Kitharidis"
+    image: /img/people/kitharidis.png
+    role: grad
+
+rios:
+    display_name: "Thiago Rios"
+    role: alum
+    image: /img/people/rios.jpg
+    webpage: https://www.linkedin.com/in/thiago-rios-36922a47/
+    bio: "Ph.D., 2022. Now at HRI Europe."

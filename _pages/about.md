@@ -10,6 +10,17 @@ header:
 redirect_from: 
   - /about/
   - /about.html
+
+people:
+  - stein
+  - huang
+  - kitharidis
+  - wagner
+  - lamers
+  - long
+  - antonov
+  - winter
+  - zeiser
 ---
 
 The XAI group at LIACS focuses on explainable artificial intelligence research in the field of evolutionary computation and time-series machine learning.
@@ -46,3 +57,6 @@ See the following websites for additional information about research projects of
 * [Cimplo](http://cimplo.nl/)
 * [XAIPre](https://xaipre.leidenuniv.nl/)
 * [AutoEC](https://autoec.eu/)
+
+## People
+---
