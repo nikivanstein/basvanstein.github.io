@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Projects"
-    url: /projects/
+  - title: "XAI group"
+    url: /xai-group/
 
   - title: "Publications"
     url: /publications/
