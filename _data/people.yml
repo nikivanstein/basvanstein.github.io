@@ -4,14 +4,12 @@ back:
     webpage: "https://www.universiteitleiden.nl/en/staffmembers/thomas-back#tab-1"
     role: prof
     image: /img/people/back.jpg
-    bio: Professor of Natural Computing
 
 stein:
     display_name: "Niki van Stein"
     webpage: "https://nikivanstein.nl/"
-    github: BasvanStein
+    github: nikivanstein
     image: /img/people/stein.jpg
-    bio: Assistant Professor of Explainable AI
     role: aprof
 
 wang:
@@ -19,21 +17,18 @@ wang:
     webpage: "https://www.universiteitleiden.nl/en/staffmembers/hao-wang#tab-1"
     role: aprof
     image: /img/people/wang.jpg
-    bio: Assistant Professor of Optimization and Learning
 
 kononova:
     display_name: "Anna V. Kononova"
     webpage: "https://www.universiteitleiden.nl/en/staffmembers/anna-kononova#tab-1"
     role: aprof
     image: /img/people/kononova.png
-    bio: Assistant Professor of Efficient Heuristic Optimization
 
 raponi:
     display_name: "Elena Raponi"
     webpage: "https://www.universiteitleiden.nl/en/staffmembers/elena-raponi#tab-1"
     role: aprof
     image: /img/people/raponi.jpg
-    bio: Assistant Professor of Bayesian Optimization
 
 huang:
     display_name: "Qi Huang"
