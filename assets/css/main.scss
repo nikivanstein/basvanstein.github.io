@@ -33,6 +33,7 @@
 @import "page";
 @import "archive";
 @import "sidebar";
+@import "grid-framework";
 
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
@@ -66,8 +67,6 @@ section {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 
 .pl-0, .px-0 {
