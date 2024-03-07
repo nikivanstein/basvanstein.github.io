@@ -22,7 +22,7 @@ layout: compress
     {% if page.people %}
     <h2> People involved: </h2>
     <hr/>
-    <section class="people project-people">
+    <section class="people project-people cols">
         {% for uname in page.people %}
             {% assign person = site.data.people[uname] %}
             {% include person.html person=person image=true%}
