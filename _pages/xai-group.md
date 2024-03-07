@@ -2,7 +2,7 @@
 permalink: /xai-group/
 title: "XAI group"
 excerpt: "The XAI research group"
-author_profile: false
+author_profile: true
 excerpt: ' '
 header:
   overlay_image: "banner1.png"
@@ -25,7 +25,8 @@ people:
 
 {% include base_path %}
 <div class="author__avatar" style="float:left;"> 
-  <img src="../img/groups/xai logo-512px.png" class="author__avatar" style="background-color:#FFF">
+  <img src="/img/groups/xai logo-512px.png" style="background-color:#FFF; border-radius: 10%; padding: 5px;
+    border: 1px solid #51555d; max-width: 200px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
 </div>
 
 <h2>Explainable AI Research Group</h2>
@@ -35,7 +36,7 @@ The XAI (Explainable Artificial Intelligence) research group at <a href="https:/
 <h2>Research projects:</h2>
 <div class="grid__wrapper">
 {% for post in site.projects reversed %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html %}
   ---
 {% endfor %}
 </div>

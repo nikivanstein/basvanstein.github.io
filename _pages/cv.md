@@ -34,7 +34,7 @@ Education
 
 Work experience
 ======
-* 2021 -- now Assistant professor | Manager ADSL
+* 2022 -- now Assistant professor | Manager ADSL
   * Leiden Institute of Advanced Computer Science
   * University of Leiden
   * Research, education, supervision, and management as part of the Natural Computing group and LIACS as a whole. Research in automated algorithm design, algorithm analysis, explainable AI, and predictive maintenance.
