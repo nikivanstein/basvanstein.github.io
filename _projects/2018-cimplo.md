@@ -1,8 +1,9 @@
 ---
 title: "CIMPLO"
-excerpt: "Cross-Industry Predictive Maintenance Optimization Platform<br/><img src='/images/cimplo.png'>"
+excerpt: "Cross-Industry Predictive Maintenance Optimization Platform"
 collection: projects
 permalink: /projects/cimplo
+teaser: cimplo.png
 
 people:
   - alum-kefalas
