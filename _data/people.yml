@@ -75,3 +75,16 @@ rios:
     image: /img/people/rios.jpg
     webpage: https://www.linkedin.com/in/thiago-rios-36922a47/
     bio: "Ph.D., 2022. Now at HRI Europe."
+
+
+alum-kefalas:
+    display_name: "Marios Kefalas"
+    image: /img/people/kefalas.jpg
+    webpage: https://www.linkedin.com/in/marios-kefalas/
+    role: alum
+
+alum-ywang:
+    display_name: "Yali Wang"
+    image: /img/people/ywang.jpg
+    webpage: https://www.linkedin.com/in/yali-wang-61305110b/
+    role: alum
