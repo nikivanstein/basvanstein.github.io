@@ -37,6 +37,6 @@ The XAI (Explainable Artificial Intelligence) research group at <a href="https:/
 <div class="grid__wrapper">
 {% for post in site.projects reversed %}
   {% include archive-single.html type="grid" %}
-  ---
 {% endfor %}
 </div>
+<hr>

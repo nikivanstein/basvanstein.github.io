@@ -3,7 +3,9 @@ title: "AI for Oversight"
 excerpt: "AI for Oversight ICAI lab"
 collection: projects
 permalink: /projects/ai4oversight
-teaser: oversight.png
+header:
+  teaser: "oversight.png"
+  og_image: "oversight.png"
 
 people:
   - kitharidis

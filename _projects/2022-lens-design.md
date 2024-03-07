@@ -3,7 +3,9 @@ title: "Complex Lens Design"
 excerpt: "Optimization of Complex Lens Designs"
 collection: projects
 permalink: /projects/lens-design
-teaser: lens.png
+header:
+  teaser: "lens.png"
+  og_image: "lens.png"
 
 people:
   - antonov

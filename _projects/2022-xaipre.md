@@ -3,7 +3,9 @@ title: "XAIPre"
 excerpt: "eXplainable AI for Predictive Maintenance"
 collection: projects
 permalink: /projects/xaipre
-teaser: xaipre.png
+header:
+  teaser: "xaipre.png"
+  og_image: "xaipre.png"
 
 people:
   - huang
