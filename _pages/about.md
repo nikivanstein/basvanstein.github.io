@@ -23,13 +23,13 @@ redirect_from:
 #   - zeiser
 ---
 
-The XAI group at LIACS focuses on explainable artificial intelligence research in the field of evolutionary computation and time-series machine learning.
-Niki van Stein is leading the XAI group.
+The XAI research group at LIACS focuses on explainable artificial intelligence research in the field of evolutionary computation and (time-series) machine learning.
+Dr. Niki van Stein is leading the XAI group.
 
 ![Banner](../images/xpred8.png){:width="100%"}
 *AI generated impression of explainable predictive maintenance.*
 
-Niki van Stein is a researcher in the Natural Computing Group of LIACS and manager of the applied data science lab. She received her PhD in Computer Science from Leiden University in 2018. Niki's research interest are in eXplainable AI for automated machine learning, global (Bayesian) optimization and neural architecture search. She mostly works on research with direct applications in industry, such as predictive maintenance, car and ship design optimization and schedule optimization.
+Dr. Niki van Stein is a researcher, heading the XAI group, which is part of the Natural Computing Cluster of LIACS, and manager of the applied data science lab. She received her PhD in Computer Science from Leiden University in 2018. Niki's research interest are in eXplainable AI for automated machine learning, global (Bayesian) optimization and neural architecture search. She mostly works on research with direct applications in industry, such as predictive maintenance, car and ship design optimization and schedule optimization.
 
 Next to her research, Niki has founded several software solution-oriented companies such as [Emerald-IT – Custom software development](https://emerald-it.nl), and [Smartnotation – the smart meeting minutes application](https://smartnotation.com).
 
