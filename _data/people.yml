@@ -62,6 +62,7 @@ zeiser:
 
 wagner:
     display_name: "Bernd Wagner"
+    image: /img/people/wagner.jpg
     role: grad
 
 kitharidis:
