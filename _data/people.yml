@@ -45,6 +45,12 @@ antonov:
     image: /img/people/antonov.jpg
     role: grad
 
+ye:
+    display_name: "Furong Ye"
+    image: /img/people/ye.jpg
+    role: postdoc
+
+
 long:
     display_name: "Fu-Xing Long"
     image: /img/people/long.jpg
