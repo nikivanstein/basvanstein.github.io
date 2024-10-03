@@ -1,13 +1,12 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Niki van Stein:
+  name        : "Niki van Stein"
+  uri         : "https://nikivanstein.nl"
+  email       : "n.van.stein@liacs.leidenuniv.nl"
+  bio         : "Dr. Niki van Stein is a researcher, heading the XAI group, which is part of the Natural Computing Cluster of LIACS, and manager of the applied data science lab. She received her PhD in Computer Science from Leiden University in 2018. Niki’s research interest are in eXplainable AI for automated machine learning, global (Bayesian) optimization and neural architecture search. She mostly works on research with direct applications in industry, such as predictive maintenance, car and ship design optimization and schedule optimization."
+  avatar      : "stein.png"
+  twitter     : "nikivanstein"
 
 Name2 Name2:
   name        : "Name2 Name2"
