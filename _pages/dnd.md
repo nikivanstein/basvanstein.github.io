@@ -1,7 +1,30 @@
-# **Pocket Monster Manual I: A Guide to Magical Creatures and Taming**  
+---
+permalink: /
+title: "Pocket Monster Manual I: A Guide to Magical Creatures and Taming"
+excerpt: "Back Pocket Monster Manual on Kickstarter. A fully illustrated monster guide for D&D 5."
+author_profile: false
+header:
+  overlay_image: "dnd-overlay.png"
+  og_image: "dnd.png"
+redirect_from: 
+  - /dnd/
+  - /dnd.html
+
+# people:
+#   - stein
+#   - huang
+#   - kitharidis
+#   - wagner
+#   - lamers
+#   - long
+#   - antonov
+#   - winter
+#   - zeiser
+---
+  
 ## Compatible with D&D 5e
 
-![Pocket Monster Manual I Cover](path-to-cover-image)
+![Pocket Monster Manual I Cover](todo-path)
 
 ---
 
