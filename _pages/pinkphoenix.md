@@ -12,7 +12,13 @@ redirect_from:
 
 ---
 
+
 # Pink Phoenix Publishing
+
+<div class="author__avatar" style="float:left;"> 
+  <img src="/img/pinkphoenix/phoenix-small.png" style="background-color:#FFF; border-radius: 10%; padding: 5px;
+    border: 1px solid #51555d; max-width: 200px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
+</div>
 
 Welcome to **Pink Phoenix Publishing**, the creative hub for innovative role-playing game content! As an independent publisher, we specialize in crafting unique supplements, tools, and materials to enhance your tabletop gaming experiences. From fantastical worlds to creative mechanics, our publications aim to ignite your imagination and enrich your adventures.
 
@@ -25,10 +31,20 @@ Explore our range of publications, each designed to inspire storytellers and cap
 ### **The Pocket Universe of the Mad Mage**
 
 <div style="float:left;"> 
-  <img src="/img/pinkphoenix/pocket-universe.png" style="max-width: 500px; margin-top:10px; margin-right:10px; margin-bottom:10px;">
+  <img src="/img/pinkphoenix/pocket-universe.png" style="max-width: 300px; margin-top:10px; margin-right:10px; margin-bottom:10px;">
 </div>
 
 Dive into the bizarre and enchanting world of the Mad Mage! This adventure and Roll20 art pack includes vibrant maps, imaginative character tokens, and modular pieces to enhance your virtual tabletop campaigns.
+
+The Pocket Universe of the Mad Mage is a grand adventure for four to six characters between levels 5 and 10.
+It can be used as a stand-alone adventure or even as a setting to play additional side quests and adventures.
+
+The adventure consists of several storylines and NPC backgrounds to provide many opportunities for role-playing.
+It is not a sequential adventure, as, the choices of the players greatly affect the direction, order, and outcome of each task.
+
+The adventure is written for the Forgotten Realmstm  setting but can also be used with any other setting.
+
+Find the Mad Mage and get your wish fullfilled. Adventure awaits!
 
 [View on DMsGuild](https://www.dmsguild.com/product/434552/The-Pocket-Universe-of-the-Mad-Mage-Roll20-art-pack?filters=45469_0_0_0_0_0_0_0?affiliate_id=3933879)
 
@@ -36,11 +52,11 @@ Dive into the bizarre and enchanting world of the Mad Mage! This adventure and R
 
 ### **The Pocket Monster Manual I**
 
-<div style="float:left;"> 
-  <img src="/img/pinkphoenix/pocketmonstermanual.gif" style="max-width: 500px; margin-top:10px; margin-right:10px; margin-bottom:10px;">
-</div>
 
 Unleash a collection of fascinating pocket monsters into your campaigns! This book introduces 151 new creatures, each with detailed lore, stats, and stunning artwork to bring your adventures to life.
+
+<img src="/img/pinkphoenix/pocketmonstermanual.gif" style="max-width: 600px; margin-top:10px; margin-bottom:10px;">
+
 
 [Coming Soon!]()
 
@@ -62,7 +78,7 @@ At Pink Phoenix Publishing, we’re always working on the next exciting adventur
 ## About the Author
 
 <div class="author__avatar" style="float:left;"> 
-  <img src="/img/groups/xai logo-512px.png" style="background-color:#FFF; border-radius: 10%; padding: 5px;
+  <img src="/img/pinkphoenix/phoenix-small.png" style="background-color:#FFF; border-radius: 10%; padding: 5px;
     border: 1px solid #51555d; max-width: 200px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
 </div>
 
