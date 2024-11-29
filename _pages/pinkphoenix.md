@@ -17,7 +17,7 @@ redirect_from:
 
 <div class="author__avatar" style="float:left;"> 
   <img src="/img/pinkphoenix/phoenix-small.png" style="background-color:#FFF; border-radius: 10%; padding: 5px;
-    border: 1px solid #51555d; max-width: 200px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
+    border: 1px solid #51555d; max-width: 150px; margin-top:5px; margin-right:20px; margin-bottom:10px;">
 </div>
 
 Welcome to **Pink Phoenix Publishing**, the creative hub for innovative role-playing game content! As an independent publisher, we specialize in crafting unique supplements, tools, and materials to enhance your tabletop gaming experiences. From fantastical worlds to creative mechanics, our publications aim to ignite your imagination and enrich your adventures.
@@ -55,7 +55,7 @@ Find the Mad Mage and get your wish fullfilled. Adventure awaits!
 
 Unleash a collection of fascinating pocket monsters into your campaigns! This book introduces 151 new creatures, each with detailed lore, stats, and stunning artwork to bring your adventures to life.
 
-<img src="/img/pinkphoenix/pocketmonstermanual.gif" style="max-width: 600px; margin-top:10px; margin-bottom:10px;">
+<img src="/img/pinkphoenix/pocketmonstermanual.gif" style="width: 100%; margin-top:10px; margin-bottom:10px;">
 
 
 [Coming Soon!]()
@@ -79,7 +79,7 @@ At Pink Phoenix Publishing, we’re always working on the next exciting adventur
 
 <div class="author__avatar" style="float:left;"> 
   <img src="/img/people/stein.png" style="background-color:#FFF; border-radius: 50%; padding: 5px;
-    border: 1px solid #51555d; max-width: 160px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
+    border: 1px solid #51555d; max-width: 120px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
 </div>
 
 **Niki van Stein** is the creative force behind Pink Phoenix Publishing. As a professor specializing in Explainable AI and Evolutionary Computing, Niki applies a unique blend of academic insight and creative passion to every project. Her expertise in crafting compelling narratives and intricate systems shines through in her publications, which aim to inspire and engage both players and game masters alike. Outside of academia, Niki is an avid tabletop gamer and designer, constantly pushing the boundaries of storytelling in the RPG space.
