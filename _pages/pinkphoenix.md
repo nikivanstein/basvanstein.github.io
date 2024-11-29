@@ -7,7 +7,7 @@ header:
   overlay_image: "banner1.png"
   og_image: "banner.png"
 redirect_from: 
-  - /pinkphoenix/
+  - /pinkphoenix.md
   - /pinkphoenix.html
 
 ---
