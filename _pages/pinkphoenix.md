@@ -78,8 +78,8 @@ At Pink Phoenix Publishing, we’re always working on the next exciting adventur
 ## About the Author
 
 <div class="author__avatar" style="float:left;"> 
-  <img src="/img/pinkphoenix/phoenix-small.png" style="background-color:#FFF; border-radius: 10%; padding: 5px;
-    border: 1px solid #51555d; max-width: 200px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
+  <img src="/img/people/stein.png" style="background-color:#FFF; border-radius: 50%; padding: 5px;
+    border: 1px solid #51555d; max-width: 160px; margin-top:50px; margin-right:20px; margin-bottom:10px;">
 </div>
 
 **Niki van Stein** is the creative force behind Pink Phoenix Publishing. As a professor specializing in Explainable AI and Evolutionary Computing, Niki applies a unique blend of academic insight and creative passion to every project. Her expertise in crafting compelling narratives and intricate systems shines through in her publications, which aim to inspire and engage both players and game masters alike. Outside of academia, Niki is an avid tabletop gamer and designer, constantly pushing the boundaries of storytelling in the RPG space.
