@@ -30,7 +30,7 @@ Explore our range of publications, each designed to inspire storytellers and cap
 
 Dive into the bizarre and enchanting world of the Mad Mage! This adventure and Roll20 art pack includes vibrant maps, imaginative character tokens, and modular pieces to enhance your virtual tabletop campaigns.
 
-[View on DMsGuild](https://www.dmsguild.com/product/434552/The-Pocket-Universe-of-the-Mad-Mage-Roll20-art-pack?filters=45469_0_0_0_0_0_0_0)
+[View on DMsGuild](https://www.dmsguild.com/product/434552/The-Pocket-Universe-of-the-Mad-Mage-Roll20-art-pack?filters=45469_0_0_0_0_0_0_0?affiliate_id=3933879)
 
 ---
 
@@ -45,6 +45,7 @@ Unleash a collection of fascinating pocket monsters into your campaigns! This bo
 [Coming Soon!]()
 
 ---
+<a href="https://www.dmsguild.com/index.php?src=affiliate3933879&affiliate_id=3933879"><img src="https://www.dmsguild.com/themes/dmg/images/normaldms.png" border="0" title="Calling all adventurers! Create or find your new adventure @ Dungeon Masters Guild" alt="Banner: Calling all adventurers! Create or find your new adventure @ Dungeon Masters Guild" /></a>
 
 ## Future Projects
 
