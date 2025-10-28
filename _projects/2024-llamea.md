@@ -4,7 +4,7 @@ excerpt: "Large Language Evolutionary Algorithm for the automatic design of algo
 collection: projects
 permalink: /projects/llamea
 header:
-  teaser: "llamea-wide.png"
+  teaser: "llamea.png"
   og_image: "llamea.png"
 
 people:
@@ -20,6 +20,7 @@ projects:
   - 2023-ai4oversight
 ---
 
+<img class="img-fluid" src="/img/projects/llamea-wide.png" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics"/>
 
 LLaMEA, or Large Language Model Evolutionary Algorithm, is an innovative framework developed by the XAI research group at NACO with the lead of Niki van Stein. It leverages large language models (LLMs), such as GPT-4, to automate the generation and refinement of algorithms such as metaheuristic optimizers. By iteratively evolving algorithms based on performance metrics and runtime evaluations, LLaMEA streamlines the optimization process without requiring extensive prior algorithmic knowledge. 
 
@@ -49,8 +50,8 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
 ## Related papers
 
 ### Methodology
-<div class="card-columns">
-  <div class="card">
+<div class="card-columns row">
+  <div class="card col-md-4">
     <a href="https://dl.acm.org/doi/abs/10.1109/TEVC.2024.3497793" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea1.png" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics"/>
     </a>
@@ -58,7 +59,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
       <p class="card-title">LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics</p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-md-4">
     <a href="https://dl.acm.org/doi/10.1145/3731567" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea2-hpo.png" alt="In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics"/>
     </a>
@@ -66,7 +67,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
       <p class="card-title">In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics</p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-md-4">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-90065-5_25" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea3-mutation.png" alt="Controlling the mutation in large language models for the efficient evolution of algorithms"/>
     </a>
@@ -74,7 +75,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
       <p class="card-title">Controlling the mutation in large language models for the efficient evolution of algorithms</p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-md-4">
     <a href="https://arxiv.org/abs/2505.21034" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea4-bo.png" alt="LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms"/>
     </a>
@@ -82,7 +83,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
       <p class="card-title">LLaMEA-BO: Automatically Generating Bayesian Optimization Algorithms</p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-md-4">
     <a href="https://arxiv.org/abs/2505.15741" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea5-survey.png" alt="Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications"/>
     </a>

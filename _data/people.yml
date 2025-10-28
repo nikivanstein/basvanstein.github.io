@@ -55,6 +55,11 @@ baratov:
     image: /img/people/farrukh.jpg
     role: grad
 
+yin:
+    display_name: "Haoran Yin"
+    image: /img/people/yin.jpg
+    role: grad
+
 shahane:
     display_name: "Ananta Shahane"
     image: /img/people/shahane.jpg
