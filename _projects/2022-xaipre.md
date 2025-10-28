@@ -8,12 +8,14 @@ header:
   og_image: "xaipre.png"
 
 people:
+  - shahane
   - huang
+  - ye
   - back
   - stein
 
 projects:
-  - 2022-xaipre
+  - 2024-llamea
   - 2023-ai4oversight
 
 

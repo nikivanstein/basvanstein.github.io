@@ -50,6 +50,16 @@ ye:
     image: /img/people/ye.jpg
     role: postdoc
 
+baratov:
+    display_name: "Farrukh Baratov"
+    image: /img/people/farrukh.jpg
+    role: grad
+
+shahane:
+    display_name: "Ananta Shahane"
+    image: /img/people/shahane.jpg
+    role: grad
+    bio: "Scientific programmer"
 
 long:
     display_name: "Fu-Xing Long"

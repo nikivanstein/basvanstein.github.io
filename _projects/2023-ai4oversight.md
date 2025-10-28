@@ -8,13 +8,14 @@ header:
   og_image: "oversight.png"
 
 people:
+  - baratov
   - kitharidis
   - stein
   - back
 
 projects:
   - 2022-xaipre
-  - 2018-cimplo
+  - 2024-llamea
 
 
 ---
