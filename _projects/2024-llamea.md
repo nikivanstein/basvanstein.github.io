@@ -48,89 +48,144 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
 🏅 Winner of the [GECCO 2024 Any-Time Performance for Affine BBOB competition](https://gecco-2024.sigevo.org/Competition-Awards.html#Anytime_Algorithms_for_Many-affine_BBOB_Functions)
 
 ## Related papers
-
 ### Methodology
-<div class="card-columns row">
-  <div class="card col-md-4">
-    <a href="https://dl.acm.org/doi/abs/10.1109/TEVC.2024.3497793" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea1.png" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics</p>
-    </div>
+<div class="grid__wrapper">
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://dl.acm.org/doi/abs/10.1109/TEVC.2024.3497793" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea1.png" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://dl.acm.org/doi/abs/10.1109/TEVC.2024.3497793" target="_blank" rel="permalink">LLaMEA</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics.</p>
+    </article>
   </div>
-  <div class="card col-md-4">
-    <a href="https://dl.acm.org/doi/10.1145/3731567" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea2-hpo.png" alt="In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics</p>
-    </div>
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://dl.acm.org/doi/10.1145/3731567" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea2-hpo.png" alt="In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://dl.acm.org/doi/10.1145/3731567" target="_blank" rel="permalink">In-the-loop Hyper-parameter Optimization</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">LLM-based automated design of heuristics.</p>
+    </article>
   </div>
-  <div class="card col-md-4">
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-90065-5_25" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea3-mutation.png" alt="Controlling the mutation in large language models for the efficient evolution of algorithms"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">Controlling the mutation in large language models for the efficient evolution of algorithms</p>
-    </div>
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-90065-5_25" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea3-mutation.png" alt="Controlling the mutation in large language models for the efficient evolution of algorithms">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-90065-5_25" target="_blank" rel="permalink">Controlling the Mutation</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">Efficient evolution of algorithms with large language models.</p>
+    </article>
   </div>
-  <div class="card col-md-4">
-    <a href="https://arxiv.org/abs/2505.21034" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea4-bo.png" alt="LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">LLaMEA-BO: Automatically Generating Bayesian Optimization Algorithms</p>
-    </div>
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://arxiv.org/abs/2505.21034" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea4-bo.png" alt="LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://arxiv.org/abs/2505.21034" target="_blank" rel="permalink">LLaMEA-BO</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">Automatically generating Bayesian Optimization algorithms.</p>
+    </article>
   </div>
-  <div class="card col-md-4">
-    <a href="https://arxiv.org/abs/2505.15741" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea5-survey.png" alt="Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications</p>
-    </div>
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://arxiv.org/abs/2505.15741" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea5-survey.png" alt="Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://arxiv.org/abs/2505.15741" target="_blank" rel="permalink">Survey on EC and LLMs</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">A survey of methods, synergies, and applications in LLM-driven evolutionary computation.</p>
+    </article>
   </div>
+
 </div>
 
 ### Benchmarking and Analysis
-<div class="card-columns row">
-  <div class="card col-md-4">
-    <a href="https://dl.acm.org/doi/10.1145/3712256.3726328" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea6-ceg.png" alt="Code evolution graphs: Understanding large language model driven design of algorithms"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">Code evolution graphs: Understanding large language model driven design of algorithms</p>
-    </div>
+<div class="grid__wrapper">
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://dl.acm.org/doi/10.1145/3712256.3726328" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea6-ceg.png" alt="Code evolution graphs: Understanding large language model driven design of algorithms">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://dl.acm.org/doi/10.1145/3712256.3726328" target="_blank" rel="permalink">Code Evolution Graphs</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">Understanding large language model driven design of algorithms.</p>
+    </article>
   </div>
-  <div class="card col-md-4">
-    <a href="https://dl.acm.org/doi/10.1145/3712255.3734347" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea9-blade.png" alt="BLADE: Benchmark suite for LLM-driven Automated Design and Evolution of iterative optimisation heuristics"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">BLADE: Benchmark suite for LLM-driven Automated Design and Evolution</p>
-    </div>
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://dl.acm.org/doi/10.1145/3712255.3734347" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea9-blade.png" alt="BLADE: Benchmark suite for LLM-driven Automated Design and Evolution of iterative optimisation heuristics">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://dl.acm.org/doi/10.1145/3712255.3734347" target="_blank" rel="permalink">BLADE</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">Benchmark suite for LLM-driven automated design and evolution of iterative optimisation heuristics.</p>
+    </article>
   </div>
-  <div class="card col-md-4">
-    <a href="https://arxiv.org/abs/2507.03605" target="_blank">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea7-behaviour.png" alt="Behaviour Space Analysis of LLM-driven Meta-heuristic Discovery"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">Behaviour Space Analysis of LLM-driven Meta-heuristic Discovery</p>
-    </div>
+
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://arxiv.org/abs/2507.03605" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea7-behaviour.png" alt="Behaviour Space Analysis of LLM-driven Meta-heuristic Discovery">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://arxiv.org/abs/2507.03605" target="_blank" rel="permalink">Behaviour Space Analysis</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">Analysis of LLM-driven meta-heuristic discovery.</p>
+    </article>
   </div>
+
 </div>
 
 ### Real World Applications
-<div class="card-columns row">
-  <div class="card col-md-4">
-    <a href="https://dl.acm.org/doi/10.1145/3712255.3734288">
-      <img class="img-fluid mb-2" src="/img/llamea/llamea8-optics.png" alt="Optimizing Photonic Structures with Large Language Model Driven Algorithm Discovery"/>
-    </a>
-    <div class="card-body">
-      <p class="card-title">Optimizing Photonic Structures with Large Language Model Driven Algorithm Discovery</p>
-    </div>
-  </div>
-</div>
+<div class="grid__wrapper">
 
+  <div class="grid__item">
+    <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+      <div class="archive__item-teaser">
+        <a href="https://dl.acm.org/doi/10.1145/3712255.3734288" target="_blank" rel="permalink">
+          <img src="/img/llamea/llamea8-optics.png" alt="Optimizing Photonic Structures with Large Language Model Driven Algorithm Discovery">
+        </a>
+      </div>
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://dl.acm.org/doi/10.1145/3712255.3734288" target="_blank" rel="permalink">Optimizing Photonic Structures</a>
+      </h2>
+      <p class="archive__item-excerpt" itemprop="description">Large language model driven algorithm discovery for photonic structure optimization.</p>
+    </article>
+  </div>
+
+</div>
 
