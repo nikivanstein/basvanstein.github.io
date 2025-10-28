@@ -94,8 +94,8 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
 </div>
 
 ### Benchmarking and Analysis
-<div class="card-columns">
-  <div class="card">
+<div class="card-columns row">
+  <div class="card col-md-4">
     <a href="https://dl.acm.org/doi/10.1145/3712256.3726328" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea6-ceg.png" alt="Code evolution graphs: Understanding large language model driven design of algorithms"/>
     </a>
@@ -103,7 +103,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
       <p class="card-title">Code evolution graphs: Understanding large language model driven design of algorithms</p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-md-4">
     <a href="https://dl.acm.org/doi/10.1145/3712255.3734347" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea9-blade.png" alt="BLADE: Benchmark suite for LLM-driven Automated Design and Evolution of iterative optimisation heuristics"/>
     </a>
@@ -111,7 +111,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
       <p class="card-title">BLADE: Benchmark suite for LLM-driven Automated Design and Evolution</p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-md-4">
     <a href="https://arxiv.org/abs/2507.03605" target="_blank">
       <img class="img-fluid mb-2" src="/img/llamea/llamea7-behaviour.png" alt="Behaviour Space Analysis of LLM-driven Meta-heuristic Discovery"/>
     </a>
@@ -122,8 +122,8 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
 </div>
 
 ### Real World Applications
-<div class="card-columns">
-  <div class="card">
+<div class="card-columns row">
+  <div class="card col-md-4">
     <a href="https://dl.acm.org/doi/10.1145/3712255.3734288">
       <img class="img-fluid mb-2" src="/img/llamea/llamea8-optics.png" alt="Optimizing Photonic Structures with Large Language Model Driven Algorithm Discovery"/>
     </a>
