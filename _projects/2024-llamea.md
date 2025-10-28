@@ -48,7 +48,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
 🏅 Winner of the [GECCO 2024 Any-Time Performance for Affine BBOB competition](https://gecco-2024.sigevo.org/Competition-Awards.html#Anytime_Algorithms_for_Many-affine_BBOB_Functions)
 
 ## Related papers
-### Methodology
+<h3 style="clear:both">Methodology</h3>
 <div class="grid__wrapper">
 
   <div class="grid__item">
@@ -123,7 +123,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
 
 </div>
 
-### Benchmarking and Analysis
+<h3 style="clear:both">Benchmarking and Analysis</h3>
 <div class="grid__wrapper">
 
   <div class="grid__item">
@@ -170,7 +170,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
 
 </div>
 
-### Real World Applications
+<h3 style="clear:both">Real World Applications</h3>
 <div class="grid__wrapper">
 
   <div class="grid__item">
