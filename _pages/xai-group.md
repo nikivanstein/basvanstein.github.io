@@ -17,10 +17,13 @@ people:
   - kitharidis
   - wagner
   - lamers
-  - long
   - antonov
-  - winter
   - zeiser
+  - baratov
+  - yin
+  - preitner
+  - shahane
+  - ye
 ---
 
 {% include base_path %}

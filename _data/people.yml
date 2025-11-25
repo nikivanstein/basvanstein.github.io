@@ -6,7 +6,7 @@ back:
     image: /img/people/back.jpg
 
 stein:
-    display_name: "Niki van Stein"
+    display_name: "dr. Niki van Stein"
     webpage: "https://nikivanstein.nl/"
     github: nikivanstein
     image: /img/people/stein.png
@@ -65,6 +65,12 @@ shahane:
     image: /img/people/shahane.jpg
     role: grad
     bio: "Scientific programmer"
+
+preintner:
+    display_name: "Tobias Preintner"
+    image: /img/people/preintner.jpg
+    webpage: https://www.universiteitleiden.nl/en/staffmembers/tobias-preintner#tab-1
+    role: grad
 
 long:
     display_name: "Fu-Xing Long"
