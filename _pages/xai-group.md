@@ -21,7 +21,7 @@ people:
   - zeiser
   - baratov
   - yin
-  - preitner
+  - preintner
   - shahane
   - ye
 ---
