@@ -5,6 +5,8 @@
 .masthead {
     position: relative;
     border-bottom: 1px solid $border-color;
+    background: linear-gradient(180deg, #ffffff 0%, #f3f6fb 100%);
+    box-shadow: 0 2px 12px rgba(15, 46, 82, 0.08);
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.15s;
@@ -13,7 +15,7 @@
     &__inner-wrap {
         @include container;
         @include clearfix;
-        padding: 1em 1em 1em;
+        padding: 0.8em 1em;
         font-family: $sans-serif-narrow;
         @include breakpoint($x-large) {
             max-width: $x-large;
@@ -22,7 +24,13 @@
             z-index: 10;
         }
         a {
+            color: $masthead-link-color;
             text-decoration: none;
+            font-weight: 500;
+
+            &:hover {
+                color: $masthead-link-color-hover;
+            }
         }
     }
 }
@@ -43,5 +51,6 @@
     &--lg {
         padding-right: 2em;
         font-weight: 700;
+        letter-spacing: 0.01em;
     }
 }
