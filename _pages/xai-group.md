@@ -5,8 +5,9 @@ excerpt: "The XAI research group"
 author_profile: true
 excerpt: ' '
 header:
-  overlay_image: "banner1.png"
+  overlay_color: "#eef3fb"
   og_image: "banner.png"
+  caption: "Research in explainable AI, optimization, and trustworthy machine learning"
 redirect_from: 
   - /projects.html
   - /projects/
@@ -19,10 +20,12 @@ people:
   - lamers
   - antonov
   - zeiser
+  - luo
+  - kovalchyk
+  - shahane
+  - preintner
   - baratov
   - yin
-  - preintner
-  - shahane
   - ye
 ---
 
