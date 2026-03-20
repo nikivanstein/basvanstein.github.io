@@ -129,8 +129,12 @@
     animation: intro 0.3s both;
     animation-delay: 0.25s;
 
+    background-color: #eef3fb;
+    border-top: 1px solid #d4deec;
+    border-bottom: 1px solid #d4deec;
+
     a {
-      color: #fff;
+      color: $link-color;
     }
 
     .wrapper {
@@ -146,8 +150,8 @@
     .page__meta,
     .page__lead,
     .btn {
-      color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      color: #1e2c3f;
+      text-shadow: none;
     }
 
     .page__lead {

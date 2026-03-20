@@ -5,8 +5,9 @@ excerpt: "XAI mission and vision"
 author_profile: true
 excerpt: ' '
 header:
-  overlay_image: "banner1.png"
+  overlay_color: "#eef3fb"
   og_image: "banner.png"
+  caption: "Research in explainable AI, optimization, and trustworthy machine learning"
 redirect_from: 
   - /about/
   - /about.html
