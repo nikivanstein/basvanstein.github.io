@@ -142,3 +142,13 @@ baratov:
     display_name: "Farrukh Baratov"
     image: /img/people/farrukh.jpg
     role: grad
+
+nieuwpoort:
+    display_name: "Rob van Nieuwpoort"
+    image: /img/people/nieuwpoort.jfif
+    role: collab
+
+verberne:
+    display_name: "Suzan Verberne"
+    image: /img/people/verberne.jpg
+    role: collab
