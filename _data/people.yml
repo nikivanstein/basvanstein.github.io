@@ -116,3 +116,31 @@ alum-ywang:
     image: /img/people/ywang.jpg
     webpage: https://www.linkedin.com/in/yali-wang-61305110b/
     role: alum
+
+
+luo:
+    display_name: "Jiahuizi Luo"
+    image: /img/people/luo.jpg
+    role: grad
+
+kovalchyk:
+    display_name: "Iryna Kovalchyk"
+    image: /img/people/kovalchyk.jpg
+    role: grad
+
+shahane:
+    display_name: "Ananta Shahane"
+    image: /img/people/shahane.jpg
+    role: grad
+    bio: "Scientific programmer"
+
+preintner:
+    display_name: "Tobias Preintner"
+    image: /img/people/preintner.jpg
+    webpage: https://www.universiteitleiden.nl/en/staffmembers/tobias-preintner#tab-1
+    role: grad
+
+baratov:
+    display_name: "Farrukh Baratov"
+    image: /img/people/farrukh.jpg
+    role: grad
