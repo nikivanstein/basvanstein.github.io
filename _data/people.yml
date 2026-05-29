@@ -138,6 +138,17 @@ preintner:
     image: /img/people/preintner.jpg
     role: grad
 
+
+bodas:
+    display_name: "Aditya Bodas"
+    image: /img/people/bodas.jpg
+    role: grad
+
+strizak:
+    display_name: "Jana Strizak"
+    image: /img/people/strizak.jpg
+    role: grad
+
 baratov:
     display_name: "Farrukh Baratov"
     image: /img/people/farrukh.jpg
