@@ -138,6 +138,10 @@ preintner:
     image: /img/people/preintner.jpg
     role: grad
 
+wong:
+    display_name: "Annie Wong"
+    image: /img/people/wong.jpg
+    role: grad
 
 bodas:
     display_name: "Aditya Bodas"
