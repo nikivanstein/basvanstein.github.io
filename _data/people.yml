@@ -48,7 +48,7 @@ antonov:
 ye:
     display_name: "Furong Ye"
     image: /img/people/ye.jpg
-    role: postdoc
+    role: alum
 
 baratov:
     display_name: "Farrukh Baratov"
@@ -77,10 +77,19 @@ long:
     image: /img/people/long.jpg
     role: grad
 
+li:
+    display_name: "Suju Li"
+    image: /img/people/li.jpg
+    role: grad
+
+mayayo:
+    display_name: "Santiago Garcia Mayayo"
+    role: grad
+
 winter:
     display_name: "Roy de Winter"
     image: /img/people/winter.jpg
-    role: grad
+    role: alum
 
 zeiser:
     display_name: "Alexander Zeiser"
@@ -136,6 +145,11 @@ shahane:
 preintner:
     display_name: "Tobias Preintner"
     image: /img/people/preintner.jpg
+    role: grad
+
+sahrani:
+    display_name: "Amir Sahrani"
+    image: /img/people/sahrani.jpg
     role: grad
 
 wong:

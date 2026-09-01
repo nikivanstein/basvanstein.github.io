@@ -26,7 +26,12 @@ people:
   - preintner
   - baratov
   - yin
-  - ye
+  - wong
+  - li
+  - mayayo
+  - bodas
+  - tamponi
+  - sahrani
 ---
 
 {% include base_path %}

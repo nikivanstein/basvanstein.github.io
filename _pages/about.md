@@ -26,7 +26,12 @@ people:
   - preintner
   - baratov
   - yin
-  - ye
+  - wong
+  - li
+  - mayayo
+  - bodas
+  - tamponi
+  - sahrani
 ---
 
 The Explainable AI (XAI) group at LIACS studies intelligent systems in complex, partially known and fully opaque environments. Across predictive maintenance, black-box optimisation, multi-objective modelling, automated algorithm design and generative AI, we focus on one central goal: making complex systems understandable and reliable enough to trust.
