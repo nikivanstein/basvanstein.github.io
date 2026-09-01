@@ -157,6 +157,11 @@ wong:
     image: /img/people/wong.jpg
     role: grad
 
+tamponi:
+    display_name: "Roberta Tamponi"
+    image: /img/people/tamponi.png
+    role: grad
+
 bodas:
     display_name: "Aditya Bodas"
     image: /img/people/bodas.jpg
