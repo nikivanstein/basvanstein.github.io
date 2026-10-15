@@ -15,6 +15,8 @@ author_profile: true
 
 {% include base_path %}
 
+{% include featured-book.html %}
+
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}

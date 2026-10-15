@@ -39,6 +39,8 @@ The Explainable AI (XAI) group at LIACS studies intelligent systems in complex, 
 ![Banner](/images/llmec.png){:width="100%"}
 *Researching the intersection of Evolutionary Computation, XAI, and Automated Algorithm Design.*
 
+{% include featured-book.html %}
+
 ## Our mission
 
 In the fast-paced world of advanced technology, where complex algorithms and models make decisions that affect our lives on a daily basis, it is imperative to understand and trust the reasoning behind these automated systems.
