@@ -1,6 +1,8 @@
 ---
 title: "TeVAE: a variational autoencoder aproach for discrete online anomaly detection in variable-state multivariate time-series data"
 collection: publications
+selected: true
+topic: APPLIED
 permalink: /publication/2025-03-26-TeVAE-a-variational-autoencoder-aproach-for-discrete-online-anomaly-detection-in-variable-state-multivariate-time-series-data
 date: 2025-03-26
 venue: 'Studies in Computational Intelligence'

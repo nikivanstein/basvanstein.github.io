@@ -1,6 +1,8 @@
 ---
 title: "Llamea: A large language model evolutionary algorithm for automatically generating metaheuristics"
 collection: publications
+selected: true
+topic: AAD
 permalink: /publication/2024-11-13-Llamea-A-large-language-model-evolutionary-algorithm-for-automatically-generating-metaheuristics
 date: 2024-11-13
 venue: 'IEEE Transactions on Evolutionary Computation'

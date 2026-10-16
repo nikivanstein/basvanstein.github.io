@@ -1,6 +1,8 @@
 ---
 title: "Evolutionary computation and explainable AI: A roadmap to understandable intelligent systems"
 collection: publications
+selected: true
+topic: XAI
 permalink: /publication/2024-10-23-Evolutionary-computation-and-explainable-AI-A-roadmap-to-understandable-intelligent-systems
 date: 2024-10-23
 venue: 'IEEE Transactions on Evolutionary Computation'

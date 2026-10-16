@@ -1,0 +1,11 @@
+# Featured book, shown on the homepage and the publications page.
+title: "Agentic Large Language Models"
+authors: "Max van Duijn, Michiel van der Meer, Aske Plaat, Niki van Stein"
+publisher: "Springer"
+year: 2026
+status: "Coming soon"
+cover: "/images/agentic-llms-book-cover.png"
+blurb: "Large language models that reason, act in the world and interact with each other. The book explains how agentic LLMs work, how they act and collaborate, and what that means for the people who use them."
+note: "The book is not yet released. Pre-order or follow it on the publisher's website."
+url: "https://link.springer.com/book/9789819256587"
+preprint: "https://arxiv.org/abs/2610.13455"

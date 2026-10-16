@@ -6,6 +6,7 @@ permalink: /talks/2026-09-28-keynote-automl
 venue: "AutoML Conference 2026"
 date: 2026-09-28
 location: "Ljubljana, Slovenia"
+image: "talks/2026-09-28-automl-keynote.jpg"
 ---
 
 Keynote speaker at [AutoML 2026](https://2026.automl.cc/), held September 28 – October 1, 2026 in Ljubljana, Slovenia.

@@ -1,0 +1,44 @@
+{% include base_path %}
+{%- if page.x_brand == "group" -%}
+  {%- assign brand_name = "XAI group" -%}
+  {%- assign brand_url = "/xai-group/" -%}
+  {%- assign brand_suffix = "/ LIACS" -%}
+{%- else -%}
+  {%- assign brand_name = site.author.name -%}
+  {%- assign brand_url = "/" -%}
+  {%- assign brand_suffix = nil -%}
+{%- endif -%}
+{%- assign nav = page.x_nav | default: site.data.navigation.main -%}
+<a class="x-skip" href="#x-content">Skip to content</a>
+<header class="x-header x-scope" data-x-header>
+  <div class="x-header__inner">
+    <a class="x-header__brand" href="{{ base_path }}{{ brand_url }}">
+      <img class="x-only-light" src="{{ base_path }}/images/brand/xai-mark.png" alt="">
+      <img class="x-only-dark" src="{{ base_path }}/images/brand/xai-mark-reverse.png" alt="">
+      <span>{{ brand_name }}</span>
+      {% if brand_suffix %}<span class="x-header__suffix">{{ brand_suffix }}</span>{% endif %}
+    </a>
+    <nav class="x-header__nav" id="x-nav" aria-label="Main">
+      {%- for link in nav -%}
+        {%- assign c0 = link.url | slice: 0 -%}
+        {%- if link.url contains "://" or c0 == "#" -%}
+          {%- assign href = link.url -%}
+        {%- else -%}
+          {%- assign href = base_path | append: link.url -%}
+        {%- endif -%}
+        {%- assign current = false -%}
+        {%- if c0 == "/" and link.url != "/" and page.url contains link.url -%}{%- assign current = true -%}{%- endif -%}
+        <a href="{{ href }}"{% if current %} aria-current="page"{% endif %}>{{ link.title }}</a>
+      {%- endfor -%}
+    </nav>
+    <div class="x-header__tools">
+      <button class="x-icon-btn" type="button" data-x-theme-toggle aria-label="Switch colour theme" title="Switch colour theme">
+        <span class="x-only-light">{% include xai/icon.html name="moon" %}</span>
+        <span class="x-only-dark">{% include xai/icon.html name="sun" %}</span>
+      </button>
+      <button class="x-icon-btn x-menu-btn" type="button" data-x-menu-toggle aria-controls="x-nav" aria-expanded="false" aria-label="Open menu">
+        {% include xai/icon.html name="menu" %}
+      </button>
+    </div>
+  </div>
+</header>

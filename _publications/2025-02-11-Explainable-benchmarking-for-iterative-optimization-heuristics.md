@@ -1,6 +1,8 @@
 ---
 title: "Explainable benchmarking for iterative optimization heuristics"
 collection: publications
+selected: true
+topic: XAI
 permalink: /publication/2025-02-11-Explainable-benchmarking-for-iterative-optimization-heuristics
 redirect_from:
   - /publication/2024-01-01-Explainable-Benchmarking-for-Iterative-Optimization-Heuristics

@@ -1,0 +1,16 @@
+# Research lines on the homepage ("What I work on").
+- title: "Explainable optimisation"
+  icon: activity
+  text: "Why does an optimiser behave the way it does? Structural bias, explainable benchmarking and landscape features."
+  keywords: "BIAS · Deep-BIAS · DoE2Vec"
+  url: /publications/
+- title: "Automated algorithm design"
+  icon: cpu
+  text: "Large language models that write, evolve and explain optimisation algorithms."
+  keywords: "LLaMEA · LLaMEA-BO · BLADE"
+  url: /projects/llamea
+- title: "XAI in the real world"
+  icon: git-compare
+  text: "Predictive maintenance, anomaly detection and engineering design with industry partners."
+  keywords: "XAIPre · CIMPLO · GenAIDE · FIND"
+  url: /xai-group/#projects

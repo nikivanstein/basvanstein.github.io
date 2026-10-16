@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{%- assign hero = page.hero -%}
+<main class="x-scope x-home">
+
+  <section class="x-hero x-grid-bg">
+    <div class="x-hero__glow" aria-hidden="true"></div>
+    <div class="x-hero__inner">
+      <div class="x-hero__text">
+        <div class="x-eyebrow x-hero__eyebrow"><i class="x-dot x-dot--key" aria-hidden="true"></i>{{ hero.eyebrow }}</div>
+        <h1 class="x-hero__name">{{ hero.title }}</h1>
+        <p class="x-hero__lead">{{ hero.lead }}</p>
+        <div class="x-hero__actions">
+          <a class="x-btn x-btn--primary" href="{{ base_path }}/xai-group/">Meet the XAI group <span aria-hidden="true">→</span></a>
+          <a class="x-btn x-btn--ghost" href="{{ base_path }}/publications/">Publications</a>
+          <a class="x-btn x-btn--ghost x-btn--icon" href="https://github.com/{{ site.author.github }}" aria-label="GitHub">{% include xai/icon.html name="github" %}</a>
+          <a class="x-btn x-btn--ghost x-btn--icon" href="{{ site.author.googlescholar }}" aria-label="Google Scholar">{% include xai/icon.html name="scholar" %}</a>
+        </div>
+      </div>
+      <figure class="x-portrait x-card">
+        <img class="x-gray" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Portrait of {{ site.author.name }}">
+        <figcaption>
+          {%- for row in hero.facts -%}
+          <div><span>{{ row.label }}</span><span>{{ row.value }}</span></div>
+          {%- endfor -%}
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  {% include xai/book.html %}
+
+  <section class="x-section" id="research" aria-labelledby="research-title">
+    <div class="x-section__inner">
+      <div class="x-section__head">
+        <div>
+          <div class="x-eyebrow">Research</div>
+          <h2 class="x-section__title" id="research-title">What I work on</h2>
+        </div>
+      </div>
+      <div class="x-cards">
+        {%- for line in site.data.research -%}
+        <a class="x-card x-card--link x-research" href="{% if line.url contains '://' %}{{ line.url }}{% else %}{{ base_path }}{{ line.url }}{% endif %}">
+          <span class="x-research__icon" aria-hidden="true">{% include xai/icon.html name=line.icon %}</span>
+          <h3>{{ line.title }}</h3>
+          <p>{{ line.text }}</p>
+          <span class="x-research__keys">{{ line.keywords }}</span>
+        </a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  {% include xai/llamea.html %}
+
+  {% include xai/talks-timeline.html %}
+
+  {% include xai/selected-papers.html %}
+
+  <section class="x-section" aria-label="Blog and teaching">
+    <div class="x-section__inner x-split">
+      <div class="x-split__main" id="blog">
+        <div class="x-split__head">
+          <div class="x-eyebrow">From the blog</div>
+          <a class="x-section__more" href="{{ base_path }}/year-archive/">All posts →</a>
+        </div>
+        <div class="x-rows">
+          {%- for post in site.posts limit: 4 -%}
+          <a class="x-rows__item" href="{{ base_path }}{{ post.url }}">
+            <span class="x-rows__date">{{ post.date | date: "%b %Y" | upcase }}</span>
+            <span class="x-rows__title">{{ post.title }}</span>
+          </a>
+          {%- endfor -%}
+        </div>
+      </div>
+      <div class="x-split__side" id="teaching">
+        <div class="x-split__head">
+          <div class="x-eyebrow">Teaching</div>
+          <a class="x-section__more" href="{{ base_path }}/teaching/">All courses →</a>
+        </div>
+        <div class="x-teach">
+          {%- assign courses = site.teaching | sort: "date" | reverse -%}
+          {%- for c in courses limit: 4 -%}
+          <a class="x-card x-card--link x-teach__item" href="{{ base_path }}{{ c.url }}">
+            <span class="x-teach__meta">{{ c.date | date: "%Y" }} · {{ c.venue | split: "," | first }}</span>
+            <span class="x-teach__title">{{ c.title }}</span>
+          </a>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ content }}
+</main>

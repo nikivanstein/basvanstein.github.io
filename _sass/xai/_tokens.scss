@@ -1,0 +1,131 @@
+/* ==========================================================================
+   XAI design system — tokens
+   Light = "plot paper" (white, navy, logo green). Dark = "lab" (ink, signal
+   green, ion cyan). Every component reads these custom properties, so the
+   theme switch only flips `data-theme` on <html>.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/Geist-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/GeistMono-Variable.woff2") format("woff2");
+}
+
+:root {
+  --x-font-sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --x-font-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --x-ease: cubic-bezier(.2, 0, 0, 1);
+  --x-container: 1200px;
+
+  --x-bg: #FFFFFF;
+  --x-bg-2: #F7F8FA;
+  --x-tint: #F4F5F9;
+  --x-surface: #FFFFFF;
+  --x-line: #E2E4EB;
+  --x-line-2: #CBCED9;
+  --x-text: #2A2E45;
+  --x-strong: #001158;
+  --x-muted: #5A5F76;
+  --x-faint: #A2A6B6;
+  --x-eyebrow: #3E7536;
+  --x-btn: #001158;
+  --x-btn-hover: #14246B;
+  --x-on-btn: #FFFFFF;
+  --x-ghost-line: #001158;
+  --x-grid: rgba(0, 17, 88, .06);
+  --x-dots: rgba(0, 17, 88, .14);
+  --x-head: rgba(255, 255, 255, .86);
+  --x-chip: #E8EAF2;
+  --x-chip-fg: #001158;
+  --x-live: #5A9B50;
+  --x-alt: #001158;
+  --x-glow: rgba(124, 224, 106, 0);
+  --x-link: #2B3B80;
+  --x-link-hover: #3E7536;
+  --x-lift: 0 2px 4px rgba(0, 17, 88, .05), 0 8px 24px rgba(0, 17, 88, .08);
+  --x-row-hover: #F7F8FA;
+  --x-tab-on: #001158;
+  --x-tab-on-fg: #FFFFFF;
+  --x-xai-bg: #E8EAF2;
+  --x-xai-fg: #001158;
+  --x-aad-bg: #EBF4EA;
+  --x-aad-fg: #2F5A29;
+  --x-app-bg: #F8EAE2;
+  --x-app-fg: #9A3800;
+  --x-accent: #BE4500;
+  --x-term: #0A0F26;
+  --x-term-band: #F4F5F9;
+  --x-focus: 0 0 0 3px rgba(90, 155, 80, .35);
+  --x-v1: #001158;
+  --x-v1-bg: rgba(0, 17, 88, .06);
+  --x-v2: #3E7536;
+  --x-v2-fg: #2F5A29;
+  --x-v2-bg: rgba(90, 155, 80, .08);
+  --x-v3: #BE4500;
+  --x-v3-fg: #9A3800;
+  --x-v3-bg: rgba(190, 69, 0, .05);
+  --x-img-filter: grayscale(1) contrast(1.02);
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  --x-bg: #050819;
+  --x-bg-2: #0A0F26;
+  --x-tint: #0A0F26;
+  --x-surface: rgba(255, 255, 255, .03);
+  --x-line: rgba(180, 186, 214, .12);
+  --x-line-2: rgba(180, 186, 214, .24);
+  --x-text: #B4BAD6;
+  --x-strong: #F4F6FC;
+  --x-muted: #8890B5;
+  --x-faint: #36406B;
+  --x-eyebrow: #7CE06A;
+  --x-btn: #7CE06A;
+  --x-btn-hover: #9BEA8C;
+  --x-on-btn: #050819;
+  --x-ghost-line: rgba(180, 186, 214, .24);
+  --x-grid: rgba(180, 186, 214, .06);
+  --x-dots: rgba(180, 186, 214, .16);
+  --x-head: rgba(5, 8, 25, .72);
+  --x-chip: #151C3D;
+  --x-chip-fg: #F4F6FC;
+  --x-live: #7CE06A;
+  --x-alt: #5BC8F5;
+  --x-glow: rgba(124, 224, 106, .14);
+  --x-link: #F4F6FC;
+  --x-link-hover: #9BEA8C;
+  --x-lift: 0 20px 48px rgba(0, 0, 0, .45), 0 0 48px rgba(124, 224, 106, .08);
+  --x-row-hover: rgba(255, 255, 255, .03);
+  --x-tab-on: #7CE06A;
+  --x-tab-on-fg: #050819;
+  --x-xai-bg: rgba(91, 200, 245, .12);
+  --x-xai-fg: #8AD9F8;
+  --x-aad-bg: rgba(124, 224, 106, .12);
+  --x-aad-fg: #9BEA8C;
+  --x-app-bg: rgba(224, 123, 63, .14);
+  --x-app-fg: #E07B3F;
+  --x-accent: #E07B3F;
+  --x-term: #02040F;
+  --x-term-band: #0A0F26;
+  --x-focus: 0 0 0 3px rgba(124, 224, 106, .4);
+  --x-v1: #5BC8F5;
+  --x-v1-bg: rgba(91, 200, 245, .06);
+  --x-v2: #7CE06A;
+  --x-v2-fg: #9BEA8C;
+  --x-v2-bg: rgba(124, 224, 106, .07);
+  --x-v3: #E07B3F;
+  --x-v3-fg: #E07B3F;
+  --x-v3-bg: rgba(224, 123, 63, .06);
+  --x-img-filter: grayscale(1) brightness(.8);
+  color-scheme: dark;
+}

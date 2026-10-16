@@ -1,6 +1,8 @@
 ---
 title: "BLADE: Benchmark suite for LLM-driven Automated Design and Evolution of iterative optimisation heuristics"
 collection: publications
+selected: true
+topic: AAD
 permalink: /publication/2025-07-14-BLADE-Benchmark-suite-for-LLM-driven-Automated-Design-and-Evolution-of-iterative-optimisation-heuristics
 date: 2025-07-14
 venue: 'Proceedings of the Genetic and Evolutionary Computation Conference Companion'

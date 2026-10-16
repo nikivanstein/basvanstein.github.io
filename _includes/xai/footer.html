@@ -1,0 +1,44 @@
+{% include base_path %}
+{%- assign links = page.x_footer_links | default: site.data.navigation.footer -%}
+<footer class="x-footer x-scope">
+  <div class="x-footer__inner">
+    <div class="x-footer__brand">
+      <img class="x-only-light" src="{{ base_path }}/images/brand/xai-logo.png" alt="XAI group, LIACS Leiden University">
+      <img class="x-only-dark" src="{{ base_path }}/images/brand/xai-logo-white.png" alt="XAI group, LIACS Leiden University">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ page.x_footer_owner | default: site.author.name }}</span>
+    </div>
+    <ul class="x-footer__links">
+      {%- for link in links -%}
+        <li><a href="{% if link.url contains '://' or link.url contains 'mailto:' %}{{ link.url }}{% else %}{{ base_path }}{{ link.url }}{% endif %}">{{ link.title }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</footer>
+<script>
+  (function () {
+    var root = document.documentElement;
+    document.querySelectorAll('[data-x-theme-toggle]').forEach(function (btn) {
+      var sync = function () {
+        var dark = root.getAttribute('data-theme') === 'dark';
+        btn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+        btn.setAttribute('title', dark ? 'Switch to light theme' : 'Switch to dark theme');
+      };
+      sync();
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        sync();
+      });
+    });
+    var header = document.querySelector('[data-x-header]');
+    var menu = document.querySelector('[data-x-menu-toggle]');
+    if (header && menu) {
+      menu.addEventListener('click', function () {
+        var open = header.classList.toggle('is-open');
+        menu.setAttribute('aria-expanded', open ? 'true' : 'false');
+        menu.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+    }
+  })();
+</script>

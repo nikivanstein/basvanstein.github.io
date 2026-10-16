@@ -1,0 +1,55 @@
+{% include base_path %}
+{%- assign selected = site.publications | where: "selected", true | sort: "date" | reverse -%}
+<section class="x-section x-section--dots" id="publications" aria-labelledby="papers-title">
+  <div class="x-section__inner">
+    <div class="x-section__head">
+      <div>
+        <div class="x-eyebrow">Publications</div>
+        <h2 class="x-section__title" id="papers-title">Selected papers</h2>
+      </div>
+      <div class="x-tabs" role="group" aria-label="Filter by topic" data-x-filter>
+        <button type="button" class="x-tab is-on" aria-pressed="true" data-topic="ALL">ALL</button>
+        <button type="button" class="x-tab" aria-pressed="false" data-topic="XAI">XAI</button>
+        <button type="button" class="x-tab" aria-pressed="false" data-topic="AAD">AAD</button>
+        <button type="button" class="x-tab" aria-pressed="false" data-topic="APPLIED">APPLIED</button>
+      </div>
+    </div>
+    <div class="x-list x-card">
+      {%- for p in selected -%}
+      <a class="x-list__row{% if forloop.index > 6 %} is-extra{% endif %}" href="{{ base_path }}{{ p.url }}" data-topic="{{ p.topic }}">
+        <span class="x-list__year">{{ p.date | date: "%Y" }}</span>
+        <span class="x-list__main">
+          <span class="x-list__title">{{ p.title }}</span>
+          <span class="x-list__venue">{{ p.venue }}</span>
+        </span>
+        <span class="x-tag x-tag--{{ p.topic | downcase }}">{{ p.topic }}</span>
+      </a>
+      {%- endfor -%}
+      <a class="x-list__more" href="{{ base_path }}/publications/">All {{ site.publications.size }} publications →</a>
+    </div>
+  </div>
+</section>
+<script>
+  (function () {
+    var group = document.querySelector('[data-x-filter]');
+    if (!group) return;
+    var rows = document.querySelectorAll('.x-list__row[data-topic]');
+    group.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-topic]');
+      if (!btn) return;
+      var topic = btn.getAttribute('data-topic');
+      group.querySelectorAll('[data-topic]').forEach(function (b) {
+        var on = b === btn;
+        b.classList.toggle('is-on', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      var count = 0;
+      rows.forEach(function (row) {
+        var show = topic === 'ALL' ? count < 6 : row.getAttribute('data-topic') === topic;
+        if (topic === 'ALL' && show) count++;
+        row.hidden = !show;
+        row.classList.remove('is-extra');
+      });
+    });
+  })();
+</script>

@@ -2,6 +2,7 @@
 title: "CIMPLO"
 excerpt: "Cross-Industry Predictive Maintenance Optimization Platform"
 collection: projects
+year: 2018
 permalink: /projects/cimplo
 header:
   teaser: "cimplo.png"
