@@ -126,27 +126,206 @@ body.x-body {
   margin-bottom: 16px;
 }
 
-/* Sidebar author profile */
+/* Sidebar author profile (publications, talks, teaching lists and project
+   pages): the same card as the portrait on the homepage. */
 .sidebar {
-  color: var(--x-muted);
+  opacity: 1;
 
-  .author__avatar img {
-    border-radius: 6px;
-    border-color: var(--x-line);
-    background: var(--x-surface);
+  &:hover { opacity: 1; }
+}
+
+.x-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 14px;
+
+  &__card {
+    padding: 12px;
+    box-shadow: var(--x-lift);
   }
 
-  .author__name { color: var(--x-strong); font-family: var(--x-font-sans); }
-  .author__bio { color: var(--x-muted); }
+  &__photo {
+    display: block;
 
-  .author__urls {
-    background: var(--x-bg);
-    border-color: var(--x-line);
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 4px;
+    }
 
-    &::before, &::after { display: none; }
+    &:hover img { filter: none; }
+  }
 
-    a { color: var(--x-text); }
-    a:hover { color: var(--x-link-hover); }
+  &__head {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px 4px 10px;
+  }
+
+  &__name {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.015em;
+    line-height: 1.25;
+
+    &, .x-scope & { color: var(--x-strong); }
+  }
+
+  .x-scope &__bio {
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--x-muted);
+  }
+
+  &__facts {
+    margin: 0;
+    padding: 0 4px 2px;
+    font-family: var(--x-font-mono);
+    font-size: 11px;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 7px 0;
+      border-top: 1px solid var(--x-line);
+    }
+
+    dt {
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--x-muted);
+    }
+
+    dd {
+      margin: 0;
+      text-align: right;
+      color: var(--x-strong);
+    }
+  }
+
+  &__toggle { display: none; }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0 0 14px;
+      padding: 0;
+      border-top: 1px solid var(--x-line);
+    }
+
+    li { margin: 0; }
+
+    ul a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 4px;
+      border-bottom: 1px solid var(--x-line);
+      font-size: 14px;
+      transition: background 120ms var(--x-ease);
+
+      &, .x-scope & { color: var(--x-text); }
+
+      &:hover {
+        background: var(--x-row-hover);
+        color: var(--x-strong);
+
+        i { color: var(--x-live); }
+      }
+
+      i {
+        width: 16px;
+        text-align: center;
+        color: var(--x-muted);
+        transition: color 120ms var(--x-ease);
+      }
+
+      span { flex: 1 1 auto; }
+
+      em {
+        font-style: normal;
+        font-family: var(--x-font-mono);
+        font-size: 11px;
+        color: var(--x-faint);
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    .x-icon-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      font-size: 15px;
+      line-height: 1;
+
+      &, .x-scope & { color: var(--x-muted); }
+      &:hover { color: var(--x-strong); }
+
+      i { margin: 0; line-height: 1; }
+    }
+  }
+}
+
+/* Neutralise the theme's pop-over styles for the links block */
+.x-profile .author__urls-wrapper {
+  display: block;
+  z-index: auto;
+  cursor: auto;
+}
+
+.x-profile .author__urls {
+  position: static;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  z-index: auto;
+
+  &::before, &::after { display: none; }
+  li { white-space: normal; }
+}
+
+/* Small screens: the theme shows a button that opens the links */
+@media (max-width: 1023px) {
+  .x-profile {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+
+    &__card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 10px;
+      flex: 1 1 280px;
+    }
+
+    &__photo img { width: 72px; }
+    &__head { padding: 0; }
+    &__facts { display: none; }
+    &__toggle { display: inline-flex; }
+    &__links-wrap { flex: 1 1 100%; }
+    &__links-wrap .x-profile__links { padding-top: 14px; }
   }
 }
 
