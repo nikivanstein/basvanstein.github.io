@@ -2,7 +2,7 @@
 title: "XAI for Benchmarking Black-Box Metaheuristics"
 collection: publications
 permalink: /publication/2025-01-01-XAI-for-Benchmarking-Black-Box-Metaheuristics
-date: 2025-01-01
+date: 2025-05-03
 venue: 'Explainable AI for Evolutionary Computation'
 citation: ' Anna Kononova,  Diederick Vermetten,  Niki Stein, &quot;XAI for Benchmarking Black-Box Metaheuristics.&quot; Explainable AI for Evolutionary Computation, 2025.'
 ---

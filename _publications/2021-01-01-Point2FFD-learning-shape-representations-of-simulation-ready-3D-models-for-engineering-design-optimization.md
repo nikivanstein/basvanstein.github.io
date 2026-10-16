@@ -2,7 +2,7 @@
 title: "Point2FFD: learning shape representations of simulation-ready 3D models for engineering design optimization"
 collection: publications
 permalink: /publication/2021-01-01-Point2FFD-learning-shape-representations-of-simulation-ready-3D-models-for-engineering-design-optimization
-date: 2021-01-01
+date: 2021-12-01
 venue: '2021 International Conference on 3D Vision (3DV)'
 citation: ' Thiago Rios,  Bas Van,  Thomas B{\&quot;a}ck,  Bernhard Sendhoff,  Stefan Menzel, &quot;Point2FFD: learning shape representations of simulation-ready 3D models for engineering design optimization.&quot; 2021 International Conference on 3D Vision (3DV), 2021.'
 ---

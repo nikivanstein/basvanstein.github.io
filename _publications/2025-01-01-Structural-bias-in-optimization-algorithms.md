@@ -2,7 +2,7 @@
 title: "Structural bias in optimization algorithms"
 collection: publications
 permalink: /publication/2025-01-01-Structural-bias-in-optimization-algorithms
-date: 2025-01-01
+date: 2025-07-14
 venue: 'Proceedings of the Genetic and Evolutionary Computation Conference Companion'
 citation: ' Anna Kononova,  Niki Stein, &quot;Structural bias in optimization algorithms.&quot; Proceedings of the Genetic and Evolutionary Computation Conference Companion, 2025.'
 ---

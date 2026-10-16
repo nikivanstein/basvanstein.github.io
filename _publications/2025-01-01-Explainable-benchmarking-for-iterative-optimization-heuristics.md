@@ -2,7 +2,7 @@
 title: "Explainable benchmarking for iterative optimization heuristics"
 collection: publications
 permalink: /publication/2025-01-01-Explainable-benchmarking-for-iterative-optimization-heuristics
-date: 2025-01-01
+date: 2025-02-11
 venue: 'ACM Transactions on Evolutionary Learning'
 citation: ' Niki Stein,  Diederick Vermetten,  Anna V.,  Thomas B{\&quot;a}ck, &quot;Explainable benchmarking for iterative optimization heuristics.&quot; ACM Transactions on Evolutionary Learning, 2025.'
 ---

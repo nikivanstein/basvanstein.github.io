@@ -1,9 +1,9 @@
 ---
-title: "Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications"
+title: "Large language models and evolutionary computation: A critical review of bidirectional interaction, automated algorithm design, and co-adaptive systems"
 collection: publications
 permalink: /publication/2025-01-01-Evolutionary-Computation-and-Large-Language-Models-A-Survey-of-Methods-Synergies-and-Applications
-date: 2025-01-01
-venue: 'arXiv preprint arXiv:2505.15741'
-citation: ' Dikshit Chauhan,  Bapi Dutta,  Indu Bala,  Niki Stein,  Thomas B{\&quot;a}ck,  Anupam Yadav, &quot;Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications.&quot; arXiv preprint arXiv:2505.15741, 2025.'
+date: 2027-02-01
+venue: 'Computer Science Review'
+citation: ' Dikshit Chauhan,  Bapi Dutta,  Indu Bala,  Niki van Stein,  Thomas Bäck,  Anupam Yadav, &quot;Large language models and evolutionary computation: A critical review of bidirectional interaction, automated algorithm design, and co-adaptive systems.&quot; Computer Science Review, 2027.'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Evolutionary+Computation+and+Large+Language+Models:+A+Survey+of+Methods,+Synergies,+and+Applications){:target="_blank"} for full citation
+Use [Google Scholar](https://scholar.google.com/scholar?q=Large+language+models+and+evolutionary+computation+A+critical+review+of+bidirectional+interaction+automated+algorithm+design+and+co+adaptive+systems){:target="_blank"} for full citation

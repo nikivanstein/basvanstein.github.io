@@ -2,7 +2,7 @@
 title: "Automated Federated Learning via Informed Pruning"
 collection: publications
 permalink: /publication/2024-01-01-Automated-Federated-Learning-via-Informed-Pruning
-date: 2024-01-01
+date: 2024-05-16
 venue: 'ArXiv, vol. abs/2405.10271'
 citation: ' Christian Intern{\`o},  Elena Raponi,  Niki Stein,  Thomas B{\&quot;a}ck,  Markus Olhofer,  Yaochu Jin,  Barbara Hammer, &quot;Automated Federated Learning via Informed Pruning.&quot; ArXiv, vol. abs/2405.10271, 2024.'
 ---

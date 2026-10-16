@@ -2,7 +2,7 @@
 title: "Explainable artificial intelligence for exhaust gas temperature of turbofan engines"
 collection: publications
 permalink: /publication/2022-01-01-Explainable-artificial-intelligence-for-exhaust-gas-temperature-of-turbofan-engines
-date: 2022-01-01
+date: 2022-06-01
 venue: 'Journal of Aerospace Information Systems'
 citation: ' Marios Kefalas,  Juan Santiago,  Asteris Apostolidis,  Dirk Van,  Bas Stein,  Thomas B{\&quot;a}ck, &quot;Explainable artificial intelligence for exhaust gas temperature of turbofan engines.&quot; Journal of Aerospace Information Systems, 2022.'
 ---

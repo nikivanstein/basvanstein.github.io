@@ -2,7 +2,7 @@
 title: "EconoJax: A Fast &amp; Scalable Economic Simulation in Jax"
 collection: publications
 permalink: /publication/2024-01-01-EconoJax-A-Fast-Scalable-Economic-Simulation-in-Jax
-date: 2024-01-01
+date: 2024-10-29
 venue: 'arXiv preprint arXiv:2410.22165'
 citation: ' Koen Ponse,  Aske Plaat,  Niki Stein,  Thomas Moerland, &quot;EconoJax: A Fast &amp;amp; Scalable Economic Simulation in Jax.&quot; arXiv preprint arXiv:2410.22165, 2024.'
 ---

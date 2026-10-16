@@ -2,7 +2,7 @@
 title: "Agentic large language models, a survey"
 collection: publications
 permalink: /publication/2025-01-01-Agentic-large-language-models-a-survey
-date: 2025-01-01
+date: 2025-12-30
 venue: 'Journal of Artificial Intelligence Research'
 citation: ' Aske Plaat,  Max Van Duijn,  Niki Van Stein,  Mike Preuss,  Peter Van der Putten,  Kees Joost Batenburg, &quot;Agentic large language models, a survey.&quot; Journal of Artificial Intelligence Research, 2025.'
 ---

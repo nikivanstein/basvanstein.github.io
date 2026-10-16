@@ -2,7 +2,7 @@
 title: "Evolving Executable Pipeline Programs for AutoML with Language Models"
 collection: publications
 permalink: /publication/2026-01-01-Evolving-Executable-Pipeline-Programs-for-AutoML-with-Language-Models
-date: 2026-01-01
+date: 2026-08-17
 venue: 'arXiv preprint arXiv:2608.16416'
 citation: ' Sofoklis Kitharidis,  Cor J Veenman,  Jan N van Rijn,  Thomas Bäck,  Niki van Stein, &quot;Evolving Executable Pipeline Programs for AutoML with Language Models.&quot; arXiv preprint arXiv:2608.16416, 2026.'
 ---

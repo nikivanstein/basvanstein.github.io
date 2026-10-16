@@ -2,7 +2,7 @@
 title: "EvoMO-SR: Multiobjective LLM-based Evolution of Symbolic Expressions with substructure guidance"
 collection: publications
 permalink: /publication/2026-01-01-EvoMO-SR-Multiobjective-LLM-based-Evolution-of-Symbolic-Expressions-with-substructure-guidance
-date: 2026-01-01
+date: 2026-09-28
 venue: 'arXiv preprint arXiv:2609.36187'
 citation: ' Cristina Rossetti,  Anna V Kononova,  Thomas Bäck,  Fei Liu,  Niki Van Stein, &quot;EvoMO-SR: Multiobjective LLM-based Evolution of Symbolic Expressions with substructure guidance.&quot; arXiv preprint arXiv:2609.36187, 2026.'
 ---

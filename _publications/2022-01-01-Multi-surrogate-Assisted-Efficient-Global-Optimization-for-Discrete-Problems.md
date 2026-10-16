@@ -2,7 +2,7 @@
 title: "Multi-surrogate Assisted Efficient Global Optimization for Discrete Problems"
 collection: publications
 permalink: /publication/2022-01-01-Multi-surrogate-Assisted-Efficient-Global-Optimization-for-Discrete-Problems
-date: 2022-01-01
+date: 2022-12-13
 venue: 'Preprint on arXiv preprint arXiv:2212.06438'
 citation: ' Qi Huang,  Roy Winter,  Bas Stein,  Thomas B{\&quot;a}ck,  Anna Kononova, &quot;Multi-surrogate Assisted Efficient Global Optimization for Discrete Problems.&quot; Preprint on arXiv preprint arXiv:2212.06438, 2022.'
 ---

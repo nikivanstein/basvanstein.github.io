@@ -2,7 +2,7 @@
 title: "Detecting and Repairing Hallucinations in Retrieval-Augmented Generation"
 collection: publications
 permalink: /publication/2026-01-01-Detecting-and-Repairing-Hallucinations-in-Retrieval-Augmented-Generation
-date: 2026-01-01
+date: 2026-08-29
 venue: 'arXiv preprint arXiv:2608.29307'
 citation: ' Sai Krishna Reddy Mulakkayala,  Niki van Stein,  Aske Plaat, &quot;Detecting and Repairing Hallucinations in Retrieval-Augmented Generation.&quot; arXiv preprint arXiv:2608.29307, 2026.'
 ---
