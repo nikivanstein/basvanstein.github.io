@@ -2,6 +2,8 @@
 title: "Pruning Federated Models through Loss Landscape Analysis and Client Agreement Scoring"
 collection: publications
 permalink: /publication/2024-01-01-Federated-Hybrid-Model-Pruning-through-Loss-Landscape-Exploration
+redirect_from:
+  - /publication/2024-01-01-Automated-Federated-Learning-via-Informed-Pruning
 date: 2026-07-15
 venue: 'IEEE Internet of Things Journal'
 citation: ' Christian Internò,  Elena Raponi,  Markus Olhofer,  Ali Raza,  Thomas Bäck,  Niki Van Stein,  Yaochu Jin,  Barbara Hammer, &quot;Pruning Federated Models through Loss Landscape Analysis and Client Agreement Scoring.&quot; IEEE Internet of Things Journal, 2026.'
