@@ -1,7 +1,22 @@
 ---
 title: 'Looking inside the model: mechanistic interpretability, and why LLaMEA needs it'
-date: 2026-10-16
-permalink: /posts/2026/10/mechanistic-interpretability/
+date: 2026-08-10
+permalink: /posts/2026/08/mechanistic-interpretability/
+redirect_from:
+  - /posts/2026/10/mechanistic-interpretability/
+related:
+  - title: "Every Component Is a Lookup (arXiv:2605.23393)"
+    url: https://arxiv.org/abs/2605.23393
+    kind: Paper
+  - title: "LLaMEA-SAGE (arXiv:2601.21511)"
+    url: https://arxiv.org/abs/2601.21511
+    kind: Paper
+  - title: "LLaMEA"
+    url: /projects/llamea
+    kind: Project
+  - title: "Agentic Large Language Models: book and course"
+    url: https://agenticllms.liacs.nl/
+    kind: Website
 excerpt: 'A plain-language tour of our paper "Every Component Is a Lookup", and why understanding how LLMs make design decisions matters for evolving code.'
 header:
   teaser: "teasers/mechanistic-interpretability.png"
@@ -63,6 +78,6 @@ That is exactly the kind of question mechanistic interpretability can help answe
 
 This builds on work we already do from the outside. In [LLaMEA-SAGE](https://arxiv.org/abs/2601.21511){:target="_blank"}, for example, we use explainable AI to give the LLM structural feedback about the algorithms it generates. Mechanistic interpretability lets us take the next step and also look at the generator itself.
 
-It is also why our new textbook, [*Agentic Large Language Models*](/posts/2026/10/agentic-llms-book/), has a chapter on mechanistic interpretability for LLM agents. When LLMs start to act and design on our behalf, understanding how they reach their decisions becomes more important, not less.
+It is also why our upcoming textbook, [*Agentic Large Language Models*](https://agenticllms.liacs.nl/){:target="_blank"}, has a chapter on mechanistic interpretability for LLM agents. When LLMs start to act and design on our behalf, understanding how they reach their decisions becomes more important, not less.
 
 **Paper:** Po-Kai Chen, Aske Plaat, Niki van Stein. *Every Component Is a Lookup: One Linear Graph for Interaction, Composition and Attribution.* [arXiv:2605.23393](https://arxiv.org/abs/2605.23393){:target="_blank"} ([publication page](/publication/2026-05-22-Every-Component-is-a-Lookup-Token-Attribution-and-Composition-from-a-Single-Decomposition)).

@@ -4,6 +4,7 @@ date: 2024-03-01
 permalink: /posts/2024/03/cimplo-commit2data/
 excerpt: 'A Journey Through Predictive Maintenance'
 header:
+  cover: "blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1.png"
   teaser: "cimplo.png"
   overlay_image: "blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1.png"
   og_image: "cimplo.png"

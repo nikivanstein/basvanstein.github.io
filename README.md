@@ -16,6 +16,10 @@ The homepage (`/`) and the group page (`/xai-group/`) use the XAI group design s
   - "What I work on": `_data/research.yml`
   - talks: the newest talks of the current year; add `image:` (a file under `images/`) or `youtube:` (a video id) to a talk to show a thumbnail
   - selected papers: publications with `selected: true` and `topic: XAI`, `AAD` or `APPLIED` in their front matter
+- Blog and detail pages: `_layouts/xai-blog.html` (blog overview with topic filters), `_layouts/xai-post.html` (blog posts) and `_layouts/xai-detail.html` (talks, publications and teaching). Optional front matter:
+  - `related:` a list of `title`, `url` and `kind` (for example Paper, Blog, Talk, Project), shown as related links next to the post or talk
+  - `header.cover:` the wide image at the top of a post (falls back to `header.teaser`)
+  - on talks, `youtube:` embeds the recording and `image:` shows a slide or photo
 - Group page content: front matter of `_pages/xai-group.md` (hero, mission/vision/culture, people, footer links); the full mission text is the page body. Projects come from `_projects/` and are placed on the timeline by their `year:` field.
 
 # Instructions

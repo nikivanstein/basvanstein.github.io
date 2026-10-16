@@ -2,6 +2,16 @@
 title: "Agentic Large Language Models"
 collection: publications
 permalink: /publication/2026-10-09-Agentic-Large-Language-Models
+related:
+  - title: "Book and course website"
+    url: https://agenticllms.liacs.nl/
+    kind: Website
+  - title: "Our new book: Agentic Large Language Models"
+    url: /posts/2026/10/agentic-llms-book/
+    kind: Blog
+  - title: "Master course: Agentic Large Language Models"
+    url: /teaching/2026-agentic-llms
+    kind: Course
 date: 2026-10-09
 venue: 'Springer (book, coming soon)'
 citation: ' Max van Duijn,  Michiel van der Meer,  Aske Plaat,  Niki van Stein, &quot;Agentic Large Language Models.&quot; Springer, 2026. Coming soon. arXiv preprint arXiv:2610.13455.'

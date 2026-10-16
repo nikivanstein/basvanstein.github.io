@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{%- assign posts = site.posts -%}
+{%- assign tags = "" | split: "" -%}
+{%- for t in site.tags -%}{%- assign tag_name = t[0] | downcase -%}{%- assign tags = tags | push: tag_name -%}{%- endfor -%}
+{%- assign tags = tags | uniq | sort -%}
+<main class="x-scope x-blog">
+
+  <section class="x-page-head x-grid-bg">
+    <div class="x-page-head__inner">
+      <div class="x-eyebrow">Blog · {{ posts.size }} posts</div>
+      <h1 class="x-page-head__title">{{ page.title | default: "Blog" }}</h1>
+      {%- if page.lead -%}<p class="x-page-head__lead">{{ page.lead }}</p>{%- endif -%}
+      <div class="x-chips" role="group" aria-label="Filter by topic" data-x-tag-filter>
+        <button type="button" class="x-chip is-on" aria-pressed="true" data-tag="">All</button>
+        {%- for t in tags -%}
+        <button type="button" class="x-chip" aria-pressed="false" data-tag="{{ t }}">{{ t }}</button>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  <section class="x-blog-list">
+    <div class="x-blog-list__inner">
+      {%- assign latest = posts.first -%}
+      {%- assign latest_img = latest.header.cover | default: latest.header.teaser -%}
+      <a class="x-card x-card--link x-feature" href="{{ base_path }}{{ latest.url }}" data-tags="{{ latest.tags | join: ' ' | downcase }}">
+        <span class="x-feature__media">
+          {%- if latest_img -%}<img class="x-gray" src="{{ base_path }}/images/{{ latest_img }}" alt="">{%- endif -%}
+        </span>
+        <span class="x-feature__body">
+          <span class="x-feature__meta"><span class="x-book__badge">Latest</span>{{ latest.date | date: "%d %b %Y" | upcase }} · {% include xai/read-time.html content=latest.content %}</span>
+          <span class="x-feature__title">{{ latest.title }}</span>
+          {%- if latest.excerpt -%}<span class="x-feature__excerpt">{{ latest.excerpt | strip_html | strip }}</span>{%- endif -%}
+          <span class="x-feature__more">Read the post →</span>
+        </span>
+      </a>
+
+      <div class="x-post-grid" data-x-post-grid>
+        {%- for p in posts offset: 1 -%}
+          {% include xai/post-card.html post=p excerpt=true %}
+        {%- endfor -%}
+      </div>
+      <p class="x-blog-list__empty" data-x-empty hidden>No posts with this topic yet.</p>
+    </div>
+  </section>
+
+  {{ content }}
+</main>
+<script>
+  (function () {
+    var group = document.querySelector('[data-x-tag-filter]');
+    if (!group) return;
+    var items = document.querySelectorAll('.x-blog [data-tags]');
+    var empty = document.querySelector('[data-x-empty]');
+    var apply = function (tag) {
+      var shown = 0;
+      group.querySelectorAll('[data-tag]').forEach(function (b) {
+        var on = b.getAttribute('data-tag') === tag;
+        b.classList.toggle('is-on', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      items.forEach(function (el) {
+        var show = !tag || (' ' + el.getAttribute('data-tags') + ' ').indexOf(' ' + tag + ' ') > -1;
+        el.hidden = !show;
+        if (show) shown++;
+      });
+      if (empty) empty.hidden = shown > 0;
+    };
+    group.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-tag]');
+      if (!btn) return;
+      var tag = btn.getAttribute('data-tag');
+      apply(tag);
+      var url = new URL(window.location.href);
+      if (tag) { url.searchParams.set('tag', tag); } else { url.searchParams.delete('tag'); }
+      history.replaceState(null, '', url);
+    });
+    var initial = new URLSearchParams(window.location.search).get('tag');
+    if (initial && group.querySelector('[data-tag="' + CSS.escape(initial) + '"]')) apply(initial);
+  })();
+</script>

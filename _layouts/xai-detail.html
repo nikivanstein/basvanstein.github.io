@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{%- case page.collection -%}
+  {%- when "talks" -%}
+    {%- assign back_url = "/talks/" -%}{%- assign back_label = "All talks" -%}{%- assign kind = page.type | default: "Talk" -%}{%- assign card_title = "Talk details" -%}
+  {%- when "publications" -%}
+    {%- assign back_url = "/publications/" -%}{%- assign back_label = "All publications" -%}{%- assign kind = "Publication" -%}{%- assign card_title = "Publication details" -%}
+  {%- when "teaching" -%}
+    {%- assign back_url = "/teaching/" -%}{%- assign back_label = "All courses" -%}{%- assign kind = page.type | default: "Course" -%}{%- assign card_title = "Course details" -%}
+  {%- else -%}
+    {%- assign back_url = "/" -%}{%- assign back_label = "Home" -%}{%- assign kind = page.type | default: "Page" -%}{%- assign card_title = "Details" -%}
+{%- endcase -%}
+<main class="x-scope x-detail">
+
+  <header class="x-detail-head">
+    <a class="x-crumbs x-crumbs--back" href="{{ base_path }}{{ back_url }}">← {{ back_label }}</a>
+    <div class="x-detail-head__row">
+      {%- if page.date -%}
+      <div class="x-dateblock" aria-hidden="true">
+        {%- if page.collection == "teaching" -%}
+          <span class="x-dateblock__month">COURSE</span>
+          <span class="x-dateblock__day x-dateblock__day--year">{{ page.date | date: "%Y" }}</span>
+        {%- else -%}
+          <span class="x-dateblock__month">{{ page.date | date: "%b" | upcase }}</span>
+          <span class="x-dateblock__day">{{ page.date | date: "%-d" }}</span>
+          <span class="x-dateblock__year">{{ page.date | date: "%Y" }}</span>
+        {%- endif -%}
+      </div>
+      {%- endif -%}
+      <div class="x-detail-head__text">
+        <div class="x-detail-head__meta">
+          <span class="x-badge x-badge--{% if kind contains 'eynote' %}key{% else %}talk{% endif %}">{{ kind | upcase }}</span>
+          <span>{{ page.venue }}{% if page.location %} · {{ page.location }}{% endif %}</span>
+        </div>
+        <h1 class="x-detail-head__title">{{ page.title }}</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="x-detail-body">
+    <div class="x-detail-main">
+      {%- if page.youtube -%}
+      <div class="x-media">
+        <iframe src="https://www.youtube-nocookie.com/embed/{{ page.youtube }}" title="{{ page.title | escape }}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      {%- elsif page.image -%}
+      <figure class="x-media x-media--image">
+        <img src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ base_path }}/images/{{ page.image }}{% endif %}" alt="{{ page.image_alt | default: '' }}">
+      </figure>
+      {%- endif -%}
+
+      <div class="x-prose" data-x-article>
+        {{ content }}
+      </div>
+
+      {%- if page.citation -%}
+      <div class="x-cite x-card">
+        <div class="x-cite__head"><span class="x-rail__label">Recommended citation</span><button type="button" class="x-share__copy" data-x-copy="{{ page.citation | strip_html | replace: '&quot;', '"' | strip | escape }}">Copy</button></div>
+        <p class="x-cite__text">{{ page.citation }}</p>
+      </div>
+      {%- endif -%}
+    </div>
+
+    <aside class="x-detail-aside">
+      <div class="x-facts x-card">
+        <div class="x-facts__head x-rail__label">{{ card_title }}</div>
+        <dl class="x-facts__list">
+          <div><dt>Type</dt><dd>{{ kind }}</dd></div>
+          {%- if page.date -%}<div><dt>Date</dt><dd>{% if page.collection == "teaching" %}{{ page.date | date: "%Y" }}{% else %}{{ page.date | date: "%-d %B %Y" }}{% endif %}</dd></div>{%- endif -%}
+          {%- if page.venue -%}<div><dt>{% if page.collection == "talks" %}Event{% elsif page.collection == "teaching" %}Programme{% else %}Venue{% endif %}</dt><dd>{{ page.venue }}</dd></div>{%- endif -%}
+          {%- if page.location -%}<div><dt>Location</dt><dd>{{ page.location }}</dd></div>{%- endif -%}
+        </dl>
+        {%- if page.youtube or page.paperurl or page.slidesurl or page.link -%}
+        <div class="x-facts__actions">
+          {%- if page.youtube -%}<a class="x-btn x-btn--primary" href="https://youtu.be/{{ page.youtube }}">Watch on YouTube ↗</a>{%- endif -%}
+          {%- if page.paperurl -%}<a class="x-btn x-btn--primary" href="{{ page.paperurl }}">Read the paper ↗</a>{%- endif -%}
+          {%- if page.slidesurl -%}<a class="x-btn x-btn--ghost" href="{{ page.slidesurl }}">Slides ↗</a>{%- endif -%}
+          {%- if page.link -%}<a class="x-btn x-btn--ghost" href="{{ page.link }}">Direct link ↗</a>{%- endif -%}
+        </div>
+        {%- endif -%}
+      </div>
+      {% include xai/related.html %}
+    </aside>
+  </div>
+
+  {%- if page.previous or page.next -%}
+  <nav class="x-pager" aria-label="Previous and next">
+    <div class="x-pager__inner">
+      {%- if page.previous -%}
+      <a href="{{ base_path }}{{ page.previous.url }}"><span>← {{ page.previous.date | date: "%d %b %Y" | upcase }}</span><strong>{{ page.previous.title }}</strong></a>
+      {%- else -%}<span></span>{%- endif -%}
+      {%- if page.next -%}
+      <a class="x-pager__next" href="{{ base_path }}{{ page.next.url }}"><span>{{ page.next.date | date: "%d %b %Y" | upcase }} →</span><strong>{{ page.next.title }}</strong></a>
+      {%- endif -%}
+    </div>
+  </nav>
+  {%- endif -%}
+</main>
+{% include xai/page-scripts.html %}

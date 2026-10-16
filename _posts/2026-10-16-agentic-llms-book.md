@@ -2,6 +2,16 @@
 title: 'Our new book: Agentic Large Language Models'
 date: 2026-10-16
 permalink: /posts/2026/10/agentic-llms-book/
+related:
+  - title: "Agentic Large Language Models (arXiv:2610.13455)"
+    url: https://arxiv.org/abs/2610.13455
+    kind: Book
+  - title: "Book and course website"
+    url: https://agenticllms.liacs.nl/
+    kind: Website
+  - title: "Master course: Agentic Large Language Models"
+    url: /teaching/2026-agentic-llms
+    kind: Course
 excerpt: 'After a year and a half of writing, our textbook on agentic LLMs is out as a preprint, with a Springer edition and a new master course to go with it.'
 header:
   teaser: "teasers/agentic-llms-book.png"
@@ -13,7 +23,6 @@ tags:
   - teaching
 ---
 
-<img src="/images/agentic-llms-book-cover.png" alt="Cover of the book Agentic Large Language Models" width="220" style="float:right; margin:0 0 1em 1.5em;">
 
 Some projects take longer than you expect. This one took a year and a half. Together with Max van Duijn, Michiel van der Meer and Aske Plaat, I have written a textbook: **[*Agentic Large Language Models*](https://arxiv.org/abs/2610.13455){:target="_blank"}**. The full text (472 pages) is now available on arXiv, and the Springer edition is [coming soon](https://link.springer.com/book/9789819256587){:target="_blank"}.
 

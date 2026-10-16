@@ -1,0 +1,10 @@
+{%- assign share_url = page.url | absolute_url -%}
+<div class="x-share">
+  <span class="x-share__label">Share</span>
+  <span class="x-share__links">
+    <button type="button" class="x-share__copy" data-x-copy="{{ share_url }}">Copy link</button>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | url_encode }}" target="_blank" rel="noopener">LinkedIn ↗</a>
+    <a href="https://bsky.app/intent/compose?text={{ page.title | append: ' ' | append: share_url | url_encode }}" target="_blank" rel="noopener">Bluesky ↗</a>
+    <a href="https://x.com/intent/post?url={{ share_url | url_encode }}&amp;text={{ page.title | url_encode }}" target="_blank" rel="noopener">X ↗</a>
+  </span>
+</div>
