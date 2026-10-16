@@ -24,11 +24,11 @@ tags:
 ---
 
 
-Some projects take longer than you expect. This one took a year and a half. Together with Max van Duijn, Michiel van der Meer and Aske Plaat, I have written a textbook: **[*Agentic Large Language Models*](https://arxiv.org/abs/2610.13455){:target="_blank"}**. The full text (472 pages) is now available on arXiv, and the Springer edition is [coming soon](https://link.springer.com/book/9789819256587){:target="_blank"}.
+After one and a half year of writing, together with Max van Duijn, Michiel van der Meer and Aske Plaat, I am proud to announce our textbook: **[*Agentic Large Language Models*](https://arxiv.org/abs/2610.13455){:target="_blank"}**. The full text (472 pages) is available on arXiv, and the Springer edition is [coming soon](https://link.springer.com/book/9789819256587){:target="_blank"}.
 
 ## Why we wrote it
 
-Large language models have become very good at talking with us: they answer questions, help us write, and reason about the world. Their answers already shape the decisions people make. The next step is already happening: LLMs that do not only talk, but *act*. They search, call tools, write and run code, and work together with other models. We call these systems agentic LLMs: a language model plus a harness that gives it memory, tools and a way to observe what its actions do.
+Large language models (LLMs) have become very good at talking with us: they answer questions, help us write, and reason about the world. Their answers already shape the decisions people make. The next step is already happening: LLMs that do not only talk, but *act*. They search, call tools, write and run code, and work together with other models. We call these systems agentic LLMs: a language model plus a harness that gives it memory, tools and a way to observe what its actions do.
 
 When we started, there was no single place where a student could learn how these systems work from the ground up. There were thousands of papers, blog posts and model cards, and very little that connected them. So we decided to write the book we wanted to teach from.
 
@@ -42,7 +42,7 @@ The book follows three questions: how agentic LLMs **reason**, how they **act**,
 - The last parts look at interaction and behaviour: multi-agent systems, role-based collaboration, and the emergent behaviour of simulated societies of LLM agents.
 - Advanced chapters cover synthetic data, mechanistic interpretability for LLM agents, and cognitive perspectives.
 
-Writing it with four authors from different backgrounds (computer science, cognitive science, natural language processing and AI) was one of the best parts. Every chapter was read and argued over by people who look at LLMs in very different ways, and I think the book is better for it.
+Writing it with four authors from different backgrounds (reinforcement learning, cognitive science, natural language processing and XAI) was one of the best parts. Every chapter was read and argued over by people who look at LLMs in very different ways, and I think the book is better for it.
 
 ## A book that keeps moving
 
