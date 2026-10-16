@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{%- assign cover = page.header.cover | default: page.header.teaser -%}
+<main class="x-scope x-post">
+
+  <header class="x-article-head x-grid-bg{% if cover %} has-cover{% endif %}">
+    <div class="x-article-head__inner">
+      <div class="x-crumbs">
+        <a href="{{ base_path }}/year-archive/">Blog</a>
+        <span aria-hidden="true">/</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" | upcase }}</time>
+        <span aria-hidden="true">·</span>
+        <span>{% include xai/read-time.html content=content %}</span>
+      </div>
+      <h1 class="x-article-head__title">{{ page.title }}</h1>
+      {%- if page.excerpt -%}<p class="x-article-head__lead">{{ page.excerpt | strip_html | strip }}</p>{%- endif -%}
+      <div class="x-article-head__meta">
+        <span class="x-byline"><img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="">{{ page.author_name | default: site.author.name }}</span>
+        {%- if page.tags.size > 0 -%}
+        <span class="x-tags">
+          {%- for tag in page.tags -%}<a class="x-tag x-tag--plain" href="{{ base_path }}/year-archive/?tag={{ tag | downcase | url_encode }}">{{ tag | downcase }}</a>{%- endfor -%}
+        </span>
+        {%- endif -%}
+      </div>
+    </div>
+  </header>
+
+  {%- if cover -%}
+  <figure class="x-article-cover">
+    <img src="{% if cover contains '://' %}{{ cover }}{% else %}{{ base_path }}/images/{{ cover }}{% endif %}" alt="{{ page.header.cover_alt | default: '' }}">
+    {%- if page.header.caption -%}<figcaption>{{ page.header.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{%- endif -%}
+  </figure>
+  {%- endif -%}
+
+  <div class="x-article">
+    <article class="x-prose" data-x-article>
+      {{ content }}
+    </article>
+
+    <aside class="x-rail">
+      <nav class="x-toc" aria-label="On this page" data-x-toc>
+        <span class="x-rail__label">On this page</span>
+        <div class="x-toc__list" data-x-toc-list></div>
+      </nav>
+      {% include xai/related.html %}
+      {% include xai/share.html %}
+    </aside>
+  </div>
+
+  <div class="x-article-end">
+    <div class="x-author x-card">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="">
+      <div class="x-author__text">
+        <span class="x-rail__label">Written by</span>
+        <a class="x-author__name" href="{{ base_path }}/">{{ site.author.name }}</a>
+        <span class="x-author__bio">{{ site.author.bio }} · {{ site.author.employer }}</span>
+        <span class="x-author__links">
+          {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Scholar ↗</a>{% endif %}
+          {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub ↗</a>{% endif %}
+          <a href="mailto:n.van.stein@liacs.leidenuniv.nl">Email</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  {%- comment -%} More from the blog: posts sharing a tag first, then the newest. {%- endcomment -%}
+  {%- assign more = "" | split: "" -%}
+  {%- for p in site.posts -%}
+    {%- if p.url == page.url -%}{%- continue -%}{%- endif -%}
+    {%- assign shared = false -%}
+    {%- for t in p.tags -%}{%- if page.tags contains t -%}{%- assign shared = true -%}{%- endif -%}{%- endfor -%}
+    {%- if shared and more.size < 3 -%}{%- assign more = more | push: p -%}{%- endif -%}
+  {%- endfor -%}
+  {%- for p in site.posts -%}
+    {%- if more.size >= 3 -%}{%- break -%}{%- endif -%}
+    {%- if p.url == page.url or more contains p -%}{%- continue -%}{%- endif -%}
+    {%- assign more = more | push: p -%}
+  {%- endfor -%}
+  <section class="x-more-posts" aria-labelledby="more-title">
+    <div class="x-more-posts__inner">
+      <div class="x-section__head">
+        <div><div class="x-eyebrow" id="more-title">More from the blog</div></div>
+        <a class="x-section__more" href="{{ base_path }}/year-archive/">All posts →</a>
+      </div>
+      <div class="x-post-grid">
+        {%- for p in more -%}
+          {%- if page.previous and p.url == page.previous.url -%}{%- assign label = "← Previous" -%}
+          {%- elsif page.next and p.url == page.next.url -%}{%- assign label = "Next →" -%}
+          {%- else -%}{%- assign label = nil -%}{%- endif -%}
+          {% include xai/post-card.html post=p label=label %}
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+</main>
+{% include xai/page-scripts.html %}

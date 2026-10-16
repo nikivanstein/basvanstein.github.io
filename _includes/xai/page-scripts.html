@@ -1,0 +1,36 @@
+<script>
+  (function () {
+    // Copy-link buttons
+    document.querySelectorAll('[data-x-copy]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var text = btn.getAttribute('data-x-copy');
+        var done = function () { var t = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = t; }, 1600); };
+        if (navigator.clipboard) { navigator.clipboard.writeText(text).then(done); }
+      });
+    });
+    // "On this page": built from the h2 headings of the article
+    var toc = document.querySelector('[data-x-toc]');
+    var article = document.querySelector('[data-x-article]');
+    if (toc && article) {
+      var heads = article.querySelectorAll('h2[id]');
+      var list = toc.querySelector('[data-x-toc-list]');
+      if (heads.length < 2) { toc.hidden = true; return; }
+      heads.forEach(function (h) {
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        list.appendChild(a);
+      });
+      var links = list.querySelectorAll('a');
+      if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (!e.isIntersecting) return;
+            links.forEach(function (l) { l.classList.toggle('is-on', l.getAttribute('href') === '#' + e.target.id); });
+          });
+        }, { rootMargin: '0px 0px -70% 0px' });
+        heads.forEach(function (h) { obs.observe(h); });
+      }
+    }
+  })();
+</script>

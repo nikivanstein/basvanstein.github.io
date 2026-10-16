@@ -1,0 +1,13 @@
+{% include base_path %}
+{%- if page.related and page.related.size > 0 -%}
+<nav class="x-related" aria-label="Related">
+  <span class="x-rail__label">Related</span>
+  {%- for r in page.related -%}
+  {%- assign c0 = r.url | slice: 0 -%}
+  <a class="x-related__item" href="{% if c0 == '/' %}{{ base_path }}{% endif %}{{ r.url }}"{% unless c0 == '/' %} target="_blank" rel="noopener"{% endunless %}>
+    {%- if r.kind -%}<span class="x-related__kind">{{ r.kind | upcase }}</span>{%- endif -%}
+    <span class="x-related__title">{{ r.title }}{% unless c0 == '/' %} ↗{% endunless %}</span>
+  </a>
+  {%- endfor -%}
+</nav>
+{%- endif -%}

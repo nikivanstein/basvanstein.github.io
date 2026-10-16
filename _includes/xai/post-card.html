@@ -1,0 +1,15 @@
+{% include base_path %}
+{%- assign p = include.post -%}
+{%- assign img = p.header.cover | default: p.header.teaser -%}
+<a class="x-card x-card--link x-post-card" href="{{ base_path }}{{ p.url }}"{% if p.tags %} data-tags="{{ p.tags | join: ' ' | downcase }}"{% endif %}>
+  {%- if img -%}
+  <img class="x-gray" src="{% if img contains '://' %}{{ img }}{% else %}{{ base_path }}/images/{{ img }}{% endif %}" alt="" loading="lazy">
+  {%- else -%}
+  <span class="x-post-card__blank x-grid-bg" aria-hidden="true"></span>
+  {%- endif -%}
+  <span class="x-post-card__body">
+    <span class="x-post-card__meta">{% if include.label %}{{ include.label }} · {% endif %}{{ p.date | date: "%d %b %Y" | upcase }}{% unless include.label %} · {% include xai/read-time.html content=p.content %}{% endunless %}</span>
+    <span class="x-post-card__title">{{ p.title }}</span>
+    {%- if include.excerpt and p.excerpt -%}<span class="x-post-card__excerpt">{{ p.excerpt | strip_html | strip }}</span>{%- endif -%}
+  </span>
+</a>

@@ -2,6 +2,19 @@
 title: 'From configurations to code: evolving AutoML pipelines with LLaMEA'
 date: 2026-10-16
 permalink: /posts/2026/10/lace-automl-pipelines/
+related:
+  - title: "Evolving Executable Pipeline Programs for AutoML with Language Models (arXiv:2608.16416)"
+    url: https://arxiv.org/abs/2608.16416
+    kind: Paper
+  - title: "Keynote: Automated Algorithm Design, AutoML Conference 2026"
+    url: /talks/2026-09-28-keynote-automl
+    kind: Talk
+  - title: "LLMs for Optimization in Code-Spaces (recording)"
+    url: /talks/2026-07-30-invited-automl-summer-school-2
+    kind: Talk
+  - title: "LLaMEA"
+    url: /projects/llamea
+    kind: Project
 excerpt: 'LACE lets a language model evolve complete, readable machine learning pipelines, the topic of my keynote at the AutoML Conference 2026.'
 header:
   teaser: "talks/2026-09-28-automl-keynote.jpg"

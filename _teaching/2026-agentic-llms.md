@@ -3,6 +3,13 @@ title: "Agentic Large Language Models"
 collection: teaching
 type: "Master course"
 permalink: /teaching/2026-agentic-llms
+related:
+  - title: "Course website: agenticllms.liacs.nl"
+    url: https://agenticllms.liacs.nl/
+    kind: Website
+  - title: "Our new book: Agentic Large Language Models"
+    url: /posts/2026/10/agentic-llms-book/
+    kind: Blog
 venue: "Master course, LIACS, Leiden University"
 date: 2026-09-01
 location: "Leiden, The Netherlands"

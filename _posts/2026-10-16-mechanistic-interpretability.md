@@ -2,6 +2,19 @@
 title: 'Looking inside the model: mechanistic interpretability, and why LLaMEA needs it'
 date: 2026-10-16
 permalink: /posts/2026/10/mechanistic-interpretability/
+related:
+  - title: "Every Component Is a Lookup (arXiv:2605.23393)"
+    url: https://arxiv.org/abs/2605.23393
+    kind: Paper
+  - title: "LLaMEA-SAGE (arXiv:2601.21511)"
+    url: https://arxiv.org/abs/2601.21511
+    kind: Paper
+  - title: "LLaMEA"
+    url: /projects/llamea
+    kind: Project
+  - title: "Our new book: Agentic Large Language Models"
+    url: /posts/2026/10/agentic-llms-book/
+    kind: Blog
 excerpt: 'A plain-language tour of our paper "Every Component Is a Lookup", and why understanding how LLMs make design decisions matters for evolving code.'
 header:
   teaser: "teasers/mechanistic-interpretability.png"
