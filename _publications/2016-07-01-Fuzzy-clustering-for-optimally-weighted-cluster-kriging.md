@@ -1,7 +1,7 @@
 ---
 title: "Fuzzy clustering for optimally weighted cluster kriging"
 collection: publications
-permalink: /publication/2016-01-01-Fuzzy-clustering-for-optimally-weighted-cluster-kriging
+permalink: /publication/2016-07-01-Fuzzy-clustering-for-optimally-weighted-cluster-kriging
 date: 2016-07-01
 venue: '2016 IEEE international conference on fuzzy systems (FUZZ-IEEE)'
 citation: ' Bas Stein,  Hao Wang,  Wojtek Kowalczyk,  Michael Emmerich,  Thomas B{\&quot;a}ck, &quot;Fuzzy clustering for optimally weighted cluster kriging.&quot; 2016 IEEE international conference on fuzzy systems (FUZZ-IEEE), 2016.'

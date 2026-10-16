@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to the Crossroads of Explainable Artificial Intelligence and Evolutionary Computation"
 collection: publications
-permalink: /publication/2025-01-01-An-Introduction-to-the-Crossroads-of-Explainable-Artificial-Intelligence-and-Evolutionary-Computation
+permalink: /publication/2025-05-03-An-Introduction-to-the-Crossroads-of-Explainable-Artificial-Intelligence-and-Evolutionary-Computation
 date: 2025-05-03
 venue: 'Explainable AI for Evolutionary Computation'
 citation: ' Niki Stein,  Anna Kononova, &quot;An Introduction to the Crossroads of Explainable Artificial Intelligence and Evolutionary Computation.&quot; Explainable AI for Evolutionary Computation, 2025.'

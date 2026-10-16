@@ -1,7 +1,7 @@
 ---
 title: "Explainable AI for Evolutionary Computation"
 collection: publications
-permalink: /publication/2025-01-01-Explainable-AI-for-Evolutionary-Computation
+permalink: /publication/2025-05-03-Explainable-AI-for-Evolutionary-Computation
 date: 2025-05-03
 venue: 'Springer'
 citation: ' Niki van Stein,  Anna V Kononova (Eds.), &quot;Explainable AI for Evolutionary Computation.&quot; Springer, 2025.'

@@ -1,7 +1,7 @@
 ---
 title: "Multi-point acquisition function for constraint parallel efficient multi-objective optimization"
 collection: publications
-permalink: /publication/2022-01-01-Multi-point-acquisition-function-for-constraint-parallel-efficient-multi-objective-optimization
+permalink: /publication/2022-07-08-Multi-point-acquisition-function-for-constraint-parallel-efficient-multi-objective-optimization
 date: 2022-07-08
 venue: 'Proceedings of the Genetic and Evolutionary Computation Conference'
 citation: ' Roy Winter,  Bas Stein,  Thomas B{\&quot;a}ck, &quot;Multi-point acquisition function for constraint parallel efficient multi-objective optimization.&quot; Proceedings of the Genetic and Evolutionary Computation Conference, 2022.'

@@ -1,7 +1,7 @@
 ---
 title: "Scalability of learning tasks on 3D CAE models using point cloud autoencoders"
 collection: publications
-permalink: /publication/2019-01-01-Scalability-of-learning-tasks-on-3D-CAE-models-using-point-cloud-autoencoders
+permalink: /publication/2019-12-01-Scalability-of-learning-tasks-on-3D-CAE-models-using-point-cloud-autoencoders
 date: 2019-12-01
 venue: '2019 IEEE Symposium Series on Computational Intelligence (SSCI)'
 citation: ' Thiago Rios,  Patricia Wollstadt,  Bas Stein,  Thomas B{\&quot;a}ck,  Zhao Xu,  Bernhard Sendhoff,  Stefan Menzel, &quot;Scalability of learning tasks on 3D CAE models using point cloud autoencoders.&quot; 2019 IEEE Symposium Series on Computational Intelligence (SSCI), 2019.'

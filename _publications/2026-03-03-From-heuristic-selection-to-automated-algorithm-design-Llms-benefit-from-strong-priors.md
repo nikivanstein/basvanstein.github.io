@@ -1,7 +1,7 @@
 ---
 title: "From heuristic selection to automated algorithm design: Llms benefit from strong priors"
 collection: publications
-permalink: /publication/2026-01-01-From-heuristic-selection-to-automated-algorithm-design-Llms-benefit-from-strong-priors
+permalink: /publication/2026-03-03-From-heuristic-selection-to-automated-algorithm-design-Llms-benefit-from-strong-priors
 date: 2026-03-03
 venue: 'arXiv preprint arXiv:2603.02792'
 citation: ' Qi Huang,  Furong Ye,  Ananta Shahane,  Thomas Bäck,  Niki van Stein, &quot;From heuristic selection to automated algorithm design: Llms benefit from strong priors.&quot; arXiv preprint arXiv:2603.02792, 2026.'

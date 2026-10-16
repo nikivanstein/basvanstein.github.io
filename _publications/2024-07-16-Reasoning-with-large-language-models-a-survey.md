@@ -1,7 +1,7 @@
 ---
 title: "Reasoning with large language models, a survey"
 collection: publications
-permalink: /publication/2024-01-01-Reasoning-with-large-language-models-a-survey
+permalink: /publication/2024-07-16-Reasoning-with-large-language-models-a-survey
 date: 2024-07-16
 venue: 'arXiv preprint arXiv:2407.11511'
 citation: ' Aske Plaat,  Annie Wong,  Suzan Verberne,  Joost Broekens,  Niki Stein,  Thomas Back, &quot;Reasoning with large language models, a survey.&quot; arXiv preprint arXiv:2407.11511, 2024.'

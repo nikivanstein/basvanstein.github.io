@@ -1,7 +1,7 @@
 ---
 title: "Emergence of structural bias in differential evolution"
 collection: publications
-permalink: /publication/2021-01-01-Emergence-of-structural-bias-in-differential-evolution
+permalink: /publication/2021-07-07-Emergence-of-structural-bias-in-differential-evolution
 date: 2021-07-07
 venue: 'Proceedings of the Genetic and Evolutionary Computation Conference Companion'
 citation: ' Bas Stein,  Fabio Caraffini,  Anna Kononova, &quot;Emergence of structural bias in differential evolution.&quot; Proceedings of the Genetic and Evolutionary Computation Conference Companion, 2021.'

@@ -1,7 +1,7 @@
 ---
 title: "Shapelet-based Model-agnostic Counterfactual Local Explanations for Time Series Classification"
 collection: publications
-permalink: /publication/2024-01-01-Shapelet-based-Model-agnostic-Counterfactual-Local-Explanations-for-Time-Series-Classification
+permalink: /publication/2024-02-02-Shapelet-based-Model-agnostic-Counterfactual-Local-Explanations-for-Time-Series-Classification
 redirect_from:
   - /publication/2024-01-01-Shapelet-based-model-agnostic-counterfactual-local-explanations-for-time-series-classification
 date: 2024-02-02

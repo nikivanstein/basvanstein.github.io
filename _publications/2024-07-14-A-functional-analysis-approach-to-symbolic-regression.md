@@ -1,7 +1,7 @@
 ---
 title: "A functional analysis approach to symbolic regression"
 collection: publications
-permalink: /publication/2024-01-01-A-functional-analysis-approach-to-symbolic-regression
+permalink: /publication/2024-07-14-A-functional-analysis-approach-to-symbolic-regression
 redirect_from:
   - /publication/2024-01-01-A-Functional-Analysis-Approach-to-Symbolic-Regression
 date: 2024-07-14

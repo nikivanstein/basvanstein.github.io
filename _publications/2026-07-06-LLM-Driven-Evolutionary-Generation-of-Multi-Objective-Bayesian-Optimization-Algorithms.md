@@ -1,7 +1,7 @@
 ---
 title: "LLM-Driven Evolutionary Generation of Multi-Objective Bayesian Optimization Algorithms"
 collection: publications
-permalink: /publication/2026-01-01-LLM-Driven-Evolutionary-Generation-of-Multi-Objective-Bayesian-Optimization-Algorithms
+permalink: /publication/2026-07-06-LLM-Driven-Evolutionary-Generation-of-Multi-Objective-Bayesian-Optimization-Algorithms
 date: 2026-07-06
 venue: 'arXiv preprint arXiv:2607.08791'
 citation: ' Georgios Laskaris,  Reuben Brasher,  Niki van Stein,  Elena Raponi,  Thomas Bäck,  Florian Neukart, &quot;LLM-Driven Evolutionary Generation of Multi-Objective Bayesian Optimization Algorithms.&quot; arXiv preprint arXiv:2607.08791, 2026.'

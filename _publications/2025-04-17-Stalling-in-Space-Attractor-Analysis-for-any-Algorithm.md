@@ -1,7 +1,7 @@
 ---
 title: "Stalling in Space: Attractor Analysis for any Algorithm"
 collection: publications
-permalink: /publication/2025-01-01-Stalling-in-Space-Attractor-Analysis-for-any-Algorithm
+permalink: /publication/2025-04-17-Stalling-in-Space-Attractor-Analysis-for-any-Algorithm
 date: 2025-04-17
 venue: 'International Conference on the Applications of Evolutionary Computation (Part of EvoStar)'
 citation: ' Sarah Thomson,  Quentin Renau,  Diederick Vermetten,  Emma Hart,  Niki Stein,  Anna Kononova, &quot;Stalling in Space: Attractor Analysis for any Algorithm.&quot; International Conference on the Applications of Evolutionary Computation (Part of EvoStar), 2025.'

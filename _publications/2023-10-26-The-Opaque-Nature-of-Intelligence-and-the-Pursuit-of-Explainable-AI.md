@@ -1,7 +1,7 @@
 ---
 title: "The Opaque Nature of Intelligence and the Pursuit of Explainable AI"
 collection: publications
-permalink: /publication/2023-10-26-opaque-nature-of-intelligence.md
+permalink: /publication/2023-10-26-The-Opaque-Nature-of-Intelligence-and-the-Pursuit-of-Explainable-AI
 date: 2023-10-26
 venue: 'ECTA 2023'
 citation: 'SL Thomson, N van Stein, D van den Berg, C van Leeuwen, &quot;The Opaque Nature of Intelligence and the Pursuit of Explainable AI.&quot; ECTA 2023 proceedings, 2023.'

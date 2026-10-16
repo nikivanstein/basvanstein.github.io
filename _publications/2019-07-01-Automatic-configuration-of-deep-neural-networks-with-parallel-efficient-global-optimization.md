@@ -1,7 +1,7 @@
 ---
 title: "Automatic configuration of deep neural networks with parallel efficient global optimization"
 collection: publications
-permalink: /publication/2019-01-01-Automatic-configuration-of-deep-neural-networks-with-parallel-efficient-global-optimization
+permalink: /publication/2019-07-01-Automatic-configuration-of-deep-neural-networks-with-parallel-efficient-global-optimization
 date: 2019-07-01
 venue: '2019 International Joint Conference on Neural Networks (IJCNN)'
 citation: ' Bas Stein,  Hao Wang,  Thomas B{\&quot;a}ck, &quot;Automatic configuration of deep neural networks with parallel efficient global optimization.&quot; 2019 International Joint Conference on Neural Networks (IJCNN), 2019.'

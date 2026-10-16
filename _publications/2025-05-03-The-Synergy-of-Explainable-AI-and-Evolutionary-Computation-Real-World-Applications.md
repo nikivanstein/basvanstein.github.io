@@ -1,7 +1,7 @@
 ---
 title: "The Synergy of Explainable AI and Evolutionary Computation: Real-World Applications"
 collection: publications
-permalink: /publication/2025-01-01-The-Synergy-of-Explainable-AI-and-Evolutionary-Computation-Real-World-Applications
+permalink: /publication/2025-05-03-The-Synergy-of-Explainable-AI-and-Evolutionary-Computation-Real-World-Applications
 date: 2025-05-03
 venue: 'Explainable AI for Evolutionary Computation'
 citation: ' Niki Stein,  Qi Huang,  Elena Raponi, &quot;The Synergy of Explainable AI and Evolutionary Computation: Real-World Applications.&quot; Explainable AI for Evolutionary Computation, 2025.'

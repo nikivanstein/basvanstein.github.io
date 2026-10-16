@@ -1,7 +1,7 @@
 ---
 title: "Challenges of ELA-guided Function Evolution using Genetic Programming"
 collection: publications
-permalink: /publication/2023-01-01-Challenges-of-ELA-guided-Function-Evolution-using-Genetic-Programming
+permalink: /publication/2023-05-24-Challenges-of-ELA-guided-Function-Evolution-using-Genetic-Programming
 date: 2023-05-24
 venue: 'Preprint on arXiv preprint arXiv:2305.15245'
 citation: ' Fu Long,  Diederick Vermetten,  Anna Kononova,  Roman Kalkreuth,  Kaifeng Yang,  Thomas B{\&quot;a}ck,  Niki Stein, &quot;Challenges of ELA-guided Function Evolution using Genetic Programming.&quot; Preprint on arXiv preprint arXiv:2305.15245, 2023.'

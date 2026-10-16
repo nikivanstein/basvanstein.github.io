@@ -1,7 +1,7 @@
 ---
 title: "CoComposer: LLM Multi-agent Collaborative Music Composition"
 collection: publications
-permalink: /publication/2025-01-01-CoComposer-LLM-Multi-agent-Collaborative-Music-Composition
+permalink: /publication/2025-08-29-CoComposer-LLM-Multi-agent-Collaborative-Music-Composition
 date: 2025-08-29
 venue: 'arXiv preprint arXiv:2509.00132'
 citation: ' Peiwen Xing,  Aske Plaat,  Niki Stein, &quot;CoComposer: LLM Multi-agent Collaborative Music Composition.&quot; arXiv preprint arXiv:2509.00132, 2025.'

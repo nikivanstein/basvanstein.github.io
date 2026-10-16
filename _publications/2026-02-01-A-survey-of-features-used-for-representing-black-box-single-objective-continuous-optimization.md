@@ -1,7 +1,7 @@
 ---
 title: "A survey of features used for representing black-box single-objective continuous optimization"
 collection: publications
-permalink: /publication/2024-01-01-A-survey-of-meta-features-used-for-automated-selection-of-algorithms-for-black-box-single-objective-continuous-optimization
+permalink: /publication/2026-02-01-A-survey-of-features-used-for-representing-black-box-single-objective-continuous-optimization
 date: 2026-02-01
 venue: 'Swarm and Evolutionary Computation'
 citation: ' Gjorgjina Cenikj,  Ana Nikolikj,  Gašper Petelin,  Niki Van Stein,  Carola Doerr,  Tome Eftimov, &quot;A survey of features used for representing black-box single-objective continuous optimization.&quot; Swarm and Evolutionary Computation, 2026.'

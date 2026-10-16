@@ -1,7 +1,7 @@
 ---
 title: "Neural network design: learning from neural architecture search"
 collection: publications
-permalink: /publication/2020-01-01-Neural-network-design-learning-from-neural-architecture-search
+permalink: /publication/2020-12-01-Neural-network-design-learning-from-neural-architecture-search
 date: 2020-12-01
 venue: '2020 IEEE Symposium Series on Computational Intelligence (SSCI)'
 citation: ' Bas Stein,  Hao Wang,  Thomas B{\&quot;a}ck, &quot;Neural network design: learning from neural architecture search.&quot; 2020 IEEE Symposium Series on Computational Intelligence (SSCI), 2020.'

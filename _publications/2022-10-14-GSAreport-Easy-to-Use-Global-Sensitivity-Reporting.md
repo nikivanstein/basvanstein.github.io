@@ -1,7 +1,7 @@
 ---
 title: "GSAreport: Easy to Use Global Sensitivity Reporting"
 collection: publications
-permalink: /publication/2022-01-01-GSAreport-Easy-to-Use-Global-Sensitivity-Reporting
+permalink: /publication/2022-10-14-GSAreport-Easy-to-Use-Global-Sensitivity-Reporting
 date: 2022-10-14
 venue: 'Journal of Open Source Software'
 citation: ' Bas Van,  Elena Raponi, &quot;GSAreport: Easy to Use Global Sensitivity Reporting.&quot; Journal of Open Source Software, 2022.'

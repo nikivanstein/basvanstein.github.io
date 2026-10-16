@@ -1,7 +1,7 @@
 ---
 title: "Pruning Federated Models through Loss Landscape Analysis and Client Agreement Scoring"
 collection: publications
-permalink: /publication/2024-01-01-Federated-Hybrid-Model-Pruning-through-Loss-Landscape-Exploration
+permalink: /publication/2026-07-15-Pruning-Federated-Models-through-Loss-Landscape-Analysis-and-Client-Agreement-Scoring
 redirect_from:
   - /publication/2024-01-01-Automated-Federated-Learning-via-Informed-Pruning
 date: 2026-07-15

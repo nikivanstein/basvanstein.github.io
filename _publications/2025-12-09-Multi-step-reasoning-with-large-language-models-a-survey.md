@@ -1,7 +1,7 @@
 ---
 title: "Multi-step reasoning with large language models, a survey"
 collection: publications
-permalink: /publication/2025-01-01-Multi-step-reasoning-with-large-language-models-a-survey
+permalink: /publication/2025-12-09-Multi-step-reasoning-with-large-language-models-a-survey
 date: 2025-12-09
 venue: 'ACM Computing Surveys'
 citation: ' Aske Plaat,  Annie Wong,  Suzan Verberne,  Joost Broekens,  Niki Van, &quot;Multi-step reasoning with large language models, a survey.&quot; ACM Computing Surveys, 2025.'

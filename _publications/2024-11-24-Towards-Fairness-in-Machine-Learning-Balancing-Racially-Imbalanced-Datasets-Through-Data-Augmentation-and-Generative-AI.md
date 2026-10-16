@@ -1,7 +1,7 @@
 ---
 title: "Towards Fairness in Machine Learning: Balancing Racially Imbalanced Datasets Through Data Augmentation and Generative AI"
 collection: publications
-permalink: /publication/2024-01-01-Towards-Fairness-in-Machine-Learning-Balancing-Racially-Imbalanced-Datasets-Through-Data-Augmentation-and-Generative-AI
+permalink: /publication/2024-11-24-Towards-Fairness-in-Machine-Learning-Balancing-Racially-Imbalanced-Datasets-Through-Data-Augmentation-and-Generative-AI
 date: 2024-11-24
 venue: 'IJCCI'
 citation: ' Anthonie Schaap,  Sofoklis Kitharidis,  Niki Stein, &quot;Towards Fairness in Machine Learning: Balancing Racially Imbalanced Datasets Through Data Augmentation and Generative AI.&quot; IJCCI, 2024.'

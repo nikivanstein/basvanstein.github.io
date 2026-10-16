@@ -1,7 +1,7 @@
 ---
 title: "Quality-diversity driven robust evolutionary optimization of optical designs"
 collection: publications
-permalink: /publication/2024-01-01-Quality-diversity-driven-robust-evolutionary-optimization-of-optical-designs
+permalink: /publication/2024-06-17-Quality-diversity-driven-robust-evolutionary-optimization-of-optical-designs
 date: 2024-06-17
 venue: 'Computational Optics 2024'
 citation: ' Kirill Antonov,  Teus Tukker,  Tiago Botari,  Thomas B{\&quot;a}ck,  Anna Kononova,  Niki Stein, &quot;Quality-diversity driven robust evolutionary optimization of optical designs.&quot; Computational Optics 2024, 2024.'

@@ -1,7 +1,7 @@
 ---
 title: "Agentic Large Language Models"
 collection: publications
-permalink: /publication/2026-01-01-Agentic-Large-Language-Models
+permalink: /publication/2026-10-09-Agentic-Large-Language-Models
 date: 2026-10-09
 venue: 'Springer (book, coming soon)'
 citation: ' Max van Duijn,  Michiel van der Meer,  Aske Plaat,  Niki van Stein, &quot;Agentic Large Language Models.&quot; Springer, 2026. Coming soon. arXiv preprint arXiv:2610.13455.'

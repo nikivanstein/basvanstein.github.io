@@ -1,7 +1,7 @@
 ---
 title: "Requirements towards optimizing analytics in industrial processes"
 collection: publications
-permalink: /publication/2021-01-01-Requirements-towards-optimizing-analytics-in-industrial-processes
+permalink: /publication/2021-05-18-Requirements-towards-optimizing-analytics-in-industrial-processes
 date: 2021-05-18
 venue: 'Procedia Computer Science'
 citation: ' Alexander Zeiser,  Bas Stein,  Thomas B{\&quot;a}ck, &quot;Requirements towards optimizing analytics in industrial processes.&quot; Procedia Computer Science, 2021.'
