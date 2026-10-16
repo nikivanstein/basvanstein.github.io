@@ -1,6 +1,6 @@
 ---
 title: 'From configurations to code: evolving AutoML pipelines with LLaMEA'
-date: 2026-10-16
+date: 2026-10-02
 permalink: /posts/2026/10/lace-automl-pipelines/
 related:
   - title: "Evolving Executable Pipeline Programs for AutoML with Language Models (arXiv:2608.16416)"
@@ -59,7 +59,7 @@ For me, the most important result is not the raw accuracy. It is that the search
 
 This is the message I brought to Ljubljana: once the search space is code, AutoML and automated algorithm design become the same problem. The same machinery that evolves a new optimisation heuristic can evolve a preprocessing step or a complete pipeline, and the result stays readable for the people who use it.
 
-That readability also raises new questions. Why does the language model propose a particular pipeline structure, and can we steer it to search faster? Those questions connect directly to our new work on [mechanistic interpretability](/posts/2026/10/mechanistic-interpretability/).
+That readability also raises new questions. Why does the language model propose a particular pipeline structure, and can we steer it to search faster? Those questions connect directly to our work on [mechanistic interpretability](/posts/2026/08/mechanistic-interpretability/).
 
 If you want to see an earlier version of this story, the recording of my lecture [*LLMs for Optimization in Code-Spaces: From Metaheuristic Design to AutoML*](/talks/2026-07-30-invited-automl-summer-school-2) at the AutoML summer school in Dortmund is [on YouTube](https://youtu.be/gBlLYa-rMuo){:target="_blank"}.
 
