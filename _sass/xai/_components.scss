@@ -820,10 +820,10 @@ html:not([data-theme="dark"]) .x-eyebrow--alt { color: var(--x-eyebrow); }
   list-style: none;
   margin: 0;
   padding: 0;
-  min-width: 1080px;
+  min-width: calc(var(--x-cols, 6) * 170px);
   display: grid;
-  grid-template-columns: repeat(var(--x-cols, 9), minmax(0, 1fr));
-  column-gap: 12px;
+  grid-template-columns: repeat(var(--x-cols, 6), minmax(0, 1fr));
+  column-gap: 16px;
 
   &__year {
     display: flex;
@@ -837,19 +837,12 @@ html:not([data-theme="dark"]) .x-eyebrow--alt { color: var(--x-eyebrow); }
     align-items: center;
     gap: 8px;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--x-line);
+    border-bottom: 2px solid var(--x-strong);
     font-family: var(--x-font-mono);
     font-size: 13px;
-    color: var(--x-faint);
-
-    i { width: 9px; height: 9px; border-radius: 50%; background: var(--x-faint); }
-  }
-
-  &__year.has-items &__label {
-    border-bottom-color: var(--x-strong);
     color: var(--x-strong);
 
-    i { background: var(--x-live); }
+    i { width: 9px; height: 9px; border-radius: 50%; background: var(--x-live); }
   }
 }
 

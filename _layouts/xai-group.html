@@ -62,8 +62,8 @@ layout: default
 
   {%- assign projects = site.projects | sort: "year" -%}
   {%- assign first_year = projects.first.year -%}
-  {%- assign last_year = site.time | date: "%Y" | plus: 0 -%}
-  {%- assign n_years = last_year | minus: first_year | plus: 1 -%}
+  {%- assign last_year = projects.last.year -%}
+  {%- assign years = projects | map: "year" | uniq -%}
   <section class="x-section x-section--dots" id="projects" aria-labelledby="projects-title">
     <div class="x-section__inner">
       <div class="x-section__head">
@@ -73,10 +73,10 @@ layout: default
         </div>
       </div>
       <div class="x-projects__scroll">
-        <ol class="x-projects" style="--x-cols: {{ n_years }}">
-          {%- for y in (first_year..last_year) -%}
+        <ol class="x-projects" style="--x-cols: {{ years.size }}">
+          {%- for y in years -%}
             {%- assign items = projects | where: "year", y -%}
-            <li class="x-projects__year{% if items.size > 0 %} has-items{% endif %}">
+            <li class="x-projects__year">
               <div class="x-projects__label"><i aria-hidden="true"></i><span>{{ y }}</span></div>
               {%- for p in items -%}
               <a class="x-card x-card--link x-project" href="{{ base_path }}{{ p.url }}">
