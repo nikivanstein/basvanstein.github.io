@@ -2,6 +2,7 @@
 title: "XAIPre"
 excerpt: "eXplainable AI for Predictive Maintenance"
 collection: projects
+year: 2022
 permalink: /projects/xaipre
 header:
   teaser: "xaipre.png"

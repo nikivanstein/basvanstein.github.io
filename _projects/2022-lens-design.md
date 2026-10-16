@@ -2,6 +2,7 @@
 title: "Complex Lens Design"
 excerpt: "Optimization of Complex Lens Designs"
 collection: projects
+year: 2022
 permalink: /projects/lens-design
 header:
   teaser: "lens.png"

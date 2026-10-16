@@ -1,0 +1,38 @@
+{% include base_path %}
+{%- assign book = site.data.book -%}
+{%- if include.variant == "compact" -%}
+<aside class="x-scope x-book x-book--compact x-card" aria-label="New book">
+  <a class="x-book__cover" href="{{ book.url }}" target="_blank" rel="noopener">
+    <img src="{{ base_path }}{{ book.cover }}" alt="Cover of the book {{ book.title }}" loading="lazy">
+  </a>
+  <div class="x-book__body">
+    <div class="x-book__meta"><span class="x-book__badge">{{ book.status }}</span><span class="x-eyebrow">New book</span></div>
+    <h2 class="x-book__title">{{ book.title }}</h2>
+    <p class="x-book__authors">{{ book.authors }}</p>
+    <p class="x-book__publisher">{{ book.publisher }}, {{ book.year }}</p>
+    <div class="x-book__actions">
+      <a class="x-btn x-btn--primary" href="{{ book.url }}" target="_blank" rel="noopener">View on {{ book.publisher }} <span aria-hidden="true">↗</span></a>
+      {% if book.preprint %}<a class="x-btn x-btn--ghost" href="{{ book.preprint }}" target="_blank" rel="noopener">Preprint</a>{% endif %}
+    </div>
+  </div>
+</aside>
+{%- else -%}
+<section class="x-book-band" id="book" aria-labelledby="book-title">
+  <div class="x-book x-book--feature">
+    <a class="x-book__cover" href="{{ book.url }}" target="_blank" rel="noopener">
+      <img src="{{ base_path }}{{ book.cover }}" alt="Cover of the book {{ book.title }}">
+    </a>
+    <div class="x-book__body">
+      <div class="x-book__meta"><span class="x-book__badge">{{ book.status }}</span><span class="x-eyebrow">New book · {{ book.publisher }} {{ book.year }}</span></div>
+      <h2 class="x-book__title" id="book-title">{{ book.title }}</h2>
+      <p class="x-book__blurb">{{ book.blurb }}</p>
+      <p class="x-book__authors"><span class="x-mono">BY</span> {{ book.authors }}</p>
+      <div class="x-book__actions">
+        <a class="x-btn x-btn--primary" href="{{ book.url }}" target="_blank" rel="noopener">{% include xai/icon.html name="book" px=16 %} Pre-order on {{ book.publisher }}</a>
+        {% if book.preprint %}<a class="x-btn x-btn--ghost" href="{{ book.preprint }}" target="_blank" rel="noopener">Read the preprint on arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
+      <p class="x-book__note">{{ book.note }}</p>
+    </div>
+  </div>
+</section>
+{%- endif -%}

@@ -5,25 +5,23 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js" data-theme="light">
   <head>
+    {% include xai/theme-init.html %}
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="x-body{% if page.layout %} x-layout-{{ page.layout }}{% endif %}">
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% include xai/header.html %}
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+    <div id="x-content" tabindex="-1">
+      {{ content }}
     </div>
+
+    {% include xai/footer.html %}
 
     {% include scripts.html %}
 

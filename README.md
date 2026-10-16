@@ -4,6 +4,20 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 ### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
+# Site design (XAI design system)
+
+The homepage (`/`) and the group page (`/xai-group/`) use the XAI group design system, with a light and a dark theme. The header button switches the theme and remembers the choice; without a choice the visitor's system setting is used.
+
+- Layouts: `_layouts/xai-home.html` (homepage) and `_layouts/xai-group.html` (group page). The shared header and footer are in `_includes/xai/`.
+- Styles: `_sass/xai/` (`_tokens.scss` holds every colour for both themes; `_legacy.scss` restyles the older archive, post and project pages).
+- Homepage content:
+  - hero text: front matter of `_pages/about.md`
+  - featured book: `_data/book.yml`
+  - "What I work on": `_data/research.yml`
+  - talks: the newest talks of the current year; add `image:` (a file under `images/`) or `youtube:` (a video id) to a talk to show a thumbnail
+  - selected papers: publications with `selected: true` and `topic: XAI`, `AAD` or `APPLIED` in their front matter
+- Group page content: front matter of `_pages/xai-group.md` (hero, mission/vision/culture, people, footer links); the full mission text is the page body. Projects come from `_projects/` and are placed on the timeline by their `year:` field.
+
 # Instructions
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)

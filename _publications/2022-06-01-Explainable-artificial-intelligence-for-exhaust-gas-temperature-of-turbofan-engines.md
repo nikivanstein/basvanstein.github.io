@@ -1,6 +1,8 @@
 ---
 title: "Explainable artificial intelligence for exhaust gas temperature of turbofan engines"
 collection: publications
+selected: true
+topic: APPLIED
 permalink: /publication/2022-06-01-Explainable-artificial-intelligence-for-exhaust-gas-temperature-of-turbofan-engines
 date: 2022-06-01
 venue: 'Journal of Aerospace Information Systems'

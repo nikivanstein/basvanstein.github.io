@@ -1,0 +1,133 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{%- assign hero = page.hero -%}
+<main class="x-scope x-group">
+
+  <section class="x-hero x-hero--group x-grid-bg">
+    <div class="x-hero__glow x-hero__glow--left" aria-hidden="true"></div>
+    <div class="x-hero__inner x-hero__inner--center">
+      <div class="x-hero__text">
+        <div class="x-eyebrow">{{ hero.eyebrow }}</div>
+        <h1 class="x-hero__title">{{ hero.title }}</h1>
+        <p class="x-hero__lead">{{ hero.lead }}</p>
+        <div class="x-hero__actions">
+          <a class="x-btn x-btn--primary" href="#projects">See our projects <span aria-hidden="true">→</span></a>
+          <a class="x-btn x-btn--ghost" href="#people">Meet the team</a>
+        </div>
+      </div>
+
+      <figure class="x-venn" id="fields">
+        <div class="x-venn__plot" role="img" aria-label="Venn diagram: the XAI group sits at the intersection of Evolutionary Computation, Explainable AI and Automated Algorithm Design">
+          <span class="x-venn__circle x-venn__circle--1"></span>
+          <span class="x-venn__circle x-venn__circle--2"></span>
+          <span class="x-venn__circle x-venn__circle--3"></span>
+          <span class="x-venn__label x-venn__label--1">Evolutionary<br>computation</span>
+          <span class="x-venn__label x-venn__label--2">Explainable<br>AI</span>
+          <span class="x-venn__label x-venn__label--3">Automated<br>algorithm design</span>
+          <span class="x-venn__core">
+            <img class="x-only-light" src="{{ base_path }}/images/brand/xai-mark.png" alt="">
+            <img class="x-only-dark" src="{{ base_path }}/images/brand/xai-mark-reverse.png" alt="">
+            <span>XAI group</span>
+          </span>
+        </div>
+        <figcaption><span class="x-mono">Fig. 1</span> — The intersection of Evolutionary Computation, XAI and Automated Algorithm Design.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="x-section x-section--flush" id="mission" aria-label="Mission, vision and culture">
+    <div class="x-section__inner">
+      <div class="x-pillars">
+        {%- for pillar in page.pillars -%}
+        <div class="x-pillar">
+          <div class="x-pillar__num">{{ forloop.index | prepend: "0" }} — {{ pillar.label | upcase }}</div>
+          <h2 class="x-pillar__title">{{ pillar.title }}</h2>
+          <p>{{ pillar.text }}</p>
+        </div>
+        {%- endfor -%}
+      </div>
+      <details class="x-more">
+        <summary><span class="x-more__label">Read our full mission and vision</span><span class="x-more__icon" aria-hidden="true">+</span></summary>
+        <div class="x-prose">
+          {{ content }}
+        </div>
+      </details>
+    </div>
+  </section>
+
+  {% include xai/llamea.html lead="Our flagship open-source framework: LLaMEA evolves metaheuristics with large language models. Try it in one line." %}
+
+  {%- assign projects = site.projects | sort: "year" -%}
+  {%- assign first_year = projects.first.year -%}
+  {%- assign last_year = site.time | date: "%Y" | plus: 0 -%}
+  {%- assign n_years = last_year | minus: first_year | plus: 1 -%}
+  <section class="x-section x-section--dots" id="projects" aria-labelledby="projects-title">
+    <div class="x-section__inner">
+      <div class="x-section__head">
+        <div>
+          <div class="x-eyebrow">Research projects · {{ first_year }} → {{ last_year }}</div>
+          <h2 class="x-section__title" id="projects-title">{{ projects.size }} projects, one thread</h2>
+        </div>
+      </div>
+      <div class="x-projects__scroll">
+        <ol class="x-projects" style="--x-cols: {{ n_years }}">
+          {%- for y in (first_year..last_year) -%}
+            {%- assign items = projects | where: "year", y -%}
+            <li class="x-projects__year{% if items.size > 0 %} has-items{% endif %}">
+              <div class="x-projects__label"><i aria-hidden="true"></i><span>{{ y }}</span></div>
+              {%- for p in items -%}
+              <a class="x-card x-card--link x-project" href="{{ base_path }}{{ p.url }}">
+                {%- if p.header.teaser -%}<img class="x-gray" src="{{ base_path }}/images/{{ p.header.teaser }}" alt="" loading="lazy">{%- endif -%}
+                <span class="x-project__body">
+                  <span class="x-project__name">{{ p.title }}</span>
+                  <span class="x-project__text">{{ p.excerpt | strip_html | strip }}</span>
+                </span>
+              </a>
+              {%- endfor -%}
+            </li>
+          {%- endfor -%}
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="x-section" id="people" aria-labelledby="people-title">
+    <div class="x-section__inner">
+      <div class="x-section__head">
+        <div>
+          <div class="x-eyebrow">People · {{ page.people.size }}</div>
+          <h2 class="x-section__title" id="people-title">Who we are</h2>
+        </div>
+        <p class="x-section__aside">Part of the Natural Computing Cluster at LIACS, working with academic and industry partners.</p>
+      </div>
+      <ul class="x-people">
+        {%- for uname in page.people -%}
+          {%- assign person = site.data.people[uname] -%}
+          {%- if forloop.first -%}{%- assign role = "Group lead" -%}{%- elsif person.bio -%}{%- assign role = person.bio -%}{%- else -%}{%- assign role = "Researcher" -%}{%- endif -%}
+          {%- assign parts = person.display_name | remove: "dr. " | remove: "Dr. " | remove: "Prof. " | split: " " -%}
+          {%- assign initials = parts.first | slice: 0 | append: "" -%}
+          {%- assign last_initial = parts.last | slice: 0 -%}
+          {%- if person.webpage -%}{%- assign tag = "a" -%}{%- else -%}{%- assign tag = "div" -%}{%- endif -%}
+          <li>
+            <{{ tag }} class="x-card{% if person.webpage %} x-card--link{% endif %} x-person{% if forloop.first %} is-lead{% endif %}"{% if person.webpage %} href="{{ person.webpage }}"{% endif %}>
+              {%- if forloop.first and page.lead_image -%}
+                <img class="x-gray" src="{{ base_path }}{{ page.lead_image }}" alt="" loading="lazy">
+              {%- elsif person.image -%}
+                <img class="x-gray" src="{{ base_path }}{{ person.image }}" alt="" loading="lazy">
+              {%- else -%}
+                <span class="x-person__initials" aria-hidden="true">{{ initials }}{{ last_initial }}</span>
+              {%- endif -%}
+              <span class="x-person__text">
+                <span class="x-person__name">{{ person.display_name | remove: "dr. " }}</span>
+                <span class="x-person__role">{{ role | upcase }}</span>
+              </span>
+            </{{ tag }}>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+</main>

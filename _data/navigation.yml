@@ -1,4 +1,4 @@
-# main links links
+# Main links in the site header
 main:
   - title: "XAI group"
     url: /xai-group/
@@ -7,11 +7,21 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
-        
-  - title: "Blog Posts"
+    url: /teaching/
+
+  - title: "Blog"
     url: /year-archive/
-    
+
+# Links in the site footer
+footer:
+  - title: "Google Scholar ↗"
+    url: "https://scholar.google.com/citations?user=DST6voAAAAAJ&hl=nl"
+  - title: "ORCID ↗"
+    url: "https://orcid.org/0000-0002-0013-7969"
+  - title: "GitHub ↗"
+    url: "https://github.com/nikivanstein"
+  - title: "Email"
+    url: "mailto:n.van.stein@liacs.leidenuniv.nl"

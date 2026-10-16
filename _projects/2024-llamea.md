@@ -2,6 +2,7 @@
 title: "LLaMEA"
 excerpt: "Large Language Evolutionary Algorithm for the automatic design of algorithms."
 collection: projects
+year: 2024
 permalink: /projects/llamea
 header:
   teaser: "llamea.png"

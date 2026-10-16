@@ -1,0 +1,56 @@
+{% include base_path %}
+{%- assign this_year = site.time | date: "%Y" -%}
+{%- assign talks_sorted = site.talks | sort: "date" | reverse -%}
+{%- assign in_year = 0 -%}
+{%- for t in talks_sorted -%}
+  {%- assign yr = t.date | date: "%Y" -%}
+  {%- if yr == this_year -%}{%- assign in_year = in_year | plus: 1 -%}{%- endif -%}
+{%- endfor -%}
+{%- assign only_year = false -%}
+{%- if in_year >= 3 -%}{%- assign only_year = true -%}{%- endif -%}
+<section class="x-section" id="talks" aria-labelledby="talks-title">
+  <div class="x-section__inner">
+    <div class="x-section__head">
+      <div>
+        <div class="x-eyebrow">Talks{% if only_year %} · {{ this_year }}{% endif %}</div>
+        <h2 class="x-section__title" id="talks-title">{% if only_year %}On stage this year{% else %}Recent talks{% endif %}</h2>
+      </div>
+      <div class="x-legend">
+        <span><i class="x-dot x-dot--key" aria-hidden="true"></i>Keynote</span>
+        <span><i class="x-dot x-dot--talk" aria-hidden="true"></i>Invited talk or lecture</span>
+        <a href="{{ base_path }}/talks/">All talks →</a>
+      </div>
+    </div>
+    <div class="x-timeline__scroll">
+      <ol class="x-timeline">
+        {%- assign shown = 0 -%}
+        {%- for t in talks_sorted -%}
+          {%- assign yr = t.date | date: "%Y" -%}
+          {%- if shown < 6 -%}{%- unless only_year and yr != this_year -%}
+          {%- assign shown = shown | plus: 1 -%}
+          {%- if t.type contains "eynote" -%}{%- assign kind = "key" -%}{%- else -%}{%- assign kind = "talk" -%}{%- endif -%}
+          {%- assign place = t.location | split: "," | first -%}
+          <li class="x-timeline__item">
+            <i class="x-dot x-dot--{{ kind }} x-timeline__dot" aria-hidden="true"></i>
+            <div class="x-timeline__date">{{ t.date | date: "%d %b" | upcase }}{% if place %} · {{ place | upcase }}{% endif %}</div>
+            {%- if t.image -%}
+            <a class="x-thumb" href="{{ base_path }}{{ t.url }}" aria-label="Slides: {{ t.title | escape }}">
+              <img class="x-gray" src="{{ base_path }}/images/{{ t.image }}" alt="" loading="lazy">
+              <span class="x-thumb__tag">{% include xai/icon.html name="slides" %}SLIDES</span>
+            </a>
+            {%- elsif t.youtube -%}
+            <a class="x-thumb" href="https://youtu.be/{{ t.youtube }}" aria-label="Watch the recording of {{ t.title | escape }} on YouTube">
+              <img class="x-gray" src="https://img.youtube.com/vi/{{ t.youtube }}/hqdefault.jpg" alt="" loading="lazy">
+              <span class="x-thumb__tag">{% include xai/icon.html name="play" %}VIDEO</span>
+            </a>
+            {%- endif -%}
+            <div class="x-badge x-badge--{{ kind }}">{{ t.type | upcase }}</div>
+            <a class="x-timeline__title" href="{{ base_path }}{{ t.url }}">{{ t.title }}</a>
+            <div class="x-timeline__venue">{{ t.venue }}</div>
+          </li>
+          {%- endunless -%}{%- endif -%}
+        {%- endfor -%}
+      </ol>
+    </div>
+  </div>
+</section>

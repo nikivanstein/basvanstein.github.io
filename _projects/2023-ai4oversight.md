@@ -2,6 +2,7 @@
 title: "AI for Oversight"
 excerpt: "AI for Oversight ICAI lab"
 collection: projects
+year: 2023
 permalink: /projects/ai4oversight
 header:
   teaser: "oversight.png"

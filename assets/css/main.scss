@@ -32,7 +32,6 @@
 
 @import "page";
 @import "archive";
-@import "featured-book";
 @import "sidebar";
 
 @import "vendor/font-awesome/fontawesome";
@@ -40,6 +39,12 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// XAI design system (new site design, light and dark theme)
+@import "xai/tokens";
+@import "xai/shell";
+@import "xai/components";
+@import "xai/legacy";
 
 
 .title img {

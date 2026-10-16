@@ -1,0 +1,196 @@
+/* ==========================================================================
+   XAI design system — restyle of the older Minimal Mistakes pages
+   (publications, talks, teaching, blog, project and post pages) so they
+   share the new type, colours and dark theme.
+   ========================================================================== */
+
+body.x-body {
+  padding-bottom: 0; // the old absolute-positioned footer reserved space here
+  font-family: var(--x-font-sans);
+  color: var(--x-text);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--x-font-sans);
+    color: var(--x-strong);
+    letter-spacing: -.015em;
+  }
+
+  a { color: var(--x-link); }
+  a:hover { color: var(--x-link-hover); }
+
+  hr { border-top-color: var(--x-line); }
+
+  blockquote {
+    border-left-color: var(--x-live);
+    color: var(--x-muted);
+  }
+
+  code,
+  pre,
+  kbd {
+    font-family: var(--x-font-mono);
+  }
+
+  :not(pre) > code {
+    background: var(--x-chip);
+    color: var(--x-strong);
+  }
+
+  table { color: var(--x-text); }
+
+  th,
+  td { border-bottom-color: var(--x-line); }
+
+  thead { background: var(--x-bg-2); }
+}
+
+/* Page body */
+#main {
+  max-width: var(--x-container);
+  padding-top: 48px;
+}
+
+.page__title {
+  font-weight: 600;
+  letter-spacing: -.03em;
+}
+
+.page__content {
+  color: var(--x-text);
+
+  h2 {
+    border-bottom-color: var(--x-line);
+    font-weight: 600;
+  }
+
+  a { text-underline-offset: 3px; }
+}
+
+.page__meta,
+.page__date,
+.page__taxonomy {
+  color: var(--x-muted);
+  font-family: var(--x-font-mono);
+  font-size: 12px;
+}
+
+.page__hero--overlay {
+  .page__title,
+  .page__lead,
+  .page__lead a {
+    color: #FFFFFF;
+    text-shadow: 0 1px 14px rgba(0, 0, 0, .65);
+  }
+}
+
+/* Archive lists (publications, talks, teaching, blog) */
+.archive {
+  .page__title {
+    margin-bottom: 24px;
+  }
+
+  &__subtitle {
+    border-bottom-color: var(--x-line);
+    color: var(--x-muted);
+    font-family: var(--x-font-mono);
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+
+  &__item-title {
+    font-family: var(--x-font-sans);
+    font-weight: 500;
+    letter-spacing: -.01em;
+
+    a { color: var(--x-strong); text-decoration: none; }
+    a:hover { color: var(--x-link-hover); }
+  }
+
+  &__item-excerpt,
+  &__item p {
+    color: var(--x-muted);
+  }
+
+  &__item-teaser img {
+    filter: var(--x-img-filter);
+    transition: filter 320ms var(--x-ease);
+  }
+
+  &__item:hover &__item-teaser img { filter: none; }
+}
+
+.list__item {
+  border-bottom: 1px solid var(--x-line);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+/* Sidebar author profile */
+.sidebar {
+  color: var(--x-muted);
+
+  .author__avatar img {
+    border-radius: 6px;
+    border-color: var(--x-line);
+    background: var(--x-surface);
+  }
+
+  .author__name { color: var(--x-strong); font-family: var(--x-font-sans); }
+  .author__bio { color: var(--x-muted); }
+
+  .author__urls {
+    background: var(--x-bg);
+    border-color: var(--x-line);
+
+    &::before, &::after { display: none; }
+
+    a { color: var(--x-text); }
+    a:hover { color: var(--x-link-hover); }
+  }
+}
+
+/* Buttons and notices */
+.btn {
+  border-radius: 4px;
+  font-family: var(--x-font-sans);
+  background-color: var(--x-btn);
+  color: var(--x-on-btn);
+
+  &:hover { background-color: var(--x-btn-hover); color: var(--x-on-btn); }
+}
+
+.btn--inverse {
+  background-color: transparent;
+  border-color: var(--x-ghost-line);
+  color: var(--x-strong);
+
+  &:hover { background-color: var(--x-row-hover); color: var(--x-strong); }
+}
+
+.notice,
+.notice--info,
+.notice--primary {
+  background: var(--x-tint);
+  color: var(--x-text);
+}
+
+/* People blocks on project pages */
+.person .bio { color: var(--x-muted); }
+
+/* Dark theme: images with white backgrounds stay readable */
+html[data-theme="dark"] {
+  .page__content img:not(.x-gray) { background: #FFFFFF; }
+
+  .page__content .card,
+  .page__content .grid__item {
+    background: var(--x-surface);
+  }
+
+  .highlight,
+  pre {
+    background: var(--x-bg-2);
+  }
+
+  .noprofile circle { fill: var(--x-chip); }
+}

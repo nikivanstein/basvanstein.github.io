@@ -1,6 +1,8 @@
 ---
 title: "LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms"
 collection: publications
+selected: true
+topic: AAD
 permalink: /publication/2026-07-10-LLaMEA-BO-A-Large-Language-Model-Evolutionary-Algorithm-for-Automatically-Generating-Bayesian-Optimization-Algorithms
 date: 2026-07-10
 venue: 'Proceedings of the Genetic and Evolutionary Computation Conference'

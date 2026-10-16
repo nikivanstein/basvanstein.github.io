@@ -2,6 +2,7 @@
 title: "GenAIDE"
 excerpt: "Exploring disruptive AI technologies and evolving computer-aided engineering."
 collection: projects
+year: 2026
 permalink: /projects/genaide
 header:
   teaser: "genaide.png"

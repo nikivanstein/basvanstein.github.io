@@ -58,15 +58,17 @@ function updateNav() {
 
 }
 
-// Window listeners
+// Window listeners (only when the old masthead navigation is on the page)
 
-$(window).resize(function() {
+if ($nav.length) {
+  $(window).resize(function() {
+    updateNav();
+  });
+
+  $btn.on('click', function() {
+    $hlinks.toggleClass('hidden');
+    $(this).toggleClass('close');
+  });
+
   updateNav();
-});
-
-$btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
-  $(this).toggleClass('close');
-});
-
-updateNav();
+}
