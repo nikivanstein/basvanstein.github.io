@@ -993,3 +993,10 @@ html:not([data-theme="dark"]) .x-eyebrow--alt { color: var(--x-eyebrow); }
   font-size: 11px;
   color: var(--x-faint);
 }
+
+/* Related projects on project pages */
+.x-related-projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}

@@ -2,7 +2,8 @@
 {%- comment -%}
   Grid of people cards in the homepage design.
   Usage: {% include xai/people-grid.html people=page.people title="People involved" %}
-  `people` is a list of keys in _data/people.yml.
+  `people` is a list of keys in _data/people.yml. The role label comes from
+  `position`, then `bio`, then the `role` code.
 {%- endcomment -%}
 <section class="x-scope x-people-block" aria-labelledby="people-involved">
   <div class="x-people-block__head">
@@ -20,6 +21,7 @@
         {%- else -%}{%- assign role = "Researcher" -%}
       {%- endcase -%}
       {%- if person.bio -%}{%- assign role = person.bio -%}{%- endif -%}
+      {%- if person.position -%}{%- assign role = person.position -%}{%- endif -%}
       {%- assign name = person.display_name | remove: "dr. " | remove: "Dr. " | remove: "Prof. " -%}
       {%- assign parts = name | split: " " -%}
       <li>

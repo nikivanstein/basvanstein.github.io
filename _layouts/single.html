@@ -69,6 +69,10 @@ layout: default
         {% include xai/people-grid.html people=page.people title="People involved" %}
       {% endif %}
 
+      {% if page.projects %}
+        {% include xai/related-projects.html projects=page.projects %}
+      {% endif %}
+
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
