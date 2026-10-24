@@ -964,3 +964,39 @@ html:not([data-theme="dark"]) .x-eyebrow--alt { color: var(--x-eyebrow); }
   .x-book--feature .x-book__cover img { width: 160px; }
   .x-list__row { padding: 16px; }
 }
+
+/* People cards on project pages ("People involved") */
+.x-people-block {
+  clear: both; // the old page layout floats the blocks above this one
+  width: 100%;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--x-line);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.x-people--compact {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
+}
+
+.x-people--compact .x-person { position: relative; }
+
+.x-person__ext {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-style: normal;
+  font-family: var(--x-font-mono);
+  font-size: 11px;
+  color: var(--x-faint);
+}
+
+/* Related projects on project pages */
+.x-related-projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}

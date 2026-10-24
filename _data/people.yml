@@ -9,25 +9,29 @@ stein:
     display_name: "dr. Niki van Stein"
     webpage: "https://nikivanstein.nl/"
     github: nikivanstein
-    image: /img/people/stein.png
+    image: /images/profile.png
     role: aprof
+    position: "Associate professor"
 
 wang:
     display_name: "Hao Wang"
     webpage: "https://www.universiteitleiden.nl/en/staffmembers/hao-wang#tab-1"
     role: aprof
+    position: "Assistant professor"
     image: /img/people/wang.jpg
 
 kononova:
     display_name: "Anna V. Kononova"
     webpage: "https://www.universiteitleiden.nl/en/staffmembers/anna-kononova#tab-1"
     role: aprof
+    position: "Assistant professor"
     image: /img/people/kononova.png
 
 raponi:
     display_name: "Elena Raponi"
     webpage: "https://www.universiteitleiden.nl/en/staffmembers/elena-raponi#tab-1"
     role: aprof
+    position: "Assistant professor"
     image: /img/people/raponi.jpg
 
 huang:
