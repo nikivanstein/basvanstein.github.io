@@ -3,6 +3,7 @@ title: "GenAIDE"
 excerpt: "Exploring disruptive AI technologies and evolving computer-aided engineering."
 collection: projects
 year: 2026
+naco_url: "https://naco.liacs.nl/projects/2026-genaide/"
 permalink: /projects/genaide
 header:
   teaser: "genaide.png"

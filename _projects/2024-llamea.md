@@ -3,6 +3,7 @@ title: "LLaMEA"
 excerpt: "Large Language Evolutionary Algorithm for the automatic design of algorithms."
 collection: projects
 year: 2024
+naco_url: "https://naco.liacs.nl/projects/2024-llamea/"
 permalink: /projects/llamea
 header:
   teaser: "llamea.png"

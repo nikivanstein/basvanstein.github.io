@@ -3,6 +3,7 @@ title: "XAIPre"
 excerpt: "eXplainable AI for Predictive Maintenance"
 collection: projects
 year: 2022
+naco_url: "https://naco.liacs.nl/projects/2022-xaipre/"
 permalink: /projects/xaipre
 header:
   teaser: "xaipre.png"

@@ -3,6 +3,7 @@ title: "AI for Oversight"
 excerpt: "AI for Oversight ICAI lab"
 collection: projects
 year: 2023
+naco_url: "https://naco.liacs.nl/projects/2023-ai4oversight/"
 permalink: /projects/ai4oversight
 header:
   teaser: "oversight.png"
