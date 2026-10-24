@@ -376,6 +376,7 @@ html[data-theme="dark"] {
 
 /* Link from a project page to the same project on the NACO website */
 .x-naco-link {
+  clear: both; // project pages may float their own content above this
   display: flex;
   flex-wrap: wrap;
   align-items: center;

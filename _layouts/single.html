@@ -66,13 +66,7 @@ layout: default
       </footer>
 
       {% if page.people %}
-      <h3>People involved:</h3>
-      <section class="people row justify-content-between cols">
-        {% for uname in page.people %}
-          {% assign person = site.data.people[uname] %}
-          {% include person.html person=person image=true%}
-        {% endfor %}
-      </section>
+        {% include xai/people-grid.html people=page.people title="People involved" %}
       {% endif %}
 
       {% if page.share %}{% include social-share.html %}{% endif %}

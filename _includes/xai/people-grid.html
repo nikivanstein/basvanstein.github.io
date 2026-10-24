@@ -1,0 +1,41 @@
+{% include base_path %}
+{%- comment -%}
+  Grid of people cards in the homepage design.
+  Usage: {% include xai/people-grid.html people=page.people title="People involved" %}
+  `people` is a list of keys in _data/people.yml.
+{%- endcomment -%}
+<section class="x-scope x-people-block" aria-labelledby="people-involved">
+  <div class="x-people-block__head">
+    <span class="x-eyebrow" id="people-involved">{{ include.title | default: "People involved" }} · {{ include.people.size }}</span>
+  </div>
+  <ul class="x-people x-people--compact">
+    {%- for uname in include.people -%}
+      {%- assign person = site.data.people[uname] -%}
+      {%- unless person -%}{%- continue -%}{%- endunless -%}
+      {%- case person.role -%}
+        {%- when "prof" -%}{%- assign role = "Professor" -%}
+        {%- when "aprof" -%}{%- assign role = "Faculty" -%}
+        {%- when "collab" -%}{%- assign role = "Collaborator" -%}
+        {%- when "alum" -%}{%- assign role = "Former member" -%}
+        {%- else -%}{%- assign role = "Researcher" -%}
+      {%- endcase -%}
+      {%- if person.bio -%}{%- assign role = person.bio -%}{%- endif -%}
+      {%- assign name = person.display_name | remove: "dr. " | remove: "Dr. " | remove: "Prof. " -%}
+      {%- assign parts = name | split: " " -%}
+      <li>
+        {%- if person.webpage -%}<a class="x-card x-card--link x-person" href="{{ person.webpage }}">{%- else -%}<div class="x-card x-person">{%- endif -%}
+          {%- if person.image -%}
+            <img class="x-gray" src="{{ base_path }}{{ person.image }}" alt="" loading="lazy">
+          {%- else -%}
+            <span class="x-person__initials" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>
+          {%- endif -%}
+          <span class="x-person__text">
+            <span class="x-person__name">{{ name }}</span>
+            <span class="x-person__role">{{ role | upcase }}</span>
+          </span>
+          {%- if person.webpage -%}<em class="x-person__ext" aria-hidden="true">↗</em>{%- endif -%}
+        {%- if person.webpage -%}</a>{%- else -%}</div>{%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>

@@ -9,7 +9,7 @@ stein:
     display_name: "dr. Niki van Stein"
     webpage: "https://nikivanstein.nl/"
     github: nikivanstein
-    image: /img/people/stein.png
+    image: /images/profile.png
     role: aprof
 
 wang:
