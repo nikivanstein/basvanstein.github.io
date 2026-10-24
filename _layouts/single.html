@@ -55,6 +55,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.naco_url %}<p class="x-naco-link"><a href="{{ page.naco_url }}" class="btn btn--inverse">This project on the NACO website ↗</a> <a href="https://naco.liacs.nl/research/">All NACO research projects ↗</a></p>{% endif %}
       </section>
 
       <footer class="page__meta">

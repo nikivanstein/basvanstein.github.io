@@ -3,6 +3,7 @@ title: "CIMPLO"
 excerpt: "Cross-Industry Predictive Maintenance Optimization Platform"
 collection: projects
 year: 2018
+naco_url: "https://naco.liacs.nl/projects/2018-cimplo/"
 permalink: /projects/cimplo
 header:
   teaser: "cimplo.png"

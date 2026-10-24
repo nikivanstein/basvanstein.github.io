@@ -3,6 +3,7 @@ title: "Complex Lens Design"
 excerpt: "Optimization of Complex Lens Designs"
 collection: projects
 year: 2022
+naco_url: "https://naco.liacs.nl/projects/2022-lens-design/"
 permalink: /projects/lens-design
 header:
   teaser: "lens.png"

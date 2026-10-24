@@ -15,6 +15,9 @@ related:
   - title: "LLaMEA"
     url: /projects/llamea
     kind: Project
+  - title: "LLaMEA project page on NACO"
+    url: https://naco.liacs.nl/projects/2024-llamea/
+    kind: Project
 excerpt: 'LACE lets a language model evolve complete, readable machine learning pipelines, the topic of my keynote at the AutoML Conference 2026.'
 header:
   teaser: "talks/2026-09-28-automl-keynote.jpg"

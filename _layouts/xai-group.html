@@ -71,6 +71,7 @@ layout: default
           <div class="x-eyebrow">Research projects · {{ first_year }} → {{ last_year }}</div>
           <h2 class="x-section__title" id="projects-title">{{ projects.size }} projects, one thread</h2>
         </div>
+        <a class="x-section__more" href="https://naco.liacs.nl/research/">All Natural Computing research on NACO ↗</a>
       </div>
       <div class="x-projects__scroll">
         <ol class="x-projects" style="--x-cols: {{ years.size }}">
@@ -101,7 +102,7 @@ layout: default
           <div class="x-eyebrow">People · {{ page.people.size }}</div>
           <h2 class="x-section__title" id="people-title">Who we are</h2>
         </div>
-        <p class="x-section__aside">Part of the Natural Computing Cluster at LIACS, working with academic and industry partners.</p>
+        <p class="x-section__aside">Part of the <a href="https://naco.liacs.nl/research/">Natural Computing Cluster (NACO)</a> at LIACS, working with academic and industry partners.</p>
       </div>
       <ul class="x-people">
         {%- for uname in page.people -%}

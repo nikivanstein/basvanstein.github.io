@@ -99,4 +99,4 @@ We see both as unacceptable. A group committed to explainability must also foste
 
 ## Group lead and collaborations
 
-The group is led by [Dr. Niki van Stein](/) and is part of the Natural Computing Cluster at LIACS, Leiden University. We work closely with academic and industry partners to ensure that our methods are both scientifically rigorous and practically relevant.
+The group is led by [Dr. Niki van Stein](/) and is part of the [Natural Computing Cluster (NACO)](https://naco.liacs.nl/research/) at LIACS, Leiden University. We work closely with academic and industry partners to ensure that our methods are both scientifically rigorous and practically relevant.

@@ -14,6 +14,9 @@ related:
   - title: "LLaMEA"
     url: /projects/llamea
     kind: Project
+  - title: "LLaMEA project page on NACO"
+    url: https://naco.liacs.nl/projects/2024-llamea/
+    kind: Project
   - title: "Agentic Large Language Models: book and course"
     url: https://agenticllms.liacs.nl/
     kind: Website
