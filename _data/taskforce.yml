@@ -1,0 +1,19 @@
+# IEEE CIS Task Force on Generative AI for Evolutionary Computation (GenAI4EC),
+# shown on the homepage. Text follows the task force website.
+name: "Generative AI for Evolutionary Computation"
+short: "GenAI4EC"
+parent: "IEEE CIS ECTC Task Force"
+role: "Chair"
+url: "https://cis.taskforce.ieee.org/genai4ec/"
+member_url: "https://docs.google.com/forms/d/e/1FAIpQLSedpL5P8NzZx6wceqVTDDRdkxz1HpSC5rjJCrWr8vn7KuEA5A/viewform?usp=dialog"
+logo: "/images/brand/genai4ec-logo.png"
+logo_dark: "/images/brand/genai4ec-logo-dark.png"
+lead: "Generative AI inside EC, and EC for generating EC: a bidirectional view of LLM-driven evolutionary computation."
+text: "The task force promotes research, development and teaching of methods that combine generative AI, large language models in particular, with evolutionary computation. We organise special sessions, competitions, tutorials and special issues at IEEE CIS venues, and work on shared problem formulations, evaluation protocols, reproducibility standards and open benchmarks."
+team:
+  - name: "Niki van Stein"
+    role: "Chair"
+  - name: "Roman Senkerik"
+    role: "Vice chair"
+  - name: "Fei Liu"
+    role: "Vice chair"

@@ -1000,3 +1000,80 @@ html:not([data-theme="dark"]) .x-eyebrow--alt { color: var(--x-eyebrow); }
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 12px;
 }
+
+/* IEEE CIS task force (GenAI4EC) on the homepage */
+.x-taskforce {
+  background-image: radial-gradient(var(--x-dots) 1px, transparent 1.2px);
+  background-size: 24px 24px;
+
+  &__inner {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px 64px;
+  }
+
+  &__brand {
+    flex: 1 1 340px;
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__logo {
+    display: block;
+    padding: 28px 24px;
+    background: var(--x-bg);
+    box-shadow: var(--x-lift);
+
+    img { display: block; width: 100%; height: auto; }
+  }
+
+  &__team {
+    margin: 0;
+    font-family: var(--x-font-mono);
+    font-size: 12px;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 8px 0;
+      border-top: 1px solid var(--x-line);
+
+      &:last-child { border-bottom: 1px solid var(--x-line); }
+    }
+
+    dt {
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--x-muted);
+    }
+
+    dd { margin: 0; color: var(--x-strong); }
+  }
+
+  &__body {
+    flex: 999 1 460px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__lead {
+    font-size: 20px;
+    line-height: 1.45;
+    color: var(--x-strong);
+  }
+
+  &__text { font-size: 16px; }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 4px;
+  }
+}
