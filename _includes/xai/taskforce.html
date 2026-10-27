@@ -1,0 +1,37 @@
+{% include base_path %}
+{%- assign tf = site.data.taskforce -%}
+<section class="x-section x-taskforce" id="taskforce" aria-labelledby="taskforce-title">
+  <div class="x-section__inner x-taskforce__inner">
+    <div class="x-taskforce__brand">
+      <a class="x-card x-taskforce__logo" href="{{ tf.url }}" aria-label="{{ tf.name }} ({{ tf.short }}) task force website">
+        <img class="x-only-light" src="{{ base_path }}{{ tf.logo }}" alt="{{ tf.short }}, {{ tf.parent }}">
+        <img class="x-only-dark" src="{{ base_path }}{{ tf.logo_dark }}" alt="{{ tf.short }}, {{ tf.parent }}">
+      </a>
+      <dl class="x-taskforce__team">
+        {%- for m in tf.team -%}
+        <div><dt>{{ m.role }}</dt><dd>{{ m.name }}</dd></div>
+        {%- endfor -%}
+      </dl>
+    </div>
+    <div class="x-taskforce__body">
+      <div class="x-eyebrow">IEEE CIS task force · {{ tf.role }}</div>
+      <h2 class="x-section__title" id="taskforce-title">{{ tf.name }}</h2>
+      <p class="x-taskforce__lead">{{ tf.lead }}</p>
+      <p class="x-taskforce__text">{{ tf.text }}</p>
+      <ul class="x-taskforce__focus" aria-label="Focus areas">
+        {%- for f in tf.focus -%}<li>{{ f }}</li>{%- endfor -%}
+      </ul>
+      {%- if tf.next_event -%}
+      <a class="x-taskforce__event" href="{{ tf.events_url }}">
+        <span class="x-book__badge">Next event</span>
+        <span><strong>{{ tf.next_event.title }}</strong> · {{ tf.next_event.when }}, {{ tf.next_event.where }}</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+      {%- endif -%}
+      <div class="x-taskforce__actions">
+        <a class="x-btn x-btn--primary" href="{{ tf.url }}">Visit the task force <span aria-hidden="true">↗</span></a>
+        <a class="x-btn x-btn--ghost" href="{{ tf.member_url }}">Become a member <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
