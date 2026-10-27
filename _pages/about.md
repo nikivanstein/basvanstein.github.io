@@ -21,6 +21,4 @@ hero:
       value: "LIACS, Leiden"
     - label: "FOCUS"
       value: "XAI · AAD · BBO"
-    - label: "TASK FORCE"
-      value: "Chair · GenAI4EC"
 ---
