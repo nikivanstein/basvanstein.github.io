@@ -4,6 +4,34 @@ collection: publications
 permalink: /publication/2021-06-03-Multitask-Shape-Optimization-Using-a-3-D-Point-Cloud-Autoencoder-as-Unified-Representation
 date: 2021-06-03
 venue: 'IEEE Transactions on Evolutionary Computation'
-citation: ' Thiago Rios,  Bas Stein,  Thomas B{\&quot;a}ck,  Bernhard Sendhoff,  Stefan Menzel, &quot;Multitask Shape Optimization Using a 3-D Point Cloud Autoencoder as Unified Representation.&quot; IEEE Transactions on Evolutionary Computation, 2021.'
+citation: ' Thiago Rios,  Niki van Stein,  Thomas Bäck,  Bernhard Sendhoff,  Stefan Menzel, &quot;Multitask Shape Optimization Using a 3-D Point Cloud Autoencoder as Unified Representation.&quot; IEEE Transactions on Evolutionary Computation, 2021.'
+authors:
+- Thiago Rios
+- Niki van Stein
+- Thomas Bäck
+- Bernhard Sendhoff
+- Stefan Menzel
+doi: 10.1109/tevc.2021.3086308
+paperurl: https://doi.org/10.1109/tevc.2021.3086308
+pdf: https://ieeexplore.ieee.org/ielx7/4235/9745105/09446541.pdf
+venue_type: journal
+abstract: >-
+  The choice of design representations, as of search operators, is central to the performance of
+  evolutionary optimization algorithms, in particular, for multitask problems. The multitask approach
+  pushes further the parallelization aspect of these algorithms by solving simultaneously multiple
+  optimization tasks using a single population. During the search, the operators implicitly transfer
+  knowledge between solutions to the offspring, taking advantage of potential synergies between
+  problems to drive the solutions to optimality. Nevertheless, in order to operate on the individuals,
+  the design space of each task has to be mapped to a common search space, which is challenging in
+  engineering cases without clear semantic overlap between parameters. Here, we apply a 3-D point
+  cloud autoencoder to map the representations from the Cartesian to a unified design representation:
+  the latent space of the autoencoder. The transfer of latent space features between design
+  representations allows the reconstruction of shapes with interpolated characteristics and
+  maintenance of common parts, which potentially improves the performance of the designs in one or
+  more tasks during the optimization. Compared to traditional representations for shape optimization,
+  such as free-form deformation, the latent representation enables more representative design
+  modifications, while keeping the baseline characteristics of the learned classes of objects. We
+  demonstrate the efficiency of our approach in an optimization scenario where we minimize the
+  aerodynamic drag of two different car shapes with common underbodies for cost-efficient vehicle
+  platform design.
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Multitask+Shape+Optimization+Using+a+3+D+Point+Cloud+Autoencoder+as+Unified+Representation){:target="_blank"} for full citation
