@@ -277,6 +277,8 @@ def enrich(path, force):
     updates = {k: v for k, v in found.items() if k in missing and v}
     authors = updates.get("authors") or fm.get("authors") or citation_authors(str(fm.get("citation", "")))
     authors = [fix_name(a) for a in authors]
+    if authors and "authors" in missing and "authors" not in updates:
+        updates["authors"] = authors  # no source found the paper: keep the citation's authors
     citation = build_citation(authors, title, venue, year) if authors else fm.get("citation")
 
     lines = fm_text.split("\n")
