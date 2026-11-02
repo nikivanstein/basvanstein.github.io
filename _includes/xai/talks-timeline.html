@@ -35,12 +35,12 @@
             <div class="x-timeline__date">{{ t.date | date: "%d %b" | upcase }}{% if place %} · {{ place | upcase }}{% endif %}</div>
             {%- if t.image -%}
             <a class="x-thumb" href="{{ base_path }}{{ t.url }}" aria-label="Slides: {{ t.title | escape }}">
-              <img class="x-gray" src="{{ base_path }}/images/{{ t.image }}" alt="" loading="lazy">
+              {% include img.html src=t.image class="x-gray" sizes="170px" %}
               <span class="x-thumb__tag">{% include xai/icon.html name="slides" %}SLIDES</span>
             </a>
             {%- elsif t.youtube -%}
             <a class="x-thumb" href="https://youtu.be/{{ t.youtube }}" aria-label="Watch the recording of {{ t.title | escape }} on YouTube">
-              <img class="x-gray" src="https://img.youtube.com/vi/{{ t.youtube }}/hqdefault.jpg" alt="" loading="lazy">
+              <img class="x-gray" src="https://i.ytimg.com/vi_webp/{{ t.youtube }}/mqdefault.webp" alt="" width="320" height="180" loading="lazy" decoding="async">
               <span class="x-thumb__tag">{% include xai/icon.html name="play" %}VIDEO</span>
             </a>
             {%- endif -%}

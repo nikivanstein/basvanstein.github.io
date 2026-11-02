@@ -27,7 +27,7 @@
       <li>
         {%- if person.webpage -%}<a class="x-card x-card--link x-person" href="{{ person.webpage }}">{%- else -%}<div class="x-card x-person">{%- endif -%}
           {%- if person.image -%}
-            <img class="x-gray" src="{{ base_path }}{{ person.image }}" alt="" loading="lazy">
+            {% include img.html src=person.image class="x-gray" sizes="56px" %}
           {%- else -%}
             <span class="x-person__initials" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>
           {%- endif -%}

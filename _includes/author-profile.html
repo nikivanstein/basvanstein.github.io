@@ -4,13 +4,14 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 {%- if author.avatar contains "://" -%}{%- assign avatar = author.avatar -%}{%- else -%}{%- assign avatar = author.avatar | prepend: "/images/" | prepend: base_path -%}{%- endif -%}
+{%- assign avatar_src = author.avatar -%}
 {%- assign yt0 = author.youtube | slice: 0 -%}
 
 <div class="x-scope x-profile" itemscope itemtype="http://schema.org/Person">
 
   <div class="x-profile__card x-card">
     <a class="x-profile__photo" href="{{ base_path }}/" aria-label="{{ author.name }}, homepage">
-      <img class="x-gray" src="{{ avatar }}" alt="" itemprop="image">
+      {% include img.html src=avatar_src class="x-gray" sizes="152px" %}
     </a>
     <div class="x-profile__head">
       <a class="x-profile__name" href="{{ base_path }}/" itemprop="name">{{ author.name }}</a>

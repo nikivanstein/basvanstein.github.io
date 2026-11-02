@@ -48,7 +48,7 @@ layout: default
       </div>
       {%- elsif page.image -%}
       <figure class="x-media x-media--image">
-        <img src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ base_path }}/images/{{ page.image }}{% endif %}" alt="{{ page.image_alt | default: '' }}">
+        {% include img.html src=page.image alt=page.image_alt sizes="(max-width: 760px) 100vw, 720px" loading="eager" fetchpriority="high" %}
       </figure>
       {%- endif -%}
 

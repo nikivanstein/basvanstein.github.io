@@ -16,6 +16,13 @@
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
 {% elsif page.header.overlay_image %}
   {% capture overlay_img_path %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+  {% comment %} Use the variants from scripts/optimize_images.py when available. {% endcomment %}
+  {% assign overlay_key = page.header.overlay_image | prepend: "/images/" %}
+  {% assign overlay_v = site.data.image_variants[overlay_key] %}
+  {% if overlay_v %}
+    {% capture overlay_img_path %}{{ base_path }}{{ overlay_v.src }}{% endcapture %}
+    {% assign overlay_webp = overlay_v.webp | split: ", " | last | split: " " | first | prepend: base_path %}
+  {% endif %}
 {% endif %}
 
 {% if page.header.overlay_filter contains "rgba" %}
@@ -25,7 +32,7 @@
 {% endif %}
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}{% capture overlay_gradient %}{% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}{% endcapture %}background-image: {{ overlay_gradient }}url('{{ overlay_img_path }}');{% if overlay_webp %} background-image: {{ overlay_gradient }}image-set(url('{{ overlay_webp }}') type('image/webp'), url('{{ overlay_img_path }}') type('{{ overlay_v.type }}'));{% endif %}{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
@@ -47,7 +54,7 @@
       {% endif %}
     </div>
   {% else %}
-    <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
+    {% include img.html src=page.header.image alt=page.title class="page__hero-image" sizes="100vw" loading="eager" fetchpriority="high" %}
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

@@ -31,5 +31,5 @@ Deep-BIAS is an extension that introduces a deep-learning model to effectively d
 
 We recommend every optimization algorithm researcher and practisioner to use the BIAS toolbox and verify if the algorithm used or created does not suffer from structural bias. See our [Github](https://github.com/Dvermetten/BIAS){:target="_blank"} for setup instructions and a quick start.
 
-![](../files/GECCO_Deep_BIAS_Poster_final.png)
+<a href="/files/GECCO_Deep_BIAS_Poster_final.png">{% include img.html src="/files/GECCO_Deep_BIAS_Poster_final.png" alt="GECCO 2023 poster on Deep-BIAS" sizes="(max-width: 760px) 100vw, 680px" %}</a>
 

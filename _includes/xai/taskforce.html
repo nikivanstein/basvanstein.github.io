@@ -4,8 +4,9 @@
   <div class="x-section__inner x-taskforce__inner">
     <div class="x-taskforce__brand">
       <a class="x-card x-taskforce__logo" href="{{ tf.url }}" aria-label="{{ tf.name }} ({{ tf.short }}) task force website">
-        <img class="x-only-light" src="{{ base_path }}{{ tf.logo }}" alt="{{ tf.short }}, {{ tf.parent }}">
-        <img class="x-only-dark" src="{{ base_path }}{{ tf.logo_dark }}" alt="{{ tf.short }}, {{ tf.parent }}">
+        {%- capture tf_alt %}{{ tf.short }}, {{ tf.parent }}{% endcapture %}
+        {% include img.html src=tf.logo class="x-only-light" sizes="(max-width: 1023px) 390px, 290px" alt=tf_alt %}
+        {% include img.html src=tf.logo_dark class="x-only-dark" sizes="(max-width: 1023px) 390px, 290px" alt=tf_alt %}
       </a>
       <dl class="x-taskforce__team">
         {%- for m in tf.team -%}

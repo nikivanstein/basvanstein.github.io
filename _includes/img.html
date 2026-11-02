@@ -1,0 +1,48 @@
+{%- comment -%}
+  Responsive, lazily loaded image.
+
+  Usage:
+    {% include img.html src="/img/people/back.jpg" alt="" class="x-gray" sizes="56px" %}
+
+  Parameters:
+    src            site path of the original image. A bare name such as
+                   "teasers/x.png" is read as "/images/teasers/x.png".
+                   Full URLs are passed through unchanged.
+    alt            alternative text (default: empty)
+    sizes          displayed width, as in the HTML sizes attribute
+                   (default: "100vw"). Lets the browser pick the right variant.
+    class, style, id, title   copied to the <img>
+    loading        "lazy" (default) or "eager". Use "eager" together with
+                   fetchpriority="high" for the main image at the top of a page.
+    fetchpriority  "high" for that main image (optional)
+
+  When scripts/optimize_images.py has generated variants for the image (see
+  _data/image_variants.json), this renders a <picture> with a WebP srcset and
+  a JPEG/PNG/GIF fallback, plus width and height to avoid layout shifts.
+  Animated GIFs that the script turned into video render as a muted, looping
+  <video> with a poster frame; assets/js/autoplay-videos.js plays it while it
+  is on screen. Otherwise this falls back to a plain <img>.
+{%- endcomment -%}
+{%- include base_path -%}
+{%- assign _src = include.src | strip -%}
+{%- assign _first = _src | slice: 0 -%}
+{%- unless _src contains '://' or _first == '/' -%}{%- assign _src = '/images/' | append: _src -%}{%- endunless -%}
+{%- assign _v = site.data.image_variants[_src] -%}
+{%- assign _loading = include.loading | default: 'lazy' -%}
+{%- capture _attrs -%}
+  {%- if include.class %} class="{{ include.class }}"{% endif -%}
+  {%- if include.id %} id="{{ include.id }}"{% endif -%}
+  {%- if include.style %} style="{{ include.style }}"{% endif -%}
+  {%- if include.title %} title="{{ include.title }}"{% endif -%}
+  {%- if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %} loading="{{ _loading }}" decoding="async"
+{%- endcapture -%}
+{%- if _v.video -%}
+  <video{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.id %} id="{{ include.id }}"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %} width="{{ _v.width }}" height="{{ _v.height }}" poster="{{ base_path }}{{ _v.poster }}" muted loop playsinline controls preload="none" data-autoplay{% if include.alt %} aria-label="{{ include.alt | escape }}"{% endif %}><source src="{{ base_path }}{{ _v.video }}" type="video/mp4">{% if _v.webm %}<source src="{{ base_path }}{{ _v.webm }}" type="video/webm">{% endif %}</video>
+{%- elsif _v -%}
+  {%- assign _opt = base_path | append: '/images/optimized/' -%}
+  <picture><source type="image/webp" srcset="{{ _v.webp | replace: '/images/optimized/', _opt }}" sizes="{{ include.sizes | default: '100vw' }}"><img src="{{ base_path }}{{ _v.src }}" alt="{{ include.alt | escape }}" width="{{ _v.width }}" height="{{ _v.height }}"{{ _attrs }}></picture>
+{%- elsif _src contains '://' -%}
+  <img src="{{ _src }}" alt="{{ include.alt | escape }}"{{ _attrs }}>
+{%- else -%}
+  <img src="{{ base_path }}{{ _src }}" alt="{{ include.alt | escape }}"{{ _attrs }}>
+{%- endif -%}

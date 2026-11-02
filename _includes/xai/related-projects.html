@@ -16,7 +16,7 @@
   <div class="x-related-projects__grid">
     {%- for p in related -%}
     <a class="x-card x-card--link x-project" href="{{ base_path }}{{ p.url }}">
-      {%- if p.header.teaser -%}<img class="x-gray" src="{{ base_path }}/images/{{ p.header.teaser }}" alt="" loading="lazy">{%- endif -%}
+      {%- if p.header.teaser -%}{% include img.html src=p.header.teaser class="x-gray" sizes="(max-width: 600px) 100vw, 300px" %}{%- endif -%}
       <span class="x-project__body">
         <span class="x-project__name">{{ p.title }}</span>
         <span class="x-project__text">{% if p.year %}{{ p.year }} · {% endif %}{{ p.excerpt | strip_html | strip }}</span>

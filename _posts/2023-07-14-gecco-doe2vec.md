@@ -27,4 +27,4 @@ The method uses a deep variational auto-encoder and is trained on 250.000 random
 
 There are however limitations to this approach. The model targets to minimize the recontruction loss, but this loss is actually not that relevant in learning important landscape characteristics. We plan to improve the model performance by developing a new loss function or a by using a different architecture.
 
-![](../files/GECCO_Doe2Vec_Poster_submitted.jpg)
+<a href="/files/GECCO_Doe2Vec_Poster_submitted.jpg">{% include img.html src="/files/GECCO_Doe2Vec_Poster_submitted.jpg" alt="GECCO 2023 poster on DoE2Vec" sizes="(max-width: 760px) 100vw, 680px" %}</a>
