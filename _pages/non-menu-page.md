@@ -1,4 +1,7 @@
 ---
+# Template or archive page: kept out of search results and the sitemap.
+sitemap: false
+noindex: true
 permalink: /non-menu-page/
 title: "Page not in menu"
 excerpt: "This is a page not in th emain menu"

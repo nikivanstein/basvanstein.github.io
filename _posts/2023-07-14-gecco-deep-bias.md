@@ -1,5 +1,6 @@
 ---
 title: 'Gecco 2023 - Deep Bias'
+description: "GECCO 2023 poster on Deep-BIAS, a deep-learning extension of the BIAS toolbox that detects structural bias in optimisation algorithms and predicts its type."
 date: 2023-07-14
 permalink: /posts/2023/07/gecco-deep-bias/
 excerpt: 'Gecco 2023'

@@ -53,6 +53,10 @@ layout: default
       {%- endif -%}
 
       <div class="x-prose" data-x-article>
+        {%- if page.abstract -%}
+        <h2>Abstract</h2>
+        <p>{{ page.abstract }}</p>
+        {%- endif -%}
         {{ content }}
       </div>
 
@@ -70,13 +74,16 @@ layout: default
         <dl class="x-facts__list">
           <div><dt>Type</dt><dd>{{ kind }}</dd></div>
           {%- if page.date -%}<div><dt>Date</dt><dd>{% if page.collection == "teaching" %}{{ page.date | date: "%Y" }}{% else %}{{ page.date | date: "%-d %B %Y" }}{% endif %}</dd></div>{%- endif -%}
+          {%- if page.authors -%}<div><dt>Authors</dt><dd>{{ page.authors | join: ", " }}</dd></div>{%- endif -%}
           {%- if page.venue -%}<div><dt>{% if page.collection == "talks" %}Event{% elsif page.collection == "teaching" %}Programme{% else %}Venue{% endif %}</dt><dd>{{ page.venue }}</dd></div>{%- endif -%}
           {%- if page.location -%}<div><dt>Location</dt><dd>{{ page.location }}</dd></div>{%- endif -%}
         </dl>
-        {%- if page.youtube or page.paperurl or page.slidesurl or page.link -%}
+        {%- if page.youtube or page.paperurl or page.slidesurl or page.link or page.pdf or page.arxiv -%}
         <div class="x-facts__actions">
           {%- if page.youtube -%}<a class="x-btn x-btn--primary" href="https://youtu.be/{{ page.youtube }}">Watch on YouTube ↗</a>{%- endif -%}
           {%- if page.paperurl -%}<a class="x-btn x-btn--primary" href="{{ page.paperurl }}">Read the paper ↗</a>{%- endif -%}
+          {%- if page.pdf -%}<a class="x-btn x-btn--ghost" href="{{ page.pdf }}">PDF ↗</a>{%- endif -%}
+          {%- if page.arxiv -%}{%- unless page.paperurl contains page.arxiv -%}<a class="x-btn x-btn--ghost" href="https://arxiv.org/abs/{{ page.arxiv }}">arXiv preprint ↗</a>{%- endunless -%}{%- endif -%}
           {%- if page.slidesurl -%}<a class="x-btn x-btn--ghost" href="{{ page.slidesurl }}">Slides ↗</a>{%- endif -%}
           {%- if page.link -%}<a class="x-btn x-btn--ghost" href="{{ page.link }}">Direct link ↗</a>{%- endif -%}
         </div>

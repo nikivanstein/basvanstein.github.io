@@ -1,5 +1,6 @@
 ---
 title: "Complex Lens Design"
+description: "Research project applying and developing machine learning and optimisation techniques for practical lens design problems in optical imaging and optical metrology."
 excerpt: "Optimization of Complex Lens Designs"
 collection: projects
 year: 2022

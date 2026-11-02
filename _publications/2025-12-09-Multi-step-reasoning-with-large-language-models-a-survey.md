@@ -4,6 +4,32 @@ collection: publications
 permalink: /publication/2025-12-09-Multi-step-reasoning-with-large-language-models-a-survey
 date: 2025-12-09
 venue: 'ACM Computing Surveys'
-citation: ' Aske Plaat,  Annie Wong,  Suzan Verberne,  Joost Broekens,  Niki Van, &quot;Multi-step reasoning with large language models, a survey.&quot; ACM Computing Surveys, 2025.'
+citation: ' Aske Plaat,  Annie Wong,  Suzan Verberne,  Joost Broekens,  Niki van Stein,  Thomas Bäck, &quot;Multi-step reasoning with large language models, a survey.&quot; ACM Computing Surveys, 2025.'
+authors:
+- Aske Plaat
+- Annie Wong
+- Suzan Verberne
+- Joost Broekens
+- Niki van Stein
+- Thomas Bäck
+doi: 10.1145/3774896
+paperurl: https://doi.org/10.1145/3774896
+arxiv: '2407.11511'
+pdf: https://arxiv.org/pdf/2407.11511
+venue_type: journal
+abstract: >-
+  Large language models (LLMs) with billions of parameters exhibit in-context learning abilities,
+  enabling few-shot learning on tasks that the model was not specifically trained for. Traditional
+  models achieve breakthrough performance on language tasks, but do not perform well on basic
+  reasoning benchmarks. However, a new in-context learning approach, Chain-of-thought, has
+  demonstrated strong multi-step reasoning abilities on these benchmarks. The research on LLM
+  reasoning abilities started with the question whether LLMs can solve grade school math word
+  problems, and has expanded to other tasks in the past few years. This article reviews the field of
+  multi-step reasoning with LLMs. We propose a taxonomy that identifies different ways to generate,
+  evaluate, and control multi-step reasoning. We provide an in-depth coverage of core approaches and
+  open problems, and we propose a research agenda for the near future. We find that multi-step
+  reasoning approaches have progressed beyond math word problems, and can now successfully solve
+  challenges in logic, combinatorial games, and robotics, sometimes by first generating code that is
+  then executed by external tools. Many studies in multi-step methods use reinforcement learning for
+  finetuning, external optimization loops, in-context reinforcement learning, and self-reflection.
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Multi+step+reasoning+with+large+language+models,+a+survey){:target="_blank"} for full citation

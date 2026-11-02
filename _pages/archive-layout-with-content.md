@@ -1,4 +1,7 @@
 ---
+# Template or archive page: kept out of search results and the sitemap.
+sitemap: false
+noindex: true
 title: "Archive Layout with Content"
 layout: archive
 permalink: /archive-layout-with-content/

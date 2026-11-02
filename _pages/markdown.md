@@ -1,4 +1,7 @@
 ---
+# Template or archive page: kept out of search results and the sitemap.
+sitemap: false
+noindex: true
 permalink: /markdown/
 title: "Markdown"
 author_profile: true

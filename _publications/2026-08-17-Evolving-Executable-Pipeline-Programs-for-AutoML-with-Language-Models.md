@@ -4,6 +4,33 @@ collection: publications
 permalink: /publication/2026-08-17-Evolving-Executable-Pipeline-Programs-for-AutoML-with-Language-Models
 date: 2026-08-17
 venue: 'arXiv preprint arXiv:2608.16416'
-citation: ' Sofoklis Kitharidis,  Cor J Veenman,  Jan N van Rijn,  Thomas Bäck,  Niki van Stein, &quot;Evolving Executable Pipeline Programs for AutoML with Language Models.&quot; arXiv preprint arXiv:2608.16416, 2026.'
+citation: ' Sofoklis Kitharidis,  Cor J. Veenman,  Jan N. van Rijn,  Thomas Bäck,  Niki van Stein, &quot;Evolving Executable Pipeline Programs for AutoML with Language Models.&quot; arXiv preprint arXiv:2608.16416, 2026.'
+authors:
+- Sofoklis Kitharidis
+- Cor J. Veenman
+- Jan N. van Rijn
+- Thomas Bäck
+- Niki van Stein
+paperurl: https://arxiv.org/abs/2608.16416
+arxiv: '2608.16416'
+pdf: https://arxiv.org/pdf/2608.16416
+venue_type: preprint
+abstract: >-
+  Automated machine learning (AutoML) systems search for pipelines within a space of preprocessing
+  operators, learners, and hyper-parameters specified in advance: they can select and tune known
+  components, but cannot produce structure outside that space. We present LACE, an AutoML framework
+  that instead searches over complete executable pipeline programs: an evolutionary loop maintains a
+  population of scikit-learn-compatible Python classes, and a large language model acts as the
+  variation operator. To our knowledge, LACE is the first to formulate general tabular pipeline AutoML
+  this way, evaluated on standardized OpenML tasks under a leakage-controlled protocol that withholds
+  dataset identity from the generator. Because every candidate is ordinary Python, the returned
+  pipeline and the search that produced it can be inspected and edited directly, rather than only
+  through a framework's model objects. On 68 OpenML classification tasks, LACE with GPT-5.4-mini
+  significantly outperforms auto-sklearn, H2O, and a fixed XGBoost baseline, with no detectable
+  difference against AutoGluon, the strongest search-based system evaluated, while covering the full
+  benchmark. Newer tabular foundation models are more accurate on the subset of tasks they support,
+  but apply a fixed pretrained predictor rather than returning an editable task-specific program.
+  LACE's contribution is therefore not raw accuracy but a search space defined by code: complete
+  coverage, pipelines practitioners can reuse directly, and a component set extended by editing the
+  prompt rather than the framework.
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Evolving+Executable+Pipeline+Programs+for+AutoML+with+Language+Models){:target="_blank"} for full citation
