@@ -1,0 +1,59 @@
+# Configuration for scripts/optimize_images.py
+#
+# For every image that the site references, the script writes resized WebP
+# variants plus a resized fallback (JPEG/PNG/GIF) into `output_dir`, and
+# records them in `_data/image_variants.json`, which `_includes/img.html`
+# reads to build a responsive <picture> element.
+#
+# Widths are the pixel widths to generate. Pick them from how large the image
+# is shown on the site (roughly 1x and 2x the displayed CSS width). Widths
+# larger than the source image are capped at the source width.
+
+source_dirs: [images, img, files]
+output_dir: images/optimized
+manifest: _data/image_variants.json
+
+# Folders under source_dirs that are never processed.
+skip_dirs:
+  - images/optimized
+  - images/blog/.ipynb_checkpoints
+
+# Favicons, app icons and tiles are already sized for their purpose.
+skip_patterns:
+  - "images/favicon*"
+  - "images/apple-touch-icon*"
+  - "images/android-chrome*"
+  - "images/mstile*"
+  - "images/safari-pinned-tab*"
+
+defaults:
+  widths: [320, 480, 640, 960, 1280, 1920]
+  webp_quality: 80
+  jpeg_quality: 82
+  # Width of the single JPEG/PNG fallback for browsers without WebP support.
+  fallback_max_width: 1280
+
+# First matching rule wins. `match` is a glob on the path relative to the
+# repository root.
+rules:
+  # Avatars in people grids and author boxes (shown at 56-120px).
+  - match: "img/people/*"
+    widths: [64, 112, 168, 240]
+  # Logos in the header, footer and task force block (44-300px).
+  - match: "images/brand/*"
+    widths: [64, 128, 256, 600]
+    webp_quality: 90
+  # Small funding logo shown at 40px.
+  - match: "img/projects/EU.png"
+    widths: [40, 80, 120]
+  # Portrait on the homepage and sidebar (shown at up to 350px).
+  - match: "images/profile.png"
+    widths: [360, 540, 720]
+  # Animated GIF on the Pink Phoenix page (shown at up to 720px). Animated
+  # GIFs become an MP4 at the largest width (set `video: false` to get an
+  # animated WebP instead). `video_crf` (MP4) and `webm_crf` (WebM fallback)
+  # set the quality; lower is better and larger.
+  - match: "img/pinkphoenix/*.gif"
+    widths: [720]
+    video_crf: 26
+    webm_crf: 38

@@ -1,0 +1,1100 @@
+{
+ "/files/GECCO_Deep_BIAS_Poster_final.png": {
+  "width": 1299,
+  "height": 1837,
+  "type": "image/png",
+  "src": "/images/optimized/files/GECCO_Deep_BIAS_Poster_final-1280.png",
+  "webp": "/images/optimized/files/GECCO_Deep_BIAS_Poster_final-320.webp 320w, /images/optimized/files/GECCO_Deep_BIAS_Poster_final-480.webp 480w, /images/optimized/files/GECCO_Deep_BIAS_Poster_final-640.webp 640w, /images/optimized/files/GECCO_Deep_BIAS_Poster_final-960.webp 960w, /images/optimized/files/GECCO_Deep_BIAS_Poster_final-1280.webp 1280w, /images/optimized/files/GECCO_Deep_BIAS_Poster_final-1299.webp 1299w",
+  "files": [
+   "images/optimized/files/GECCO_Deep_BIAS_Poster_final-320.webp",
+   "images/optimized/files/GECCO_Deep_BIAS_Poster_final-480.webp",
+   "images/optimized/files/GECCO_Deep_BIAS_Poster_final-640.webp",
+   "images/optimized/files/GECCO_Deep_BIAS_Poster_final-960.webp",
+   "images/optimized/files/GECCO_Deep_BIAS_Poster_final-1280.webp",
+   "images/optimized/files/GECCO_Deep_BIAS_Poster_final-1299.webp",
+   "images/optimized/files/GECCO_Deep_BIAS_Poster_final-1280.png"
+  ],
+  "hash": "12fdd95f47d15ce10095cac02fd40cf31e8a6c04"
+ },
+ "/files/GECCO_Doe2Vec_Poster_submitted.jpg": {
+  "width": 1920,
+  "height": 2714,
+  "type": "image/jpeg",
+  "src": "/images/optimized/files/GECCO_Doe2Vec_Poster_submitted-1280.jpg",
+  "webp": "/images/optimized/files/GECCO_Doe2Vec_Poster_submitted-320.webp 320w, /images/optimized/files/GECCO_Doe2Vec_Poster_submitted-480.webp 480w, /images/optimized/files/GECCO_Doe2Vec_Poster_submitted-640.webp 640w, /images/optimized/files/GECCO_Doe2Vec_Poster_submitted-960.webp 960w, /images/optimized/files/GECCO_Doe2Vec_Poster_submitted-1280.webp 1280w, /images/optimized/files/GECCO_Doe2Vec_Poster_submitted-1920.webp 1920w",
+  "files": [
+   "images/optimized/files/GECCO_Doe2Vec_Poster_submitted-320.webp",
+   "images/optimized/files/GECCO_Doe2Vec_Poster_submitted-480.webp",
+   "images/optimized/files/GECCO_Doe2Vec_Poster_submitted-640.webp",
+   "images/optimized/files/GECCO_Doe2Vec_Poster_submitted-960.webp",
+   "images/optimized/files/GECCO_Doe2Vec_Poster_submitted-1280.webp",
+   "images/optimized/files/GECCO_Doe2Vec_Poster_submitted-1920.webp",
+   "images/optimized/files/GECCO_Doe2Vec_Poster_submitted-1280.jpg"
+  ],
+  "hash": "cf365dffff95a251f36072ba4a09fafbb68af1ba"
+ },
+ "/images/500x300.png": {
+  "width": 500,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/500x300.png",
+  "webp": "/images/optimized/images/500x300-320.webp 320w, /images/optimized/images/500x300-480.webp 480w, /images/optimized/images/500x300-500.webp 500w",
+  "files": [
+   "images/optimized/images/500x300-320.webp",
+   "images/optimized/images/500x300-480.webp",
+   "images/optimized/images/500x300-500.webp"
+  ],
+  "hash": "233cd84bd47a7780190692630f669c7357ef11a4"
+ },
+ "/images/agentic-llms-book-cover.png": {
+  "width": 306,
+  "height": 458,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/agentic-llms-book-cover-306.jpg",
+  "webp": "/images/optimized/images/agentic-llms-book-cover-306.webp 306w",
+  "files": [
+   "images/optimized/images/agentic-llms-book-cover-306.webp",
+   "images/optimized/images/agentic-llms-book-cover-306.jpg"
+  ],
+  "hash": "b165b521fbb91a99ae8fa16f266e2908e57fa384"
+ },
+ "/images/ai4optics.png": {
+  "width": 1600,
+  "height": 900,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/ai4optics-1280.jpg",
+  "webp": "/images/optimized/images/ai4optics-320.webp 320w, /images/optimized/images/ai4optics-480.webp 480w, /images/optimized/images/ai4optics-640.webp 640w, /images/optimized/images/ai4optics-960.webp 960w, /images/optimized/images/ai4optics-1280.webp 1280w, /images/optimized/images/ai4optics-1600.webp 1600w",
+  "files": [
+   "images/optimized/images/ai4optics-320.webp",
+   "images/optimized/images/ai4optics-480.webp",
+   "images/optimized/images/ai4optics-640.webp",
+   "images/optimized/images/ai4optics-960.webp",
+   "images/optimized/images/ai4optics-1280.webp",
+   "images/optimized/images/ai4optics-1600.webp",
+   "images/optimized/images/ai4optics-1280.jpg"
+  ],
+  "hash": "75c5235d8c5713f4c5e59b17fdd2ff509fa7df09"
+ },
+ "/images/banner.png": {
+  "width": 1152,
+  "height": 500,
+  "type": "image/png",
+  "src": "/images/optimized/images/banner-1152.png",
+  "webp": "/images/optimized/images/banner-320.webp 320w, /images/optimized/images/banner-480.webp 480w, /images/optimized/images/banner-640.webp 640w, /images/optimized/images/banner-960.webp 960w, /images/optimized/images/banner-1152.webp 1152w",
+  "files": [
+   "images/optimized/images/banner-320.webp",
+   "images/optimized/images/banner-480.webp",
+   "images/optimized/images/banner-640.webp",
+   "images/optimized/images/banner-960.webp",
+   "images/optimized/images/banner-1152.webp",
+   "images/optimized/images/banner-1152.png"
+  ],
+  "hash": "1a8ccb99f26bfcb0b7df15028f36a9e1651fd9f7"
+ },
+ "/images/banner1.png": {
+  "width": 1920,
+  "height": 714,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/banner1-1280.jpg",
+  "webp": "/images/optimized/images/banner1-320.webp 320w, /images/optimized/images/banner1-480.webp 480w, /images/optimized/images/banner1-640.webp 640w, /images/optimized/images/banner1-960.webp 960w, /images/optimized/images/banner1-1280.webp 1280w, /images/optimized/images/banner1-1920.webp 1920w",
+  "files": [
+   "images/optimized/images/banner1-320.webp",
+   "images/optimized/images/banner1-480.webp",
+   "images/optimized/images/banner1-640.webp",
+   "images/optimized/images/banner1-960.webp",
+   "images/optimized/images/banner1-1280.webp",
+   "images/optimized/images/banner1-1920.webp",
+   "images/optimized/images/banner1-1280.jpg"
+  ],
+  "hash": "ba2e1ee08e189b91b9ac8ff8f00194c276262b31"
+ },
+ "/images/bio-photo.jpg": {
+  "width": 200,
+  "height": 200,
+  "type": "image/jpeg",
+  "src": "/images/bio-photo.jpg",
+  "webp": "/images/optimized/images/bio-photo-200.webp 200w",
+  "files": [
+   "images/optimized/images/bio-photo-200.webp"
+  ],
+  "hash": "89c994638cf1d89225129494d13548871906c91f"
+ },
+ "/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1.png": {
+  "width": 1140,
+  "height": 385,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-1140.jpg",
+  "webp": "/images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-320.webp 320w, /images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-480.webp 480w, /images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-640.webp 640w, /images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-960.webp 960w, /images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-1140.webp 1140w",
+  "files": [
+   "images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-320.webp",
+   "images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-480.webp",
+   "images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-640.webp",
+   "images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-960.webp",
+   "images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-1140.webp",
+   "images/optimized/images/blog/Aircraft-Maintenance-Mechanic-Inspecting-and-Working-on-Airplane-Jet-Engine-in-Hangar-1-1140.jpg"
+  ],
+  "hash": "d9f313b34101ed708d86e09224664f5ad8f4d5f1"
+ },
+ "/images/blog/llamea-cover.png": {
+  "width": 1792,
+  "height": 1024,
+  "type": "image/png",
+  "src": "/images/optimized/images/blog/llamea-cover-1280.png",
+  "webp": "/images/optimized/images/blog/llamea-cover-320.webp 320w, /images/optimized/images/blog/llamea-cover-480.webp 480w, /images/optimized/images/blog/llamea-cover-640.webp 640w, /images/optimized/images/blog/llamea-cover-960.webp 960w, /images/optimized/images/blog/llamea-cover-1280.webp 1280w, /images/optimized/images/blog/llamea-cover-1792.webp 1792w",
+  "files": [
+   "images/optimized/images/blog/llamea-cover-320.webp",
+   "images/optimized/images/blog/llamea-cover-480.webp",
+   "images/optimized/images/blog/llamea-cover-640.webp",
+   "images/optimized/images/blog/llamea-cover-960.webp",
+   "images/optimized/images/blog/llamea-cover-1280.webp",
+   "images/optimized/images/blog/llamea-cover-1792.webp",
+   "images/optimized/images/blog/llamea-cover-1280.png"
+  ],
+  "hash": "e422bd855c1c789ec4ed9ba3e3c755c76a97d556"
+ },
+ "/images/blog/llamea-dark.png": {
+  "width": 1024,
+  "height": 1024,
+  "type": "image/png",
+  "src": "/images/optimized/images/blog/llamea-dark-1024.png",
+  "webp": "/images/optimized/images/blog/llamea-dark-320.webp 320w, /images/optimized/images/blog/llamea-dark-480.webp 480w, /images/optimized/images/blog/llamea-dark-640.webp 640w, /images/optimized/images/blog/llamea-dark-960.webp 960w, /images/optimized/images/blog/llamea-dark-1024.webp 1024w",
+  "files": [
+   "images/optimized/images/blog/llamea-dark-320.webp",
+   "images/optimized/images/blog/llamea-dark-480.webp",
+   "images/optimized/images/blog/llamea-dark-640.webp",
+   "images/optimized/images/blog/llamea-dark-960.webp",
+   "images/optimized/images/blog/llamea-dark-1024.webp",
+   "images/optimized/images/blog/llamea-dark-1024.png"
+  ],
+  "hash": "407e67f4f87c3ff6b062b4d2622ec7a41e7e700b"
+ },
+ "/images/brand/genai4ec-logo-dark.png": {
+  "width": 600,
+  "height": 153,
+  "type": "image/png",
+  "src": "/images/optimized/images/brand/genai4ec-logo-dark-600.png",
+  "webp": "/images/optimized/images/brand/genai4ec-logo-dark-64.webp 64w, /images/optimized/images/brand/genai4ec-logo-dark-128.webp 128w, /images/optimized/images/brand/genai4ec-logo-dark-256.webp 256w, /images/optimized/images/brand/genai4ec-logo-dark-600.webp 600w",
+  "files": [
+   "images/optimized/images/brand/genai4ec-logo-dark-64.webp",
+   "images/optimized/images/brand/genai4ec-logo-dark-128.webp",
+   "images/optimized/images/brand/genai4ec-logo-dark-256.webp",
+   "images/optimized/images/brand/genai4ec-logo-dark-600.webp",
+   "images/optimized/images/brand/genai4ec-logo-dark-600.png"
+  ],
+  "hash": "72032ec4c81bdebf2240e1cf737538dfbcc8eb92"
+ },
+ "/images/brand/genai4ec-logo.png": {
+  "width": 600,
+  "height": 153,
+  "type": "image/png",
+  "src": "/images/optimized/images/brand/genai4ec-logo-600.png",
+  "webp": "/images/optimized/images/brand/genai4ec-logo-64.webp 64w, /images/optimized/images/brand/genai4ec-logo-128.webp 128w, /images/optimized/images/brand/genai4ec-logo-256.webp 256w, /images/optimized/images/brand/genai4ec-logo-600.webp 600w",
+  "files": [
+   "images/optimized/images/brand/genai4ec-logo-64.webp",
+   "images/optimized/images/brand/genai4ec-logo-128.webp",
+   "images/optimized/images/brand/genai4ec-logo-256.webp",
+   "images/optimized/images/brand/genai4ec-logo-600.webp",
+   "images/optimized/images/brand/genai4ec-logo-600.png"
+  ],
+  "hash": "0ea8815be3cea35c081cf60b7a9bdc27ed0944e3"
+ },
+ "/images/brand/xai-logo-white.png": {
+  "width": 512,
+  "height": 512,
+  "type": "image/png",
+  "src": "/images/brand/xai-logo-white.png",
+  "webp": "/images/optimized/images/brand/xai-logo-white-64.webp 64w, /images/optimized/images/brand/xai-logo-white-128.webp 128w, /images/optimized/images/brand/xai-logo-white-256.webp 256w, /images/optimized/images/brand/xai-logo-white-512.webp 512w",
+  "files": [
+   "images/optimized/images/brand/xai-logo-white-64.webp",
+   "images/optimized/images/brand/xai-logo-white-128.webp",
+   "images/optimized/images/brand/xai-logo-white-256.webp",
+   "images/optimized/images/brand/xai-logo-white-512.webp"
+  ],
+  "hash": "d47a11535dac8a6311a3408635b0814f47dcad19"
+ },
+ "/images/brand/xai-logo.png": {
+  "width": 512,
+  "height": 512,
+  "type": "image/png",
+  "src": "/images/brand/xai-logo.png",
+  "webp": "/images/optimized/images/brand/xai-logo-64.webp 64w, /images/optimized/images/brand/xai-logo-128.webp 128w, /images/optimized/images/brand/xai-logo-256.webp 256w, /images/optimized/images/brand/xai-logo-512.webp 512w",
+  "files": [
+   "images/optimized/images/brand/xai-logo-64.webp",
+   "images/optimized/images/brand/xai-logo-128.webp",
+   "images/optimized/images/brand/xai-logo-256.webp",
+   "images/optimized/images/brand/xai-logo-512.webp"
+  ],
+  "hash": "e55b61e6ec01286e443fd269ca90e73af0630d10"
+ },
+ "/images/brand/xai-mark-reverse.png": {
+  "width": 376,
+  "height": 368,
+  "type": "image/png",
+  "src": "/images/brand/xai-mark-reverse.png",
+  "webp": "/images/optimized/images/brand/xai-mark-reverse-64.webp 64w, /images/optimized/images/brand/xai-mark-reverse-128.webp 128w, /images/optimized/images/brand/xai-mark-reverse-256.webp 256w, /images/optimized/images/brand/xai-mark-reverse-376.webp 376w",
+  "files": [
+   "images/optimized/images/brand/xai-mark-reverse-64.webp",
+   "images/optimized/images/brand/xai-mark-reverse-128.webp",
+   "images/optimized/images/brand/xai-mark-reverse-256.webp",
+   "images/optimized/images/brand/xai-mark-reverse-376.webp"
+  ],
+  "hash": "8a733752a93affc3d998812afb4fa72130954bde"
+ },
+ "/images/brand/xai-mark.png": {
+  "width": 376,
+  "height": 368,
+  "type": "image/png",
+  "src": "/images/brand/xai-mark.png",
+  "webp": "/images/optimized/images/brand/xai-mark-64.webp 64w, /images/optimized/images/brand/xai-mark-128.webp 128w, /images/optimized/images/brand/xai-mark-256.webp 256w, /images/optimized/images/brand/xai-mark-376.webp 376w",
+  "files": [
+   "images/optimized/images/brand/xai-mark-64.webp",
+   "images/optimized/images/brand/xai-mark-128.webp",
+   "images/optimized/images/brand/xai-mark-256.webp",
+   "images/optimized/images/brand/xai-mark-376.webp"
+  ],
+  "hash": "82260c32b66f41634cc37a7ec700afbf28c08125"
+ },
+ "/images/cimplo.png": {
+  "width": 500,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/cimplo-500.jpg",
+  "webp": "/images/optimized/images/cimplo-320.webp 320w, /images/optimized/images/cimplo-480.webp 480w, /images/optimized/images/cimplo-500.webp 500w",
+  "files": [
+   "images/optimized/images/cimplo-320.webp",
+   "images/optimized/images/cimplo-480.webp",
+   "images/optimized/images/cimplo-500.webp",
+   "images/optimized/images/cimplo-500.jpg"
+  ],
+  "hash": "25e118bd5f2ad04b92d28f1d83a1c376e71b5370"
+ },
+ "/images/find.jpg": {
+  "width": 650,
+  "height": 436,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/find-650.jpg",
+  "webp": "/images/optimized/images/find-320.webp 320w, /images/optimized/images/find-480.webp 480w, /images/optimized/images/find-640.webp 640w, /images/optimized/images/find-650.webp 650w",
+  "files": [
+   "images/optimized/images/find-320.webp",
+   "images/optimized/images/find-480.webp",
+   "images/optimized/images/find-640.webp",
+   "images/optimized/images/find-650.webp",
+   "images/optimized/images/find-650.jpg"
+  ],
+  "hash": "f77623a30be2230f55d2c21a3c3162bf79f3834d"
+ },
+ "/images/genaide.png": {
+  "width": 500,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/genaide-500.jpg",
+  "webp": "/images/optimized/images/genaide-320.webp 320w, /images/optimized/images/genaide-480.webp 480w, /images/optimized/images/genaide-500.webp 500w",
+  "files": [
+   "images/optimized/images/genaide-320.webp",
+   "images/optimized/images/genaide-480.webp",
+   "images/optimized/images/genaide-500.webp",
+   "images/optimized/images/genaide-500.jpg"
+  ],
+  "hash": "43fa4baa2ea3d599e932640cfd7ab570653ebdaf"
+ },
+ "/images/lens.png": {
+  "width": 500,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/lens-500.jpg",
+  "webp": "/images/optimized/images/lens-320.webp 320w, /images/optimized/images/lens-480.webp 480w, /images/optimized/images/lens-500.webp 500w",
+  "files": [
+   "images/optimized/images/lens-320.webp",
+   "images/optimized/images/lens-480.webp",
+   "images/optimized/images/lens-500.webp",
+   "images/optimized/images/lens-500.jpg"
+  ],
+  "hash": "eabaf191babd6d9f4b7240c473fbab44ce6fbc3d"
+ },
+ "/images/llamea.png": {
+  "width": 500,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/llamea-500.jpg",
+  "webp": "/images/optimized/images/llamea-320.webp 320w, /images/optimized/images/llamea-480.webp 480w, /images/optimized/images/llamea-500.webp 500w",
+  "files": [
+   "images/optimized/images/llamea-320.webp",
+   "images/optimized/images/llamea-480.webp",
+   "images/optimized/images/llamea-500.webp",
+   "images/optimized/images/llamea-500.jpg"
+  ],
+  "hash": "d2d5b53f05ab5ce6f785260a0b31eadb0114dab9"
+ },
+ "/images/oversight.png": {
+  "width": 500,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/oversight-500.jpg",
+  "webp": "/images/optimized/images/oversight-320.webp 320w, /images/optimized/images/oversight-480.webp 480w, /images/optimized/images/oversight-500.webp 500w",
+  "files": [
+   "images/optimized/images/oversight-320.webp",
+   "images/optimized/images/oversight-480.webp",
+   "images/optimized/images/oversight-500.webp",
+   "images/optimized/images/oversight-500.jpg"
+  ],
+  "hash": "7715f8da589b0f2e95e6b1be8bec48d3969bca37"
+ },
+ "/images/profile.png": {
+  "width": 720,
+  "height": 720,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/profile-720.jpg",
+  "webp": "/images/optimized/images/profile-360.webp 360w, /images/optimized/images/profile-540.webp 540w, /images/optimized/images/profile-720.webp 720w",
+  "files": [
+   "images/optimized/images/profile-360.webp",
+   "images/optimized/images/profile-540.webp",
+   "images/optimized/images/profile-720.webp",
+   "images/optimized/images/profile-720.jpg"
+  ],
+  "hash": "a01d88052a3338d7b01476cce64857f352a4693d"
+ },
+ "/images/talks/2026-09-28-automl-keynote.jpg": {
+  "width": 450,
+  "height": 254,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/talks/2026-09-28-automl-keynote-450.jpg",
+  "webp": "/images/optimized/images/talks/2026-09-28-automl-keynote-320.webp 320w, /images/optimized/images/talks/2026-09-28-automl-keynote-450.webp 450w",
+  "files": [
+   "images/optimized/images/talks/2026-09-28-automl-keynote-320.webp",
+   "images/optimized/images/talks/2026-09-28-automl-keynote-450.webp",
+   "images/optimized/images/talks/2026-09-28-automl-keynote-450.jpg"
+  ],
+  "hash": "82eacecc1749288743683b8ade0977c076c89327"
+ },
+ "/images/teasers/agentic-llms-book.png": {
+  "width": 1000,
+  "height": 600,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/teasers/agentic-llms-book-1000.jpg",
+  "webp": "/images/optimized/images/teasers/agentic-llms-book-320.webp 320w, /images/optimized/images/teasers/agentic-llms-book-480.webp 480w, /images/optimized/images/teasers/agentic-llms-book-640.webp 640w, /images/optimized/images/teasers/agentic-llms-book-960.webp 960w, /images/optimized/images/teasers/agentic-llms-book-1000.webp 1000w",
+  "files": [
+   "images/optimized/images/teasers/agentic-llms-book-320.webp",
+   "images/optimized/images/teasers/agentic-llms-book-480.webp",
+   "images/optimized/images/teasers/agentic-llms-book-640.webp",
+   "images/optimized/images/teasers/agentic-llms-book-960.webp",
+   "images/optimized/images/teasers/agentic-llms-book-1000.webp",
+   "images/optimized/images/teasers/agentic-llms-book-1000.jpg"
+  ],
+  "hash": "a3c338abe83faf3d8eda88bb48bc52847460b682"
+ },
+ "/images/teasers/biastoolbox.png": {
+  "width": 1280,
+  "height": 640,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/teasers/biastoolbox-1280.jpg",
+  "webp": "/images/optimized/images/teasers/biastoolbox-320.webp 320w, /images/optimized/images/teasers/biastoolbox-480.webp 480w, /images/optimized/images/teasers/biastoolbox-640.webp 640w, /images/optimized/images/teasers/biastoolbox-960.webp 960w, /images/optimized/images/teasers/biastoolbox-1280.webp 1280w",
+  "files": [
+   "images/optimized/images/teasers/biastoolbox-320.webp",
+   "images/optimized/images/teasers/biastoolbox-480.webp",
+   "images/optimized/images/teasers/biastoolbox-640.webp",
+   "images/optimized/images/teasers/biastoolbox-960.webp",
+   "images/optimized/images/teasers/biastoolbox-1280.webp",
+   "images/optimized/images/teasers/biastoolbox-1280.jpg"
+  ],
+  "hash": "c99d7499450d620366fbe99b57dfaa4b6fa19435"
+ },
+ "/images/teasers/doe2vec.png": {
+  "width": 1280,
+  "height": 640,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/teasers/doe2vec-1280.jpg",
+  "webp": "/images/optimized/images/teasers/doe2vec-320.webp 320w, /images/optimized/images/teasers/doe2vec-480.webp 480w, /images/optimized/images/teasers/doe2vec-640.webp 640w, /images/optimized/images/teasers/doe2vec-960.webp 960w, /images/optimized/images/teasers/doe2vec-1280.webp 1280w",
+  "files": [
+   "images/optimized/images/teasers/doe2vec-320.webp",
+   "images/optimized/images/teasers/doe2vec-480.webp",
+   "images/optimized/images/teasers/doe2vec-640.webp",
+   "images/optimized/images/teasers/doe2vec-960.webp",
+   "images/optimized/images/teasers/doe2vec-1280.webp",
+   "images/optimized/images/teasers/doe2vec-1280.jpg"
+  ],
+  "hash": "02d947aab9b4b0c1ccbff96fa549376d929f7a13"
+ },
+ "/images/teasers/llamea-banner.png": {
+  "width": 1280,
+  "height": 640,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/teasers/llamea-banner-1280.jpg",
+  "webp": "/images/optimized/images/teasers/llamea-banner-320.webp 320w, /images/optimized/images/teasers/llamea-banner-480.webp 480w, /images/optimized/images/teasers/llamea-banner-640.webp 640w, /images/optimized/images/teasers/llamea-banner-960.webp 960w, /images/optimized/images/teasers/llamea-banner-1280.webp 1280w",
+  "files": [
+   "images/optimized/images/teasers/llamea-banner-320.webp",
+   "images/optimized/images/teasers/llamea-banner-480.webp",
+   "images/optimized/images/teasers/llamea-banner-640.webp",
+   "images/optimized/images/teasers/llamea-banner-960.webp",
+   "images/optimized/images/teasers/llamea-banner-1280.webp",
+   "images/optimized/images/teasers/llamea-banner-1280.jpg"
+  ],
+  "hash": "c02fcb63dd1f16caead823bb9877c03be205758f"
+ },
+ "/images/teasers/mechanistic-interpretability.png": {
+  "width": 1000,
+  "height": 600,
+  "type": "image/jpeg",
+  "src": "/images/teasers/mechanistic-interpretability.png",
+  "webp": "/images/optimized/images/teasers/mechanistic-interpretability-320.webp 320w, /images/optimized/images/teasers/mechanistic-interpretability-480.webp 480w, /images/optimized/images/teasers/mechanistic-interpretability-640.webp 640w, /images/optimized/images/teasers/mechanistic-interpretability-960.webp 960w, /images/optimized/images/teasers/mechanistic-interpretability-1000.webp 1000w",
+  "files": [
+   "images/optimized/images/teasers/mechanistic-interpretability-320.webp",
+   "images/optimized/images/teasers/mechanistic-interpretability-480.webp",
+   "images/optimized/images/teasers/mechanistic-interpretability-640.webp",
+   "images/optimized/images/teasers/mechanistic-interpretability-960.webp",
+   "images/optimized/images/teasers/mechanistic-interpretability-1000.webp"
+  ],
+  "hash": "a4f8625e7ea7a2bf08a4186a57f828e6c6645774"
+ },
+ "/images/xaipre.png": {
+  "width": 500,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/images/xaipre-500.jpg",
+  "webp": "/images/optimized/images/xaipre-320.webp 320w, /images/optimized/images/xaipre-480.webp 480w, /images/optimized/images/xaipre-500.webp 500w",
+  "files": [
+   "images/optimized/images/xaipre-320.webp",
+   "images/optimized/images/xaipre-480.webp",
+   "images/optimized/images/xaipre-500.webp",
+   "images/optimized/images/xaipre-500.jpg"
+  ],
+  "hash": "f54f8d0fc42dc025aadd0782802e68c2396f8e30"
+ },
+ "/img/llamea/llamea1.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea1-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea1-320.webp 320w, /images/optimized/img/llamea/llamea1-480.webp 480w, /images/optimized/img/llamea/llamea1-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea1-320.webp",
+   "images/optimized/img/llamea/llamea1-480.webp",
+   "images/optimized/img/llamea/llamea1-600.webp",
+   "images/optimized/img/llamea/llamea1-600.jpg"
+  ],
+  "hash": "2ea65766ff9385aa1b9cf06aec328faeee3ca08f"
+ },
+ "/img/llamea/llamea2-hpo.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea2-hpo-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea2-hpo-320.webp 320w, /images/optimized/img/llamea/llamea2-hpo-480.webp 480w, /images/optimized/img/llamea/llamea2-hpo-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea2-hpo-320.webp",
+   "images/optimized/img/llamea/llamea2-hpo-480.webp",
+   "images/optimized/img/llamea/llamea2-hpo-600.webp",
+   "images/optimized/img/llamea/llamea2-hpo-600.jpg"
+  ],
+  "hash": "059b2d0c5277ade30762700f930b75500a76310a"
+ },
+ "/img/llamea/llamea3-mutation.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea3-mutation-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea3-mutation-320.webp 320w, /images/optimized/img/llamea/llamea3-mutation-480.webp 480w, /images/optimized/img/llamea/llamea3-mutation-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea3-mutation-320.webp",
+   "images/optimized/img/llamea/llamea3-mutation-480.webp",
+   "images/optimized/img/llamea/llamea3-mutation-600.webp",
+   "images/optimized/img/llamea/llamea3-mutation-600.jpg"
+  ],
+  "hash": "c22825b219d279832d6ac34113e3025c0347edfe"
+ },
+ "/img/llamea/llamea4-bo.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea4-bo-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea4-bo-320.webp 320w, /images/optimized/img/llamea/llamea4-bo-480.webp 480w, /images/optimized/img/llamea/llamea4-bo-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea4-bo-320.webp",
+   "images/optimized/img/llamea/llamea4-bo-480.webp",
+   "images/optimized/img/llamea/llamea4-bo-600.webp",
+   "images/optimized/img/llamea/llamea4-bo-600.jpg"
+  ],
+  "hash": "e2e8324345f228930a1e7423f1a8b05ba85e7332"
+ },
+ "/img/llamea/llamea5-survey.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea5-survey-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea5-survey-320.webp 320w, /images/optimized/img/llamea/llamea5-survey-480.webp 480w, /images/optimized/img/llamea/llamea5-survey-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea5-survey-320.webp",
+   "images/optimized/img/llamea/llamea5-survey-480.webp",
+   "images/optimized/img/llamea/llamea5-survey-600.webp",
+   "images/optimized/img/llamea/llamea5-survey-600.jpg"
+  ],
+  "hash": "885e2c54937ed295392d849ebd42965319a957e3"
+ },
+ "/img/llamea/llamea6-ceg.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea6-ceg-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea6-ceg-320.webp 320w, /images/optimized/img/llamea/llamea6-ceg-480.webp 480w, /images/optimized/img/llamea/llamea6-ceg-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea6-ceg-320.webp",
+   "images/optimized/img/llamea/llamea6-ceg-480.webp",
+   "images/optimized/img/llamea/llamea6-ceg-600.webp",
+   "images/optimized/img/llamea/llamea6-ceg-600.jpg"
+  ],
+  "hash": "0e57489834c902c31fed333950c235f09b1966ab"
+ },
+ "/img/llamea/llamea7-behaviour.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea7-behaviour-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea7-behaviour-320.webp 320w, /images/optimized/img/llamea/llamea7-behaviour-480.webp 480w, /images/optimized/img/llamea/llamea7-behaviour-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea7-behaviour-320.webp",
+   "images/optimized/img/llamea/llamea7-behaviour-480.webp",
+   "images/optimized/img/llamea/llamea7-behaviour-600.webp",
+   "images/optimized/img/llamea/llamea7-behaviour-600.jpg"
+  ],
+  "hash": "eea990bf983dd109ef560732245c9640ba0f89a8"
+ },
+ "/img/llamea/llamea8-optics.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea8-optics-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea8-optics-320.webp 320w, /images/optimized/img/llamea/llamea8-optics-480.webp 480w, /images/optimized/img/llamea/llamea8-optics-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea8-optics-320.webp",
+   "images/optimized/img/llamea/llamea8-optics-480.webp",
+   "images/optimized/img/llamea/llamea8-optics-600.webp",
+   "images/optimized/img/llamea/llamea8-optics-600.jpg"
+  ],
+  "hash": "b3f66d0cf62d07371bd7e78746b5682663aaf6a6"
+ },
+ "/img/llamea/llamea9-blade.png": {
+  "width": 600,
+  "height": 300,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/llamea/llamea9-blade-600.jpg",
+  "webp": "/images/optimized/img/llamea/llamea9-blade-320.webp 320w, /images/optimized/img/llamea/llamea9-blade-480.webp 480w, /images/optimized/img/llamea/llamea9-blade-600.webp 600w",
+  "files": [
+   "images/optimized/img/llamea/llamea9-blade-320.webp",
+   "images/optimized/img/llamea/llamea9-blade-480.webp",
+   "images/optimized/img/llamea/llamea9-blade-600.webp",
+   "images/optimized/img/llamea/llamea9-blade-600.jpg"
+  ],
+  "hash": "391f6e7203147723a4e1ada10756fd73aa9daf98"
+ },
+ "/img/people/antonov.jpg": {
+  "width": 64,
+  "height": 64,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/antonov-64.jpg",
+  "webp": "/images/optimized/img/people/antonov-64.webp 64w",
+  "files": [
+   "images/optimized/img/people/antonov-64.webp",
+   "images/optimized/img/people/antonov-64.jpg"
+  ],
+  "hash": "437cce9a3223117b95002fc7155e9fcf8604608a"
+ },
+ "/img/people/back.jpg": {
+  "width": 200,
+  "height": 250,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/back-200.jpg",
+  "webp": "/images/optimized/img/people/back-64.webp 64w, /images/optimized/img/people/back-112.webp 112w, /images/optimized/img/people/back-168.webp 168w, /images/optimized/img/people/back-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/back-64.webp",
+   "images/optimized/img/people/back-112.webp",
+   "images/optimized/img/people/back-168.webp",
+   "images/optimized/img/people/back-200.webp",
+   "images/optimized/img/people/back-200.jpg"
+  ],
+  "hash": "0683bafdfd9f26800df00b67c8f31211d29cd8ea"
+ },
+ "/img/people/bodas.jpg": {
+  "width": 200,
+  "height": 200,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/bodas-200.jpg",
+  "webp": "/images/optimized/img/people/bodas-64.webp 64w, /images/optimized/img/people/bodas-112.webp 112w, /images/optimized/img/people/bodas-168.webp 168w, /images/optimized/img/people/bodas-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/bodas-64.webp",
+   "images/optimized/img/people/bodas-112.webp",
+   "images/optimized/img/people/bodas-168.webp",
+   "images/optimized/img/people/bodas-200.webp",
+   "images/optimized/img/people/bodas-200.jpg"
+  ],
+  "hash": "5802aa9a3cdf54f4a6d1997be869ec894ff59dcf"
+ },
+ "/img/people/farrukh.jpg": {
+  "width": 240,
+  "height": 287,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/farrukh-240.jpg",
+  "webp": "/images/optimized/img/people/farrukh-64.webp 64w, /images/optimized/img/people/farrukh-112.webp 112w, /images/optimized/img/people/farrukh-168.webp 168w, /images/optimized/img/people/farrukh-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/farrukh-64.webp",
+   "images/optimized/img/people/farrukh-112.webp",
+   "images/optimized/img/people/farrukh-168.webp",
+   "images/optimized/img/people/farrukh-240.webp",
+   "images/optimized/img/people/farrukh-240.jpg"
+  ],
+  "hash": "9369799f89faaa553a9cee5d872e8788eeea976b"
+ },
+ "/img/people/huang.jpg": {
+  "width": 181,
+  "height": 181,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/huang-181.jpg",
+  "webp": "/images/optimized/img/people/huang-64.webp 64w, /images/optimized/img/people/huang-112.webp 112w, /images/optimized/img/people/huang-168.webp 168w, /images/optimized/img/people/huang-181.webp 181w",
+  "files": [
+   "images/optimized/img/people/huang-64.webp",
+   "images/optimized/img/people/huang-112.webp",
+   "images/optimized/img/people/huang-168.webp",
+   "images/optimized/img/people/huang-181.webp",
+   "images/optimized/img/people/huang-181.jpg"
+  ],
+  "hash": "e6377a67c208afb5ed6e7771c12e203dc9fa458d"
+ },
+ "/img/people/kefalas.jpg": {
+  "width": 200,
+  "height": 200,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/kefalas-200.jpg",
+  "webp": "/images/optimized/img/people/kefalas-64.webp 64w, /images/optimized/img/people/kefalas-112.webp 112w, /images/optimized/img/people/kefalas-168.webp 168w, /images/optimized/img/people/kefalas-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/kefalas-64.webp",
+   "images/optimized/img/people/kefalas-112.webp",
+   "images/optimized/img/people/kefalas-168.webp",
+   "images/optimized/img/people/kefalas-200.webp",
+   "images/optimized/img/people/kefalas-200.jpg"
+  ],
+  "hash": "d2b5ea80e8dab8b3891773cc76936cadcf36d44c"
+ },
+ "/img/people/kitharidis.png": {
+  "width": 240,
+  "height": 195,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/kitharidis-240.jpg",
+  "webp": "/images/optimized/img/people/kitharidis-64.webp 64w, /images/optimized/img/people/kitharidis-112.webp 112w, /images/optimized/img/people/kitharidis-168.webp 168w, /images/optimized/img/people/kitharidis-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/kitharidis-64.webp",
+   "images/optimized/img/people/kitharidis-112.webp",
+   "images/optimized/img/people/kitharidis-168.webp",
+   "images/optimized/img/people/kitharidis-240.webp",
+   "images/optimized/img/people/kitharidis-240.jpg"
+  ],
+  "hash": "24d8b6a1ee0c2bde0319d9c422ecc3537274d947"
+ },
+ "/img/people/kononova.png": {
+  "width": 200,
+  "height": 249,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/kononova-200.jpg",
+  "webp": "/images/optimized/img/people/kononova-64.webp 64w, /images/optimized/img/people/kononova-112.webp 112w, /images/optimized/img/people/kononova-168.webp 168w, /images/optimized/img/people/kononova-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/kononova-64.webp",
+   "images/optimized/img/people/kononova-112.webp",
+   "images/optimized/img/people/kononova-168.webp",
+   "images/optimized/img/people/kononova-200.webp",
+   "images/optimized/img/people/kononova-200.jpg"
+  ],
+  "hash": "27e9ae322410b6e17b6002e7565f457baaebd3f8"
+ },
+ "/img/people/kovalchyk.jpg": {
+  "width": 240,
+  "height": 290,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/kovalchyk-240.jpg",
+  "webp": "/images/optimized/img/people/kovalchyk-64.webp 64w, /images/optimized/img/people/kovalchyk-112.webp 112w, /images/optimized/img/people/kovalchyk-168.webp 168w, /images/optimized/img/people/kovalchyk-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/kovalchyk-64.webp",
+   "images/optimized/img/people/kovalchyk-112.webp",
+   "images/optimized/img/people/kovalchyk-168.webp",
+   "images/optimized/img/people/kovalchyk-240.webp",
+   "images/optimized/img/people/kovalchyk-240.jpg"
+  ],
+  "hash": "5870527d5e41c6f1fc5446260615b34a957f81c2"
+ },
+ "/img/people/lamers.jpg": {
+  "width": 64,
+  "height": 64,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/lamers-64.jpg",
+  "webp": "/images/optimized/img/people/lamers-64.webp 64w",
+  "files": [
+   "images/optimized/img/people/lamers-64.webp",
+   "images/optimized/img/people/lamers-64.jpg"
+  ],
+  "hash": "6d5aa224a31896aea7f7d392898c2f259c3031b5"
+ },
+ "/img/people/li.jpg": {
+  "width": 240,
+  "height": 360,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/li-240.jpg",
+  "webp": "/images/optimized/img/people/li-64.webp 64w, /images/optimized/img/people/li-112.webp 112w, /images/optimized/img/people/li-168.webp 168w, /images/optimized/img/people/li-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/li-64.webp",
+   "images/optimized/img/people/li-112.webp",
+   "images/optimized/img/people/li-168.webp",
+   "images/optimized/img/people/li-240.webp",
+   "images/optimized/img/people/li-240.jpg"
+  ],
+  "hash": "810bac6ac337d53f1ee642ce7c6f4b6cf9318cb2"
+ },
+ "/img/people/long.jpg": {
+  "width": 64,
+  "height": 64,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/long-64.jpg",
+  "webp": "/images/optimized/img/people/long-64.webp 64w",
+  "files": [
+   "images/optimized/img/people/long-64.webp",
+   "images/optimized/img/people/long-64.jpg"
+  ],
+  "hash": "3df8514b0438bb64121f7112bbe03e16532a2fdc"
+ },
+ "/img/people/luo.jpg": {
+  "width": 240,
+  "height": 240,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/luo-240.jpg",
+  "webp": "/images/optimized/img/people/luo-64.webp 64w, /images/optimized/img/people/luo-112.webp 112w, /images/optimized/img/people/luo-168.webp 168w, /images/optimized/img/people/luo-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/luo-64.webp",
+   "images/optimized/img/people/luo-112.webp",
+   "images/optimized/img/people/luo-168.webp",
+   "images/optimized/img/people/luo-240.webp",
+   "images/optimized/img/people/luo-240.jpg"
+  ],
+  "hash": "e795836550cf7838c3cf273d2018c5c7360d1c5b"
+ },
+ "/img/people/nieuwpoort.jfif": {
+  "width": 200,
+  "height": 250,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/nieuwpoort-200.jpg",
+  "webp": "/images/optimized/img/people/nieuwpoort-64.webp 64w, /images/optimized/img/people/nieuwpoort-112.webp 112w, /images/optimized/img/people/nieuwpoort-168.webp 168w, /images/optimized/img/people/nieuwpoort-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/nieuwpoort-64.webp",
+   "images/optimized/img/people/nieuwpoort-112.webp",
+   "images/optimized/img/people/nieuwpoort-168.webp",
+   "images/optimized/img/people/nieuwpoort-200.webp",
+   "images/optimized/img/people/nieuwpoort-200.jpg"
+  ],
+  "hash": "b68f1c9c39dd984d6d77da10edd6ce69318970db"
+ },
+ "/img/people/preintner.jpg": {
+  "width": 140,
+  "height": 140,
+  "type": "image/jpeg",
+  "src": "/img/people/preintner.jpg",
+  "webp": "/images/optimized/img/people/preintner-64.webp 64w, /images/optimized/img/people/preintner-112.webp 112w, /images/optimized/img/people/preintner-140.webp 140w",
+  "files": [
+   "images/optimized/img/people/preintner-64.webp",
+   "images/optimized/img/people/preintner-112.webp",
+   "images/optimized/img/people/preintner-140.webp"
+  ],
+  "hash": "b79ea32802115ad53b3ed7dd843d0492a12f35f6"
+ },
+ "/img/people/raponi.jpg": {
+  "width": 200,
+  "height": 249,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/raponi-200.jpg",
+  "webp": "/images/optimized/img/people/raponi-64.webp 64w, /images/optimized/img/people/raponi-112.webp 112w, /images/optimized/img/people/raponi-168.webp 168w, /images/optimized/img/people/raponi-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/raponi-64.webp",
+   "images/optimized/img/people/raponi-112.webp",
+   "images/optimized/img/people/raponi-168.webp",
+   "images/optimized/img/people/raponi-200.webp",
+   "images/optimized/img/people/raponi-200.jpg"
+  ],
+  "hash": "a8129ae92134c9c1bd71e575dcbaa9912c591a08"
+ },
+ "/img/people/rios.jpg": {
+  "width": 64,
+  "height": 64,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/rios-64.jpg",
+  "webp": "/images/optimized/img/people/rios-64.webp 64w",
+  "files": [
+   "images/optimized/img/people/rios-64.webp",
+   "images/optimized/img/people/rios-64.jpg"
+  ],
+  "hash": "b5bddf599ce3eeb5a672bf515c1316c1327252de"
+ },
+ "/img/people/sahrani.jpg": {
+  "width": 128,
+  "height": 128,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/sahrani-128.jpg",
+  "webp": "/images/optimized/img/people/sahrani-64.webp 64w, /images/optimized/img/people/sahrani-112.webp 112w, /images/optimized/img/people/sahrani-128.webp 128w",
+  "files": [
+   "images/optimized/img/people/sahrani-64.webp",
+   "images/optimized/img/people/sahrani-112.webp",
+   "images/optimized/img/people/sahrani-128.webp",
+   "images/optimized/img/people/sahrani-128.jpg"
+  ],
+  "hash": "203c06838bd3f560376aeffc14a8bef1f825271f"
+ },
+ "/img/people/shahane.jpg": {
+  "width": 240,
+  "height": 240,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/shahane-240.jpg",
+  "webp": "/images/optimized/img/people/shahane-64.webp 64w, /images/optimized/img/people/shahane-112.webp 112w, /images/optimized/img/people/shahane-168.webp 168w, /images/optimized/img/people/shahane-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/shahane-64.webp",
+   "images/optimized/img/people/shahane-112.webp",
+   "images/optimized/img/people/shahane-168.webp",
+   "images/optimized/img/people/shahane-240.webp",
+   "images/optimized/img/people/shahane-240.jpg"
+  ],
+  "hash": "049d9b3e0c9f9c4f0a9576065042850f0666406c"
+ },
+ "/img/people/stein.png": {
+  "width": 200,
+  "height": 250,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/stein-200.jpg",
+  "webp": "/images/optimized/img/people/stein-64.webp 64w, /images/optimized/img/people/stein-112.webp 112w, /images/optimized/img/people/stein-168.webp 168w, /images/optimized/img/people/stein-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/stein-64.webp",
+   "images/optimized/img/people/stein-112.webp",
+   "images/optimized/img/people/stein-168.webp",
+   "images/optimized/img/people/stein-200.webp",
+   "images/optimized/img/people/stein-200.jpg"
+  ],
+  "hash": "f4d9136cab5f8912c6e2090116a615f7a82966bc"
+ },
+ "/img/people/strizak.jpg": {
+  "width": 240,
+  "height": 240,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/strizak-240.jpg",
+  "webp": "/images/optimized/img/people/strizak-64.webp 64w, /images/optimized/img/people/strizak-112.webp 112w, /images/optimized/img/people/strizak-168.webp 168w, /images/optimized/img/people/strizak-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/strizak-64.webp",
+   "images/optimized/img/people/strizak-112.webp",
+   "images/optimized/img/people/strizak-168.webp",
+   "images/optimized/img/people/strizak-240.webp",
+   "images/optimized/img/people/strizak-240.jpg"
+  ],
+  "hash": "c72eca3bb7321ff1aabcb198b50c7cc30f859926"
+ },
+ "/img/people/tamponi.png": {
+  "width": 200,
+  "height": 240,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/tamponi-200.jpg",
+  "webp": "/images/optimized/img/people/tamponi-64.webp 64w, /images/optimized/img/people/tamponi-112.webp 112w, /images/optimized/img/people/tamponi-168.webp 168w, /images/optimized/img/people/tamponi-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/tamponi-64.webp",
+   "images/optimized/img/people/tamponi-112.webp",
+   "images/optimized/img/people/tamponi-168.webp",
+   "images/optimized/img/people/tamponi-200.webp",
+   "images/optimized/img/people/tamponi-200.jpg"
+  ],
+  "hash": "37fafdd24b1c4d54e930370f99b2bff1a47d1fa0"
+ },
+ "/img/people/verberne.jpg": {
+  "width": 200,
+  "height": 250,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/verberne-200.jpg",
+  "webp": "/images/optimized/img/people/verberne-64.webp 64w, /images/optimized/img/people/verberne-112.webp 112w, /images/optimized/img/people/verberne-168.webp 168w, /images/optimized/img/people/verberne-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/verberne-64.webp",
+   "images/optimized/img/people/verberne-112.webp",
+   "images/optimized/img/people/verberne-168.webp",
+   "images/optimized/img/people/verberne-200.webp",
+   "images/optimized/img/people/verberne-200.jpg"
+  ],
+  "hash": "d77ce6fe34e995fd667c534b73c5bfcaba1cd0f9"
+ },
+ "/img/people/wagner.jpg": {
+  "width": 200,
+  "height": 268,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/wagner-200.jpg",
+  "webp": "/images/optimized/img/people/wagner-64.webp 64w, /images/optimized/img/people/wagner-112.webp 112w, /images/optimized/img/people/wagner-168.webp 168w, /images/optimized/img/people/wagner-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/wagner-64.webp",
+   "images/optimized/img/people/wagner-112.webp",
+   "images/optimized/img/people/wagner-168.webp",
+   "images/optimized/img/people/wagner-200.webp",
+   "images/optimized/img/people/wagner-200.jpg"
+  ],
+  "hash": "c667382207691074d91f2030e8ea6cf6672a8063"
+ },
+ "/img/people/wang.jpg": {
+  "width": 200,
+  "height": 250,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/wang-200.jpg",
+  "webp": "/images/optimized/img/people/wang-64.webp 64w, /images/optimized/img/people/wang-112.webp 112w, /images/optimized/img/people/wang-168.webp 168w, /images/optimized/img/people/wang-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/wang-64.webp",
+   "images/optimized/img/people/wang-112.webp",
+   "images/optimized/img/people/wang-168.webp",
+   "images/optimized/img/people/wang-200.webp",
+   "images/optimized/img/people/wang-200.jpg"
+  ],
+  "hash": "d44be1e16dff87d6d37a11ddf38a1b8c23eb84eb"
+ },
+ "/img/people/winter.jpg": {
+  "width": 64,
+  "height": 64,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/winter-64.jpg",
+  "webp": "/images/optimized/img/people/winter-64.webp 64w",
+  "files": [
+   "images/optimized/img/people/winter-64.webp",
+   "images/optimized/img/people/winter-64.jpg"
+  ],
+  "hash": "df9130e03e36dc4a0ea9e7ec87b1c62d5948b492"
+ },
+ "/img/people/wong.jpg": {
+  "width": 64,
+  "height": 64,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/wong-64.jpg",
+  "webp": "/images/optimized/img/people/wong-64.webp 64w",
+  "files": [
+   "images/optimized/img/people/wong-64.webp",
+   "images/optimized/img/people/wong-64.jpg"
+  ],
+  "hash": "4d41a57c357c101dbe84bf01a64377701026c650"
+ },
+ "/img/people/ye.jpg": {
+  "width": 200,
+  "height": 249,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/ye-200.jpg",
+  "webp": "/images/optimized/img/people/ye-64.webp 64w, /images/optimized/img/people/ye-112.webp 112w, /images/optimized/img/people/ye-168.webp 168w, /images/optimized/img/people/ye-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/ye-64.webp",
+   "images/optimized/img/people/ye-112.webp",
+   "images/optimized/img/people/ye-168.webp",
+   "images/optimized/img/people/ye-200.webp",
+   "images/optimized/img/people/ye-200.jpg"
+  ],
+  "hash": "ea732fdab390dea7e474b9958a8ae5761d03c826"
+ },
+ "/img/people/yin.jpg": {
+  "width": 200,
+  "height": 250,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/yin-200.jpg",
+  "webp": "/images/optimized/img/people/yin-64.webp 64w, /images/optimized/img/people/yin-112.webp 112w, /images/optimized/img/people/yin-168.webp 168w, /images/optimized/img/people/yin-200.webp 200w",
+  "files": [
+   "images/optimized/img/people/yin-64.webp",
+   "images/optimized/img/people/yin-112.webp",
+   "images/optimized/img/people/yin-168.webp",
+   "images/optimized/img/people/yin-200.webp",
+   "images/optimized/img/people/yin-200.jpg"
+  ],
+  "hash": "92bec973ff3f82f3232365c26dbb0dc2680724cd"
+ },
+ "/img/people/ywang.jpg": {
+  "width": 240,
+  "height": 240,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/ywang-240.jpg",
+  "webp": "/images/optimized/img/people/ywang-64.webp 64w, /images/optimized/img/people/ywang-112.webp 112w, /images/optimized/img/people/ywang-168.webp 168w, /images/optimized/img/people/ywang-240.webp 240w",
+  "files": [
+   "images/optimized/img/people/ywang-64.webp",
+   "images/optimized/img/people/ywang-112.webp",
+   "images/optimized/img/people/ywang-168.webp",
+   "images/optimized/img/people/ywang-240.webp",
+   "images/optimized/img/people/ywang-240.jpg"
+  ],
+  "hash": "0544e68df0017b0a1e439793a2669b2b55d46d6d"
+ },
+ "/img/people/zeiser.jpg": {
+  "width": 64,
+  "height": 64,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/people/zeiser-64.jpg",
+  "webp": "/images/optimized/img/people/zeiser-64.webp 64w",
+  "files": [
+   "images/optimized/img/people/zeiser-64.webp",
+   "images/optimized/img/people/zeiser-64.jpg"
+  ],
+  "hash": "f6131dc1ce926444d384ff04cf8ea9e078574c99"
+ },
+ "/img/pinkphoenix/phoenix-small.png": {
+  "width": 250,
+  "height": 250,
+  "type": "image/png",
+  "src": "/images/optimized/img/pinkphoenix/phoenix-small-250.png",
+  "webp": "/images/optimized/img/pinkphoenix/phoenix-small-250.webp 250w",
+  "files": [
+   "images/optimized/img/pinkphoenix/phoenix-small-250.webp",
+   "images/optimized/img/pinkphoenix/phoenix-small-250.png"
+  ],
+  "hash": "5365c2e0d94d5285ab9aaafb5dbe2df9bc07c098"
+ },
+ "/img/pinkphoenix/pocket-universe.png": {
+  "width": 512,
+  "height": 512,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/pinkphoenix/pocket-universe-512.jpg",
+  "webp": "/images/optimized/img/pinkphoenix/pocket-universe-320.webp 320w, /images/optimized/img/pinkphoenix/pocket-universe-480.webp 480w, /images/optimized/img/pinkphoenix/pocket-universe-512.webp 512w",
+  "files": [
+   "images/optimized/img/pinkphoenix/pocket-universe-320.webp",
+   "images/optimized/img/pinkphoenix/pocket-universe-480.webp",
+   "images/optimized/img/pinkphoenix/pocket-universe-512.webp",
+   "images/optimized/img/pinkphoenix/pocket-universe-512.jpg"
+  ],
+  "hash": "6a092792f0af7802b1033623efaebef35bfd587b"
+ },
+ "/img/pinkphoenix/pocketmonstermanual.gif": {
+  "width": 720,
+  "height": 404,
+  "type": "video/mp4",
+  "video": "/images/optimized/img/pinkphoenix/pocketmonstermanual-720.mp4",
+  "webm": "/images/optimized/img/pinkphoenix/pocketmonstermanual-720.webm",
+  "poster": "/images/optimized/img/pinkphoenix/pocketmonstermanual-720-poster.webp",
+  "src": "/img/pinkphoenix/pocketmonstermanual.gif",
+  "files": [
+   "images/optimized/img/pinkphoenix/pocketmonstermanual-720.mp4",
+   "images/optimized/img/pinkphoenix/pocketmonstermanual-720.webm",
+   "images/optimized/img/pinkphoenix/pocketmonstermanual-720-poster.webp"
+  ],
+  "hash": "1b0ba438451d47fecce3f33dfd7412575b514abb"
+ },
+ "/img/projects/EU.png": {
+  "width": 120,
+  "height": 81,
+  "type": "image/png",
+  "src": "/images/optimized/img/projects/EU-120.png",
+  "webp": "/images/optimized/img/projects/EU-40.webp 40w, /images/optimized/img/projects/EU-80.webp 80w, /images/optimized/img/projects/EU-120.webp 120w",
+  "files": [
+   "images/optimized/img/projects/EU-40.webp",
+   "images/optimized/img/projects/EU-80.webp",
+   "images/optimized/img/projects/EU-120.webp",
+   "images/optimized/img/projects/EU-120.png"
+  ],
+  "hash": "99b002da3b34c6190a79be247425a695833fa7db"
+ },
+ "/img/projects/llamea-wide.png": {
+  "width": 1180,
+  "height": 200,
+  "type": "image/jpeg",
+  "src": "/images/optimized/img/projects/llamea-wide-1180.jpg",
+  "webp": "/images/optimized/img/projects/llamea-wide-320.webp 320w, /images/optimized/img/projects/llamea-wide-480.webp 480w, /images/optimized/img/projects/llamea-wide-640.webp 640w, /images/optimized/img/projects/llamea-wide-960.webp 960w, /images/optimized/img/projects/llamea-wide-1180.webp 1180w",
+  "files": [
+   "images/optimized/img/projects/llamea-wide-320.webp",
+   "images/optimized/img/projects/llamea-wide-480.webp",
+   "images/optimized/img/projects/llamea-wide-640.webp",
+   "images/optimized/img/projects/llamea-wide-960.webp",
+   "images/optimized/img/projects/llamea-wide-1180.webp",
+   "images/optimized/img/projects/llamea-wide-1180.jpg"
+  ],
+  "hash": "38cdb9b3407fb1d3c4be2628923a8be31154a530"
+ }
+}
