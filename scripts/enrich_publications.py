@@ -110,6 +110,8 @@ OWNER_FAMILY = norm(OWNER.split(" ", 1)[1])  # "vanstein"
 def fix_name(name):
     """Normalise an author name; the site owner always appears under the site's name."""
     name = " ".join(unlatex(name).split())
+    if norm(name) in ("n" + OWNER_FAMILY, "b" + OWNER_FAMILY):  # e.g. "n.van.stein"
+        return OWNER
     given, _, family = name.rpartition(" ")
     for particle in ("van ", "Van ", "de ", "der ", "van der "):
         if given.endswith(" " + particle.strip()) or given == particle.strip():
@@ -132,6 +134,9 @@ def crossref(title, year):
             continue
         if similarity(title, (item.get("title") or [""])[0]) < MIN_SIMILARITY:
             continue
+        people = [" ".join(filter(None, [p.get("given"), p.get("family")])) for p in item.get("author", [])]
+        if item.get("type") == "posted-content" and people and OWNER not in map(fix_name, people):
+            continue  # someone else's preprint with the same title
         parts = (item.get("published") or item.get("issued") or {}).get("date-parts", [[None]])[0]
         gap = abs(parts[0] - year) if parts and parts[0] else 99
         if gap > 2:
@@ -273,10 +278,10 @@ def enrich(path, force):
                 found.setdefault("pdf", oa["pdf"])
 
     if found.get("authors"):
-        found["authors"] = [fix_name(a) for a in found["authors"]]
+        found["authors"] = list(dict.fromkeys(fix_name(a) for a in found["authors"]))
     updates = {k: v for k, v in found.items() if k in missing and v}
     authors = updates.get("authors") or fm.get("authors") or citation_authors(str(fm.get("citation", "")))
-    authors = [fix_name(a) for a in authors]
+    authors = list(dict.fromkeys(fix_name(a) for a in authors))  # also drops duplicates
     if authors and "authors" in missing and "authors" not in updates:
         updates["authors"] = authors  # no source found the paper: keep the citation's authors
     citation = build_citation(authors, title, venue, year) if authors else fm.get("citation")
