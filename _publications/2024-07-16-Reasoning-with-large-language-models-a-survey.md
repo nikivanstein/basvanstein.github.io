@@ -4,13 +4,16 @@ collection: publications
 permalink: /publication/2024-07-16-Reasoning-with-large-language-models-a-survey
 date: 2024-07-16
 venue: 'arXiv preprint arXiv:2407.11511'
-citation: ' Yu Fu,  Yongqi Kang,  Yong Zhao, &quot;Reasoning with large language models, a survey.&quot; arXiv preprint arXiv:2407.11511, 2024.'
-authors:
-- Yu Fu
-- Yongqi Kang
-- Yong Zhao
 doi: 10.20944/preprints202510.1024.v1
-paperurl: https://doi.org/10.20944/preprints202510.1024.v1
+citation: ' Aske Plaat,  Annie Wong,  Suzan Verberne,  Joost Broekens,  Niki van Stein,  Thomas Bäck, &quot;Reasoning with large language models, a survey.&quot; arXiv preprint arXiv:2407.11511, 2024.'
+authors:
+- Aske Plaat
+- Annie Wong
+- Suzan Verberne
+- Joost Broekens
+- Niki van Stein
+- Thomas Bäck
+paperurl: https://arxiv.org/abs/2407.11511
 arxiv: '2407.11511'
 pdf: https://arxiv.org/pdf/2407.11511
 venue_type: preprint
