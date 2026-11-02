@@ -13,8 +13,8 @@
 <header class="x-header x-scope" data-x-header>
   <div class="x-header__inner">
     <a class="x-header__brand" href="{{ base_path }}{{ brand_url }}">
-      <img class="x-only-light" src="{{ base_path }}/images/brand/xai-mark.png" alt="">
-      <img class="x-only-dark" src="{{ base_path }}/images/brand/xai-mark-reverse.png" alt="">
+      {% include img.html src="/images/brand/xai-mark.png" class="x-only-light" sizes="28px" %}
+      {% include img.html src="/images/brand/xai-mark-reverse.png" class="x-only-dark" sizes="28px" %}
       <span>{{ brand_name }}</span>
       {% if brand_suffix %}<span class="x-header__suffix">{{ brand_suffix }}</span>{% endif %}
     </a>

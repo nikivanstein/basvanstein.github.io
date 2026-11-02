@@ -3,8 +3,8 @@
 <footer class="x-footer x-scope">
   <div class="x-footer__inner">
     <div class="x-footer__brand">
-      <img class="x-only-light" src="{{ base_path }}/images/brand/xai-logo.png" alt="XAI group, LIACS Leiden University">
-      <img class="x-only-dark" src="{{ base_path }}/images/brand/xai-logo-white.png" alt="XAI group, LIACS Leiden University">
+      {% include img.html src="/images/brand/xai-logo.png" class="x-only-light" sizes="60px" alt="XAI group, LIACS Leiden University" %}
+      {% include img.html src="/images/brand/xai-logo-white.png" class="x-only-dark" sizes="60px" alt="XAI group, LIACS Leiden University" %}
       <span>&copy; {{ site.time | date: '%Y' }} {{ page.x_footer_owner | default: site.author.name }}</span>
     </div>
     <ul class="x-footer__links">

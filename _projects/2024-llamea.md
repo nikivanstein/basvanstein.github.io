@@ -22,7 +22,7 @@ projects:
   - 2023-ai4oversight
 ---
 
-<img class="img-fluid" src="/img/projects/llamea-wide.png" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics"/>
+<p>{% include img.html src="/img/projects/llamea-wide.png" class="img-fluid" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics" sizes="(max-width: 760px) 100vw, 720px" loading="eager" fetchpriority="high" %}</p>
 
 LLaMEA, or Large Language Model Evolutionary Algorithm, is an innovative framework developed by the XAI research group at NACO with the lead of Niki van Stein. It leverages large language models (LLMs), such as GPT-4, to automate the generation and refinement of algorithms such as metaheuristic optimizers. By iteratively evolving algorithms based on performance metrics and runtime evaluations, LLaMEA streamlines the optimization process without requiring extensive prior algorithmic knowledge. 
 
@@ -57,7 +57,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://dl.acm.org/doi/abs/10.1109/TEVC.2024.3497793" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea1.png" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics">
+          {% include img.html src="/img/llamea/llamea1.png" alt="LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -71,7 +71,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://dl.acm.org/doi/10.1145/3731567" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea2-hpo.png" alt="In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics">
+          {% include img.html src="/img/llamea/llamea2-hpo.png" alt="In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -85,7 +85,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://link.springer.com/chapter/10.1007/978-3-031-90065-5_25" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea3-mutation.png" alt="Controlling the mutation in large language models for the efficient evolution of algorithms">
+          {% include img.html src="/img/llamea/llamea3-mutation.png" alt="Controlling the mutation in large language models for the efficient evolution of algorithms" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -99,7 +99,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://arxiv.org/abs/2505.21034" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea4-bo.png" alt="LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms">
+          {% include img.html src="/img/llamea/llamea4-bo.png" alt="LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -113,7 +113,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://arxiv.org/abs/2505.15741" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea5-survey.png" alt="Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications">
+          {% include img.html src="/img/llamea/llamea5-survey.png" alt="Evolutionary Computation and Large Language Models: A Survey of Methods, Synergies, and Applications" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -132,7 +132,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://dl.acm.org/doi/10.1145/3712256.3726328" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea6-ceg.png" alt="Code evolution graphs: Understanding large language model driven design of algorithms">
+          {% include img.html src="/img/llamea/llamea6-ceg.png" alt="Code evolution graphs: Understanding large language model driven design of algorithms" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -146,7 +146,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://dl.acm.org/doi/10.1145/3712255.3734347" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea9-blade.png" alt="BLADE: Benchmark suite for LLM-driven Automated Design and Evolution of iterative optimisation heuristics">
+          {% include img.html src="/img/llamea/llamea9-blade.png" alt="BLADE: Benchmark suite for LLM-driven Automated Design and Evolution of iterative optimisation heuristics" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -160,7 +160,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://arxiv.org/abs/2507.03605" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea7-behaviour.png" alt="Behaviour Space Analysis of LLM-driven Meta-heuristic Discovery">
+          {% include img.html src="/img/llamea/llamea7-behaviour.png" alt="Behaviour Space Analysis of LLM-driven Meta-heuristic Discovery" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">
@@ -179,7 +179,7 @@ The research on LLaMEA and generated algorithms from LLaMEA have won the followi
     <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
       <div class="archive__item-teaser">
         <a href="https://dl.acm.org/doi/10.1145/3712255.3734288" target="_blank" rel="permalink">
-          <img src="/img/llamea/llamea8-optics.png" alt="Optimizing Photonic Structures with Large Language Model Driven Algorithm Discovery">
+          {% include img.html src="/img/llamea/llamea8-optics.png" alt="Optimizing Photonic Structures with Large Language Model Driven Algorithm Discovery" sizes="(max-width: 600px) 100vw, 170px" %}
         </a>
       </div>
       <h2 class="archive__item-title" itemprop="headline">

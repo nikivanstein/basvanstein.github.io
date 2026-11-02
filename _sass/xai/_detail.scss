@@ -104,7 +104,8 @@
   }
 
   figure figcaption,
-  img + em {
+  img + em,
+  picture + em {
     display: block;
     margin-top: 8px;
     font-size: 13px;
@@ -373,7 +374,8 @@ html[data-theme="dark"] .x-scope .x-prose img { background: #FFFFFF; }
   padding: 24px;
   background: var(--x-bg-2);
 
-  > img {
+  > img,
+  > picture > img {
     width: 72px;
     height: 72px;
     border-radius: 4px;

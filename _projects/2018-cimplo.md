@@ -25,7 +25,7 @@ projects:
 **Status:** <span style="color:#0F0">Finished</span>  
 **Follow-up project:** [XAIPre](/projects/xaipre)
 
-![Banner](../images/cimplo.png){:width="100%"}
+<p>{% include img.html src="/images/cimplo.png" alt="Banner" sizes="(max-width: 760px) 100vw, 720px" loading="eager" style="width: 100%" %}</p>
 
 ---
 

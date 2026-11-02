@@ -22,7 +22,7 @@ people:
 **Partners:** ASML
 **Status:** <span style="color:#8FF">Ongoing</span>  
 
-![Banner](../images/lens.png){:width="100%"}
+<p>{% include img.html src="/images/lens.png" alt="Banner" sizes="(max-width: 760px) 100vw, 720px" loading="eager" style="width: 100%" %}</p>
 
 ---
 

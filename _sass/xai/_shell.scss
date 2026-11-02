@@ -19,6 +19,14 @@ body {
   outline-offset: 2px;
 }
 
+/* <picture> wrappers from _includes/img.html take no box of their own, so the
+   <img> inside lays out exactly as it would without the wrapper. Hiding
+   <source> keeps it from becoming an empty flex or grid item. */
+picture { display: contents; }
+picture > source { display: none; }
+/* Converted GIFs (<video> from _includes/img.html) scale like images. */
+video[data-autoplay] { max-width: 100%; height: auto; }
+
 .x-only-dark { display: none !important; }
 html[data-theme="dark"] .x-only-dark { display: block !important; }
 html[data-theme="dark"] .x-only-light { display: none !important; }

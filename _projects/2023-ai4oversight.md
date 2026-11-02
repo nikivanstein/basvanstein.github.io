@@ -25,7 +25,7 @@ projects:
 **Partners:** Human Environment and Transport Inspectorate (ILT), Netherlands Labour Authority, Inspectorate of Education, Netherlands Food and Consumer Product Safety Authority, TNO and Utrecht University   
 **Status:** <span style="color:#0FF">Starting</span>  
 
-![Banner](../images/oversight.png){:width="100%"}
+<p>{% include img.html src="/images/oversight.png" alt="Banner" sizes="(max-width: 760px) 100vw, 720px" loading="eager" style="width: 100%" %}</p>
 
 ---
 Supervision does not mean inspecting everything everywhere continuously; that’s impossible. Choices must be made. The challenge is to inspect precisely where the societal contribution is greatest. How do you achieve a risk-based approach, deploying inspectors as effectively as possible at the right times and places? This is the task for which regulatory bodies are collectively seeking a solution. The use of artificial intelligence (AI) plays a significant role, especially as these become more sophisticated.

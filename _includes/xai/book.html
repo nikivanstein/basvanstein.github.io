@@ -3,7 +3,8 @@
 {%- if include.variant == "compact" -%}
 <aside class="x-scope x-book x-book--compact x-card" aria-label="New book">
   <a class="x-book__cover" href="{{ book.url }}" target="_blank" rel="noopener">
-    <img src="{{ base_path }}{{ book.cover }}" alt="Cover of the book {{ book.title }}" loading="lazy">
+    {%- capture book_alt %}Cover of the book {{ book.title }}{% endcapture %}
+    {% include img.html src=book.cover alt=book_alt sizes="120px" %}
   </a>
   <div class="x-book__body">
     <div class="x-book__meta"><span class="x-book__badge">{{ book.status }}</span><span class="x-eyebrow">New book</span></div>
@@ -20,7 +21,8 @@
 <section class="x-book-band" id="book" aria-labelledby="book-title">
   <div class="x-book x-book--feature">
     <a class="x-book__cover" href="{{ book.url }}" target="_blank" rel="noopener">
-      <img src="{{ base_path }}{{ book.cover }}" alt="Cover of the book {{ book.title }}">
+      {%- capture book_alt %}Cover of the book {{ book.title }}{% endcapture %}
+      {% include img.html src=book.cover alt=book_alt sizes="(max-width: 600px) 160px, 220px" %}
     </a>
     <div class="x-book__body">
       <div class="x-book__meta"><span class="x-book__badge">{{ book.status }}</span><span class="x-eyebrow">New book · {{ book.publisher }} {{ book.year }}</span></div>

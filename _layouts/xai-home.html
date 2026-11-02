@@ -21,7 +21,8 @@ layout: default
         </div>
       </div>
       <figure class="x-portrait x-card">
-        <img class="x-gray" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Portrait of {{ site.author.name }}">
+        {%- capture portrait_alt %}Portrait of {{ site.author.name }}{% endcapture %}
+        {% include img.html src=site.author.avatar class="x-gray" alt=portrait_alt sizes="(max-width: 1023px) 360px, 280px" loading="eager" fetchpriority="high" %}
         <figcaption>
           {%- for row in hero.facts -%}
           <div><span>{{ row.label }}</span><span>{{ row.value }}</span></div>

@@ -26,4 +26,4 @@ The GenAIDE project is an Industrial Doctoral Network under the Horizon Europe M
 
 See [the GenAide Website](https://www.genaide.eu/) for more details.
 
-<img src="/img/projects/EU.png" style="width:40px; float:left"/> Funded by the European Union under Horizon Europe (Grant Agreement No. 101226927).
+<p>{% include img.html src="/img/projects/EU.png" alt="EU flag" sizes="40px" style="width:40px; float:left" %} Funded by the European Union under Horizon Europe (Grant Agreement No. 101226927).</p>

@@ -29,7 +29,7 @@ layout: default
       {%- assign latest_img = latest.header.cover | default: latest.header.teaser -%}
       <a class="x-card x-card--link x-feature" href="{{ base_path }}{{ latest.url }}" data-tags="{{ latest.tags | join: ' ' | downcase }}">
         <span class="x-feature__media">
-          {%- if latest_img -%}<img class="x-gray" src="{{ base_path }}/images/{{ latest_img }}" alt="">{%- endif -%}
+          {%- if latest_img -%}{% include img.html src=latest_img class="x-gray" sizes="(max-width: 900px) 100vw, 600px" loading="eager" fetchpriority="high" %}{%- endif -%}
         </span>
         <span class="x-feature__body">
           <span class="x-feature__meta"><span class="x-book__badge">Latest</span>{{ latest.date | date: "%d %b %Y" | upcase }} · {% include xai/read-time.html content=latest.content %}</span>

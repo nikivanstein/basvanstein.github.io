@@ -3,7 +3,7 @@
 {%- assign img = p.header.cover | default: p.header.teaser -%}
 <a class="x-card x-card--link x-post-card" href="{{ base_path }}{{ p.url }}"{% if p.tags %} data-tags="{{ p.tags | join: ' ' | downcase }}"{% endif %}>
   {%- if img -%}
-  <img class="x-gray" src="{% if img contains '://' %}{{ img }}{% else %}{{ base_path }}/images/{{ img }}{% endif %}" alt="" loading="lazy">
+  {% include img.html src=img class="x-gray" sizes="(max-width: 600px) 100vw, 370px" %}
   {%- else -%}
   <span class="x-post-card__blank x-grid-bg" aria-hidden="true"></span>
   {%- endif -%}

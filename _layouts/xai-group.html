@@ -28,8 +28,8 @@ layout: default
           <span class="x-venn__label x-venn__label--2">Explainable<br>AI</span>
           <span class="x-venn__label x-venn__label--3">Automated<br>algorithm design</span>
           <span class="x-venn__core">
-            <img class="x-only-light" src="{{ base_path }}/images/brand/xai-mark.png" alt="">
-            <img class="x-only-dark" src="{{ base_path }}/images/brand/xai-mark-reverse.png" alt="">
+            {% include img.html src="/images/brand/xai-mark.png" class="x-only-light" sizes="44px" %}
+            {% include img.html src="/images/brand/xai-mark-reverse.png" class="x-only-dark" sizes="44px" %}
             <span>XAI group</span>
           </span>
         </div>
@@ -81,7 +81,7 @@ layout: default
               <div class="x-projects__label"><i aria-hidden="true"></i><span>{{ y }}</span></div>
               {%- for p in items -%}
               <a class="x-card x-card--link x-project" href="{{ base_path }}{{ p.url }}">
-                {%- if p.header.teaser -%}<img class="x-gray" src="{{ base_path }}/images/{{ p.header.teaser }}" alt="" loading="lazy">{%- endif -%}
+                {%- if p.header.teaser -%}{% include img.html src=p.header.teaser class="x-gray" sizes="(max-width: 600px) 160px, 220px" %}{%- endif -%}
                 <span class="x-project__body">
                   <span class="x-project__name">{{ p.title }}</span>
                   <span class="x-project__text">{{ p.excerpt | strip_html | strip }}</span>
@@ -115,9 +115,9 @@ layout: default
           <li>
             <{{ tag }} class="x-card{% if person.webpage %} x-card--link{% endif %} x-person{% if forloop.first %} is-lead{% endif %}"{% if person.webpage %} href="{{ person.webpage }}"{% endif %}>
               {%- if forloop.first and page.lead_image -%}
-                <img class="x-gray" src="{{ base_path }}{{ page.lead_image }}" alt="" loading="lazy">
+                {% include img.html src=page.lead_image class="x-gray" sizes="56px" %}
               {%- elsif person.image -%}
-                <img class="x-gray" src="{{ base_path }}{{ person.image }}" alt="" loading="lazy">
+                {% include img.html src=person.image class="x-gray" sizes="56px" %}
               {%- else -%}
                 <span class="x-person__initials" aria-hidden="true">{{ initials }}{{ last_initial }}</span>
               {%- endif -%}
