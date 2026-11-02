@@ -101,8 +101,8 @@ author:
     - "Bayesian optimisation"
     - "Benchmarking of optimisation algorithms"
     - "Predictive maintenance"
-  dblp             : # e.g. "https://dblp.org/pid/..." (listed as a profile in the structured data)
-  wikidata         : # e.g. "https://www.wikidata.org/wiki/Q..."
+  dblp             : "https://dblp.org/pid/169/3047"
+  wikidata         : "https://www.wikidata.org/wiki/Q130906085"
   pubmed           : #"https://pubmed.ncbi.nlm.nih.gov/?term=van+Stein+B"
   googlescholar    : "https://scholar.google.com/citations?user=DST6voAAAAAJ&hl=nl"
   email            :  "n.van.stein(at)liacs.leidenuniv.nl"

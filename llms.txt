@@ -44,6 +44,8 @@ sitemap: false
 - [Google Scholar]({{ a.googlescholar }})
 {%- endif %}{% if a.dblp %}
 - [DBLP]({{ a.dblp }})
+{%- endif %}{% if a.wikidata %}
+- [Wikidata]({{ a.wikidata }})
 {%- endif %}{% if a.uri %}
 - [Leiden University staff page]({{ a.uri }})
 {%- endif %}{% if a.github %}
