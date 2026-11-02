@@ -1,4 +1,7 @@
 ---
+# Template or archive page: kept out of search results and the sitemap.
+sitemap: false
+noindex: true
 permalink: /terms/
 title: "Terms and Privacy Policy"
 modified: 2023-07-01

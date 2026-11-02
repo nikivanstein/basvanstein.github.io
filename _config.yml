@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dr. Niki van Stein"
 title_separator          : "-"
 name                     : &name "Dr. Niki van Stein"
-description              : &description "Associate Professor at Leiden University"
+description              : &description "Niki van Stein is an Associate Professor in explainable AI for machine learning and optimisation at LIACS, Leiden University, and leads the XAI group there."
 url                      : https://www.nikivanstein.nl # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nikivanstein/basvanstein.github.io"
@@ -87,6 +87,22 @@ author:
   bio              : "Associate Professor in Explainable AI for ML and Optimization"
   location         : "Leiden, The Netherlands"
   employer         : "LIACS, Leiden University"
+  # Used for structured data (schema.org) that search engines and AI assistants read.
+  honorific        : "Dr."
+  job_title        : "Associate Professor"
+  affiliation      : "Leiden University"
+  department       : "Leiden Institute of Advanced Computer Science (LIACS)"
+  knows_about      :
+    - "Explainable artificial intelligence"
+    - "Automated algorithm design"
+    - "Large language models"
+    - "Evolutionary computation"
+    - "Black-box optimisation"
+    - "Bayesian optimisation"
+    - "Benchmarking of optimisation algorithms"
+    - "Predictive maintenance"
+  dblp             : # e.g. "https://dblp.org/pid/..." (listed as a profile in the structured data)
+  wikidata         : # e.g. "https://www.wikidata.org/wiki/Q..."
   pubmed           : #"https://pubmed.ncbi.nlm.nih.gov/?term=van+Stein+B"
   googlescholar    : "https://scholar.google.com/citations?user=DST6voAAAAAJ&hl=nl"
   email            :  "n.van.stein(at)liacs.leidenuniv.nl"
@@ -147,6 +163,12 @@ exclude:
   - node_modules
   - package.json
   - scripts
+  - markdown_generator
+  - talkmap.py
+  - talkmap.ipynb
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
   - tmp
   - vendor
 keep_files:

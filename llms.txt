@@ -1,0 +1,55 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+{%- assign base = site.url | append: site.baseurl -%}
+{%- assign a = site.author -%}
+# {{ a.name }}
+
+> {{ site.description }}
+
+{{ a.name }} ({{ a.job_title }}, {{ a.department }}, {{ a.affiliation }}) works on {{ a.knows_about | join: ", " | downcase }}. The group's mission and members are on the XAI group page; every publication has its own page with authors, venue, abstract and links.
+
+## Research themes
+{% for r in site.data.research %}
+- [{{ r.title }}]({% if r.url contains "://" %}{{ r.url }}{% else %}{{ base }}{{ r.url }}{% endif %}): {{ r.text }}{% if r.keywords %} ({{ r.keywords | replace: " · ", ", " }}){% endif %}
+{%- endfor %}
+
+## Main pages
+
+- [Homepage]({{ base }}/): profile, research themes, recent talks and selected papers
+- [XAI group]({{ base }}/xai-group/): mission, people and research projects of the XAI group at LIACS
+- [Publications]({{ base }}/publications/): all publications, newest first
+- [Talks]({{ base }}/talks/): keynotes, invited talks and conference presentations
+- [Teaching]({{ base }}/teaching/): courses at Leiden University
+- [Blog]({{ base }}/year-archive/): posts about recent papers, software and events
+
+## Selected publications
+{% assign selected = site.publications | where: "selected", true | sort: "date" | reverse %}
+{%- for p in selected %}
+- [{{ p.title }}]({{ base }}{{ p.url }}): {{ p.authors | join: ", " }}. {{ p.venue }}, {{ p.date | date: "%Y" }}.
+{%- endfor %}
+
+## Projects
+{% assign projects = site.projects | sort: "year" | reverse %}
+{%- for p in projects %}
+- [{{ p.title }}]({{ base }}{{ p.url }}): {{ p.excerpt | strip_html | strip_newlines | strip }}{% if p.year %} ({{ p.year }}){% endif %}
+{%- endfor %}
+
+## Profiles
+{% if a.orcid %}
+- [ORCID]({{ a.orcid }})
+{%- endif %}{% if a.googlescholar %}
+- [Google Scholar]({{ a.googlescholar }})
+{%- endif %}{% if a.dblp %}
+- [DBLP]({{ a.dblp }})
+{%- endif %}{% if a.uri %}
+- [Leiden University staff page]({{ a.uri }})
+{%- endif %}{% if a.github %}
+- [GitHub](https://github.com/{{ a.github }})
+{%- endif %}
+
+## Optional
+
+- [Full publication list with abstracts]({{ base }}/llms-full.txt)

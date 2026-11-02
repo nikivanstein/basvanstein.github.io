@@ -1,5 +1,6 @@
 ---
 title: 'Gecco 2023 - DoE2Vec'
+description: "GECCO 2023 poster on DoE2Vec, a deep-learning model that learns optimisation landscape features from a design of experiments for algorithm selection and performance prediction."
 date: 2023-07-14
 permalink: /posts/2023/07/gecco-doe2vec/
 excerpt: 'Gecco 2023'

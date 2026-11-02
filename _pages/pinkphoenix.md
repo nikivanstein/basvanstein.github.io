@@ -1,6 +1,7 @@
 ---
 permalink: /pinkphoenix/
 title: "Pink Phoenix"
+description: "Pink Phoenix Publishing, an independent publisher of tabletop role-playing game content by Niki van Stein: adventures, monster manuals and Roll20 art packs."
 excerpt: "RPG books and adventures."
 author_profile: false
 header:

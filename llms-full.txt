@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /llms-full.txt
+sitemap: false
+---
+{%- assign base = site.url | append: site.baseurl -%}
+{%- assign a = site.author -%}
+# {{ a.name }}: publications
+
+> {{ site.description }} This file lists all {{ site.publications.size }} publications on {{ base }}, newest first, with authors, venue, links and abstract. A shorter overview is at {{ base }}/llms.txt.
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{%- for p in pubs %}
+
+## {{ p.title }}
+
+- Authors: {{ p.authors | join: ", " }}
+- Venue: {{ p.venue }}
+- Date: {{ p.date | date: "%Y-%m-%d" }}
+- Page: {{ base }}{{ p.url }}
+{%- if p.doi %}
+- DOI: https://doi.org/{{ p.doi }}
+{%- endif %}{% if p.arxiv %}
+- arXiv: https://arxiv.org/abs/{{ p.arxiv }}
+{%- endif %}{% if p.pdf %}
+- PDF: {{ p.pdf }}
+{%- endif %}
+{% if p.abstract %}
+{{ p.abstract }}
+{%- endif %}
+{%- endfor %}

@@ -5,95 +5,95 @@
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
+{% assign canonical_url = page.url | prepend: seo_url | replace: "/index.html", "/" %}
+{% assign person_id = seo_url | append: "/#person" %}
 
-{% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
-{% endif %}
-
-{% if seo_title %}
-  {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
-{% endif %}
-
-{% if site.url %}
-  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
-{% endif %}
-
-<title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
-
-{% assign seo_description = page.description | default: page.excerpt | default: site.description %}
-{% if seo_description %}
-  {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
-{% endif %}
-
-{% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
-{% if seo_author %}
-  {% if seo_author.twitter %}
-    {% assign seo_author_twitter = seo_author.twitter %}
-  {% else %}
-    {% if site.data.authors and site.data.authors[seo_author] %}
-      {% assign seo_author_twitter = site.data.authors[seo_author].twitter  %}
-    {% else %}
-      {% assign seo_author_twitter = seo_author  %}
-    {% endif %}
+{%- comment -%} Page title: talks and courses get their event or programme, so
+  talks with the same title at different events don't share a title. {%- endcomment -%}
+{% if page.seo_title %}
+  {% assign seo_title = page.seo_title %}
+{% elsif page.url == "/" %}
+  {% assign seo_title = site.title | append: " " | append: site.title_separator | append: " " | append: site.author.bio %}
+{% elsif page.title %}
+  {% assign seo_title = page.title %}
+  {% if page.collection == "talks" and page.venue %}
+    {% assign talk_year = page.date | date: "%Y" %}
+    {% capture seo_title %}{{ page.title }} ({{ page.venue }}{% unless page.venue contains talk_year %}, {{ talk_year }}{% endunless %}){% endcapture %}
+  {% elsif page.collection == "teaching" %}
+    {% capture seo_title %}{{ page.title }} ({{ page.type | default: "Course" }}){% endcapture %}
   {% endif %}
-  {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
+  {% assign seo_title = seo_title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
+{% assign seo_title = seo_title | default: site.title | markdownify | strip_html | strip_newlines | strip | escape_once %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
+<title>{{ seo_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+
+{%- comment -%} Description: an explicit `description`, else the abstract of a
+  publication, the excerpt of a post or page, else the site description. {%- endcomment -%}
+{% if page.description %}
+  {% assign seo_description = page.description %}
+{% elsif page.collection == "publications" %}
+  {% if page.abstract %}
+    {% assign seo_description = page.abstract %}
+  {% else %}
+    {% capture seo_description %}{{ page.title }}. {{ page.authors | join: ", " }}. {{ page.venue }}, {{ page.date | date: "%Y" }}.{% endcapture %}
+  {% endif %}
+{% elsif page.collection == "talks" and page.venue %}
+  {% capture seo_description %}{{ page.type | default: "Talk" }} by {{ site.author.name }} at {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}: {{ page.title }}.{% if page.excerpt %} {{ page.excerpt }}{% endif %}{% endcapture %}
+{% else %}
+  {% assign seo_description = page.excerpt | default: site.description %}
+{% endif %}
+{% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | strip | truncate: 300 | escape_once %}
+
+<meta name="description" content="{{ seo_description }}">
+{% if page.noindex %}
+  <meta name="robots" content="noindex, follow">
+{% endif %}
+<link rel="canonical" href="{{ canonical_url }}">
+
+{%- comment -%} Preview image: the page's own image, else the site default.
+  Uses the JPEG/PNG from scripts/optimize_images.py when there is one. {%- endcomment -%}
+{% assign seo_image = page.header.og_image | default: page.header.image | default: page.header.cover | default: page.image | default: page.header.teaser | default: page.header.overlay_image | default: site.og_image | default: site.author.avatar %}
+{% unless seo_image contains "://" %}
+  {% assign seo_image_first = seo_image | slice: 0 %}
+  {% unless seo_image_first == "/" %}{% assign seo_image = seo_image | prepend: "/images/" %}{% endunless %}
+  {% assign seo_image_v = site.data.image_variants[seo_image] %}
+  {% if seo_image_v and seo_image_v.type != "video/mp4" %}{% assign seo_image = seo_image_v.src %}{% endif %}
+  {% assign seo_image = seo_image | prepend: seo_url %}
+{% endunless %}
+
+<meta property="og:locale" content="{{ site.locale | default: "en" | replace: "-", "_" }}">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-
-{% if seo_url %}
-  <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-  <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+<meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | strip | escape_once }}">
+<meta property="og:description" content="{{ seo_description }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{ seo_image }}">
+{% if seo_image_v.width and seo_image_v.type != "video/mp4" %}
+  {% assign og_w = seo_image_v.width %}{% assign og_h = seo_image_v.height %}
+  {% if og_w > 1280 %}{% assign og_h = og_h | times: 1280 | divided_by: og_w %}{% assign og_w = 1280 %}{% endif %}
+  <meta property="og:image:width" content="{{ og_w }}">
+  <meta property="og:image:height" content="{{ og_h }}">
 {% endif %}
-
-{% if page.excerpt %}
-  <meta property="og:description" content="{{ seo_description }}">
+{% if page.date and page.url != "/" %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% else %}
+  <meta property="og:type" content="website">
 {% endif %}
 
 {% if site.twitter.username %}
+  {% assign wide_image = false %}
+  {% if seo_image_v.width %}{% assign twice_h = seo_image_v.height | times: 13 | divided_by: 10 %}{% if seo_image_v.width > twice_h %}{% assign wide_image = true %}{% endif %}{% endif %}
+  <meta name="twitter:card" content="{% if wide_image %}summary_large_image{% else %}summary{% endif %}">
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
-  <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-  <meta name="twitter:description" content="{{ seo_description }}">
-  <meta name="twitter:url" content="{{ canonical_url }}">
-
-  {% if page.header.image %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-  {% else %}
-    <meta name="twitter:card" content="summary">
-    {% if site.og_image %}
-      <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
-    {% endif %}
-  {% endif %}
-
-  {% if seo_author_twitter %}
-    <meta name="twitter:creator" content="@{{ seo_author_twitter }}">
-  {% endif %}
+  <meta name="twitter:creator" content="@{{ site.author.twitter | default: site.twitter.username | replace: "@", "" }}">
 {% endif %}
 
-{% if site.facebook %}
-  {% if site.facebook.publisher %}
-    <meta property="article:publisher" content="{{ site.facebook.publisher }}">
-  {% endif %}
-
-  {% if site.facebook.app_id %}
-    <meta property="fb:app_id" content="{{ site.facebook.app_id }}">
-  {% endif %}
+{% if site.facebook.publisher %}
+  <meta property="article:publisher" content="{{ site.facebook.publisher }}">
 {% endif %}
-
-{% if page.header.og_image %}
-  <meta property="og:image" content="{% if page.header.og_image contains "://" %}{{ page.header.og_image }}{% else %}{{ page.header.og_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-{% elsif page.header.image %}
-  <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-{% elsif page.header.overlay_image %}
-  <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-{% endif %}
-
-{% if page.date %}
-  <meta property="og:type" content="article">
-  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% if site.facebook.app_id %}
+  <meta property="fb:app_id" content="{{ site.facebook.app_id }}">
 {% endif %}
 
 {% if paginator.previous_page %}
@@ -103,37 +103,117 @@
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
 
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
-    }
-  </script>
+{%- comment -%} Google Scholar metadata for publication pages. {%- endcomment -%}
+{% if page.collection == "publications" %}
+  <meta name="citation_title" content="{{ page.title | strip_html | escape_once }}">
+  {% for a in page.authors %}<meta name="citation_author" content="{{ a | escape_once }}">
+  {% endfor %}
+  <meta name="citation_publication_date" content="{{ page.date | date: "%Y/%m/%d" }}">
+  {% if page.venue %}
+    {% case page.venue_type %}
+      {% when "journal" %}<meta name="citation_journal_title" content="{{ page.venue | escape_once }}">
+      {% when "conference" %}<meta name="citation_conference_title" content="{{ page.venue | escape_once }}">
+      {% when "chapter" %}<meta name="citation_inbook_title" content="{{ page.venue | escape_once }}">
+      {% when "preprint" %}<meta name="citation_technical_report_institution" content="arXiv">
+      {% else %}<meta name="citation_publisher" content="{{ page.venue | escape_once }}">
+    {% endcase %}
+  {% endif %}
+  {% if page.doi %}<meta name="citation_doi" content="{{ page.doi }}">{% endif %}
+  {% if page.arxiv %}<meta name="citation_arxiv_id" content="{{ page.arxiv }}">{% endif %}
+  {% if page.pdf %}<meta name="citation_pdf_url" content="{{ page.pdf }}">{% endif %}
+  <meta name="citation_abstract_html_url" content="{{ canonical_url }}">
 {% endif %}
 
-{% if site.social %}
-  <script type="application/ld+json">
+{%- comment -%} schema.org structured data. The Person block describes the site
+  owner; publications and posts point to it as their author. {%- endcomment -%}
+{% assign a = site.author %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ a.name | jsonify }},
+      {% if a.honorific %}"honorificPrefix": {{ a.honorific | jsonify }},{% endif %}
+      {% if a.job_title %}"jobTitle": {{ a.job_title | jsonify }},{% endif %}
+      "description": {{ a.bio | jsonify }},
+      "url": {{ seo_url | append: "/" | jsonify }},
+      "image": {{ a.avatar | prepend: "/images/" | prepend: seo_url | jsonify }},
+      {% if a.affiliation %}"affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ a.affiliation | jsonify }}{% if a.department %},
+        "department": { "@type": "Organization", "name": {{ a.department | jsonify }} }{% endif %}
+      },
+      "worksFor": { "@type": "CollegeOrUniversity", "name": {{ a.affiliation | jsonify }} },{% endif %}
+      {% if a.location %}"workLocation": { "@type": "Place", "name": {{ a.location | jsonify }} },{% endif %}
+      {% if a.knows_about %}"knowsAbout": {{ a.knows_about | jsonify }},{% endif %}
+      {%- capture same_as -%}
+        {%- if a.orcid -%}{{ a.orcid }}|{%- endif -%}
+        {%- if a.googlescholar -%}{{ a.googlescholar }}|{%- endif -%}
+        {%- if a.dblp -%}{{ a.dblp }}|{%- endif -%}
+        {%- if a.wikidata -%}{{ a.wikidata }}|{%- endif -%}
+        {%- if a.uri -%}{{ a.uri }}|{%- endif -%}
+        {%- if a.researchgate -%}{{ a.researchgate }}|{%- endif -%}
+        {%- if a.github -%}https://github.com/{{ a.github }}|{%- endif -%}
+        {%- if a.linkedin -%}https://www.linkedin.com/in/{{ a.linkedin }}|{%- endif -%}
+        {%- if a.twitter -%}https://x.com/{{ a.twitter }}|{%- endif -%}
+        {%- if a.youtube -%}https://www.youtube.com/{{ a.youtube }}|{%- endif -%}
+        {%- if a.stackoverflow -%}https://stackoverflow.com/users/{{ a.stackoverflow }}|{%- endif -%}
+      {%- endcapture -%}
+      "sameAs": {{ same_as | split: "|" | jsonify }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ seo_url | append: "/#website" | jsonify }},
+      "url": {{ seo_url | append: "/" | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "en",
+      "author": { "@id": {{ person_id | jsonify }} }
     }
-  </script>
-{% endif %}
+    {%- if page.collection == "publications" -%},
+    {
+      "@type": "ScholarlyArticle",
+      "@id": {{ canonical_url | append: "#article" | jsonify }},
+      "headline": {{ page.title | strip_html | truncate: 110 | jsonify }},
+      "name": {{ page.title | strip_html | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "datePublished": {{ page.date | date: "%Y-%m-%d" | jsonify }},
+      "author": [
+        {%- for name in page.authors -%}
+          {%- if name == a.name -%}{ "@id": {{ person_id | jsonify }} }{%- else -%}{ "@type": "Person", "name": {{ name | jsonify }} }{%- endif -%}{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+      ],
+      {% if page.venue %}"isPartOf": { "@type": "CreativeWork", "name": {{ page.venue | jsonify }} },{% endif %}
+      {% if page.abstract %}"abstract": {{ page.abstract | jsonify }},{% endif %}
+      {% if page.doi %}"identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": {{ page.doi | jsonify }} },{% endif %}
+      {%- capture article_links -%}{% if page.paperurl %}{{ page.paperurl }}|{% endif %}{% if page.arxiv %}https://arxiv.org/abs/{{ page.arxiv }}|{% endif %}{%- endcapture -%}
+      "sameAs": {{ article_links | split: "|" | jsonify }},
+      "isAccessibleForFree": {% if page.pdf %}true{% else %}false{% endif %}
+    }
+    {%- elsif page.collection == "posts" -%},
+    {
+      "@type": "BlogPosting",
+      "@id": {{ canonical_url | append: "#post" | jsonify }},
+      "headline": {{ page.title | strip_html | truncate: 110 | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      {% if page.last_modified_at %}"dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},{% endif %}
+      "image": {{ seo_image | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "author": { "@id": {{ person_id | jsonify }} }
+    }
+    {%- endif %}
+  ]
+}
+</script>
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}
 {% if site.bing_site_verification %}
   <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
-{% endif %}
-{% if site.alexa_site_verification %}
-  <meta name="alexaVerifyID" content="{{ site.alexa_site_verification }}">
 {% endif %}
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">

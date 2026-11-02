@@ -1,5 +1,6 @@
 ---
 title: "AI for Oversight"
+description: "AI for Oversight, an ICAI lab with Dutch inspectorates, TNO and Utrecht University that develops AI methods for risk-based, effective deployment of inspectors."
 excerpt: "AI for Oversight ICAI lab"
 collection: projects
 year: 2023

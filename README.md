@@ -45,6 +45,26 @@ The script only processes images that some page, layout or data file refers to, 
 
 Pages that need formulas can set `mathjax: true` in their front matter; MathJax is not loaded anywhere else.
 
+# Publications
+
+Each file in `_publications/` can carry `authors`, `doi`, `paperurl`, `arxiv`, `pdf`, `venue_type` (journal, conference, chapter, book or preprint) and `abstract` in its front matter. The publication page shows them, and search engines and AI assistants read them (see below). To fill them in for new publications:
+
+```bash
+python3 scripts/enrich_publications.py                              # all publications with missing fields
+python3 scripts/enrich_publications.py _publications/2026-...md     # just one
+```
+
+The script looks each paper up by title in Crossref, arXiv and OpenAlex and only accepts close title matches. It only adds fields that are missing, so anything you edit by hand stays as it is; `--force` looks everything up again. It also rebuilds the `citation` line from the author list. Your own name always appears as `author.name` from `_config.yml`, whatever name the publisher's record uses.
+
+# Search engines and AI assistants
+
+- Every page has a description, a canonical URL, Open Graph tags and schema.org structured data: a `Person` for you (profiles from the `author:` block in `_config.yml`, including `knows_about`, `dblp` and `wikidata` when filled in), plus `ScholarlyArticle` on publications and `BlogPosting` on posts. Publication pages also carry the `citation_*` tags Google Scholar reads.
+- A page's description comes from `description:` in its front matter, else the abstract or excerpt.
+- `robots.txt` allows all crawlers, including the AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended and others), and points to the sitemap. To opt one out, change its `Allow: /` to `Disallow: /`.
+- `llms.txt` (a short overview for AI assistants) and `llms-full.txt` (every publication with its abstract) are generated from the site's data, so they update by themselves.
+- Pages that shouldn't appear in search results can set `noindex: true` and `sitemap: false`.
+- To verify the site with Google Search Console or Bing Webmaster Tools (Bing's index also feeds ChatGPT search and Copilot), put the verification code in `google_site_verification` or `bing_site_verification` in `_config.yml`.
+
 # Instructions
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
